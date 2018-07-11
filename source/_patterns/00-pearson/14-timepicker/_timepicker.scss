@@ -1,0 +1,22 @@
+.timepicker-container {
+  position: relative;
+
+  .timepicker {
+    max-width: 220px;
+  }
+
+  .basic-input {
+    svg {
+      fill: $neutral-three;
+    }
+  }
+
+  .menu {
+    position: absolute;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 1;
+    top: 50px;
+  }
+}

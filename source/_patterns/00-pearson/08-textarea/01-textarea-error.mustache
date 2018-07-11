@@ -1,0 +1,7 @@
+{{#textArea}}
+<div class="textarea">
+    <label class="pe-textLabelInput__label--label_error" for="{{id}}">{{label}}</label>
+    <textarea class="pe-multiLineText--error" id="{{id}}" cols="30" rows="5" aria-invalid="true" aria-describedby="{{ariaId}}">{{value}}</textarea>
+    <p id="{{ariaId}}" class="pe-input--error_message">{{>pearson-single-icon}} {{error}}</p>
+</div>
+{{/textArea}}

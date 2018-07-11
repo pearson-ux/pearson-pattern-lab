@@ -1,0 +1,19 @@
+{{#actionsModal}} {{#showOpenButton}}
+<button class="pe-btn pe-btn--btn_large" data-modal-id="{{modalId}}">Open Modal with Actions</button>{{/showOpenButton}}
+<div class="modal-overlay content-scroll hidden {{#showOnLoad}}show-on-load{{/showOnLoad}}" aria-hidden="true" data-overlay-open="{{modalId}}" aria-modal="true">
+    <div class="modal-body hidden {{#showOnLoad}}show-on-load{{/showOnLoad}}" aria-labelledby="modalTitle" aria-describedby="modalText" data-modal-open="{{modalId}}" role="dialog" aria-modal="true" tabindex="-1">
+        {{#heading}}
+        <h3 class="pe-title pe-title--large" id="modalTitle">{{title}}</h3>
+        {{/heading}}
+        <div class="modal-content" tabindex="0">
+            {{#paragraphs}}
+            <p>{{text}}</p>
+            {{/paragraphs}}
+        </div>
+        <div class="modal-actions">
+            <button class="pe-btn pe-btn--btn_large {{#hideDefault}}hidden{{/hideDefault}}" data-button-close="{{modalId}}">{{defaultLabel}}</button>
+            <button class="pe-btn__primary--btn_large" {{#goToNewPage}}onclick="location.href = '{{path}}{{url}}'{{/goToNewPage}}" data-button-close="{{modalId}}">{{primaryLabel}}</button>
+        </div>
+    </div>
+</div>
+{{/actionsModal}}

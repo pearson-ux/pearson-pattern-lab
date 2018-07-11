@@ -1,0 +1,20 @@
+.breadcrumbs-path {
+  margin-right: 4px;
+  text-decoration: none;
+
+  ~ svg {
+    margin-right: 4px;
+    color: $neutral-three;
+  }
+}
+
+.breadcrumbs-back {
+  a {
+    margin-left: 4px;
+    text-decoration: none;
+  }
+
+  svg {
+    color: $neutral-three;
+  }
+}

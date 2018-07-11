@@ -1,0 +1,64 @@
+.pe-proto {
+  &.alert-box {
+    @include box-shadow;
+
+    padding: 8px;
+    border: 1px solid $neutral;
+    border-left: 3px solid;
+    margin-bottom: 1em;
+    max-width: 580px;
+    transition: all 0.2s ease;
+
+    @media (max-width: 480px) {
+      max-width: 440px;
+      padding: 4px;
+    }
+
+    &.error {
+      border-left-color: $error;
+
+      .alert-content-container {
+        color: $error;
+
+        svg {
+          margin-top: 2px;
+        }
+      }
+    }
+
+    &.success {
+      border-left-color: $success;
+
+      .alert-content-container {
+        color: $success;
+      }
+    }
+
+    .close-title button {
+      float: right;
+      color: $neutral-three;
+    }
+
+    .alert-content-container {
+      @include flex;
+
+      align-items: flex-start;
+      padding: 20px 4px 20px 20px;
+
+      svg {
+        margin-right: 12px;
+        min-width: 18px;
+      }
+
+      .alert-title {
+        margin-right: 4px;
+        display: inline;
+      }
+
+      .alert-text {
+        margin-bottom: 0;
+        display: inline;
+      }
+    }
+  }
+}

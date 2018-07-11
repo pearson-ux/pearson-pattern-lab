@@ -1,0 +1,140 @@
+.coachmark-space {
+  height: 150px;
+  width: 200px;
+}
+
+.coachmark-demo {
+  .coachmark {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+.coachmark-container {
+  display: inline-block;
+  position: relative;
+}
+
+.pe-proto {
+  &.coachmark {
+    width: 280px;
+
+    @include box-shadow;
+
+    position: absolute;
+    background-color: $secondary-three;
+    border-radius: 2px;
+    z-index: 2;
+
+    .content {
+      width: 100%;
+      border-radius: 2px;
+      padding: 20px 24px;
+      background: $secondary-three;
+      position: relative;
+      z-index: 2;
+      color: $neutral-two;
+
+      p {
+        margin-bottom: 0;
+        font-weight: normal;
+      }
+
+      .coach-link {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: em(28);
+        color: $neutral-two;
+      }
+    }
+
+    .title-container {
+      @include flex;
+
+      margin-bottom: 0.25em;
+
+      button {
+        color: $neutral-three;
+      }
+    }
+  }
+}
+
+@mixin arrow {
+  content: "";
+
+  @include box-size(0, 0);
+
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid $secondary-three;
+  z-index: -1;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+
+.pe-proto {
+  &.coachmark {
+    &.top-right {
+      left: calc(50% - 240px);
+      top: calc(100% + 10px);
+
+      &::after {
+        @include arrow;
+
+        top: -8px;
+        right: 32px;
+      }
+    }
+  }
+}
+
+.pe-proto {
+  &.coachmark {
+    &.btm-left {
+      left: calc(50% - 40px);
+      bottom: calc(100% + 10px);
+
+      &::after {
+        @include arrow;
+
+        transform: rotate(180deg);
+        filter: drop-shadow(0 2px 5px #000);
+        bottom: -8px;
+        left: 32px;
+      }
+    }
+  }
+}
+
+.pe-proto {
+  &.coachmark {
+    &.btm-center {
+      left: calc(50% - 140px);
+      bottom: calc(100% + 10px);
+
+      &::after {
+        @include arrow;
+
+        filter: drop-shadow(0 2px 5px #000);
+        transform: rotate(180deg);
+        bottom: -8px;
+        left: calc(50% - 8px);
+      }
+    }
+  }
+}
+
+.pe-textLabelInput__label, .pe-form--name {
+  .coachmark-container {
+    margin-left: 10px;
+
+    .pe-icon--info-fill-18, .pe-icon--info-fill-24 {
+      vertical-align: bottom;
+    }
+  }
+}

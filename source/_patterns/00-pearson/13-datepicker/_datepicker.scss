@@ -1,0 +1,21 @@
+.datepicker-container {
+  position: relative;
+
+  .datepicker {
+    max-width: 220px;
+
+    .basic-input {
+      svg {
+        fill: $neutral-three;
+      }
+    }
+
+    + div {
+      margin-top: .5em;
+    }
+  }
+
+  .calendar {
+    position: absolute;
+  }
+}

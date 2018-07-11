@@ -1,0 +1,10 @@
+{
+    "basicInput": [{
+        "placeholder": "Search",
+        "id": "search",
+        "icon": [{
+            "icon": "search-sm-18",
+            "label": "search"
+        }]
+    }]
+}

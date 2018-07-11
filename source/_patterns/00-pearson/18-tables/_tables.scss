@@ -1,0 +1,148 @@
+table {
+  min-width: 640px;
+  margin-bottom: 0;
+
+  &.pe-proto {
+    thead {
+      background-color: $neutral-four;
+      border: 1px solid $border;
+    }
+
+    tr {
+      border-bottom: 1px solid $border;
+
+      &:nth-child(even) {
+        background-color: $primary-four;
+      }
+    }
+
+    th {
+      padding: em(12) em(20);
+      border-right: 1px solid $border;
+
+      &.sortable {
+        svg {
+          transform: rotate(90deg);
+        }
+      }
+    }
+
+    td {
+      padding: em(14) em(20);
+      vertical-align: middle;
+    }
+
+    &.small {
+      th, td {
+        padding: 5px 20px;
+      }
+    }
+  }
+
+  thead {
+    border-top: 1px solid $neutral-four;
+    border-bottom: 1px solid $neutral-four;
+
+    th {
+      padding: 1em 20px;
+    }
+  }
+
+  tbody {
+    td, th {
+      padding: 1em 20px;
+    }
+
+    th {
+      font-weight: 400;
+    }
+
+    border-bottom: 1px solid $neutral-four;
+
+    &[data-match="true"] {
+      .no-match {
+        display: none;
+      }
+    }
+  }
+
+  &.hoverable {
+    tbody tr {
+      &:hover {
+        background-color: $neutral-five;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &.sortable {
+    .sort-btn {
+      border: 0;
+      background-color: transparent;
+      padding: 0;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    th {
+      &:hover {
+        background-color: $neutral-five;
+      }
+
+      .up, .down {
+        display: none;
+      }
+    }
+  }
+
+  &.selectable {
+    @extend .hoverable;
+
+    .selected {
+      background-color: $secondary-three;
+      outline: 1px solid $secondary-four;
+
+      &:hover {
+        outline: 1px solid $primary;
+      }
+    }
+  }
+}
+
+.table-with-controls {
+  .controls {
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+
+    .control {
+      &:first-child {
+        margin-right: 1em;
+
+        @media (max-width: 480px) {
+          margin-right: 0;
+        }
+      }
+
+      &:last-child {
+        @media (max-width: 480px) {
+          .basic-input svg {
+            right: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.responsive-table {
+  margin-bottom: 35px;
+
+  @media (max-width: 640px) {
+    overflow: scroll;
+  }
+}

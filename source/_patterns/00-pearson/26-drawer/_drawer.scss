@@ -1,0 +1,77 @@
+.drawer {
+  @include box-shadow;
+
+  width: 320px;
+  max-width: 320px;
+  background-color: white;
+  min-height: 600px;
+  right: -330px;
+  top: 70px;
+  position: fixed;
+  padding: 30px;
+  overflow: hidden;
+  height: 100%;
+  transition: all 0.5s ease;
+  z-index: 1;
+
+  &.open {
+    right: 0;
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $neutral-four;
+    padding-bottom: 25px;
+  }
+
+  .notifications {
+    height: 100%;
+    padding-top: 25px;
+    overflow: scroll;
+    padding-bottom: 60px;
+  }
+
+  .archive {
+    overflow: scroll;
+    height: auto;
+
+    h3 {
+      margin: 25px 0;
+    }
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .topic {
+    margin-bottom: 25px;
+
+    p {
+      color: $neutral-three;
+    }
+  }
+
+  .notification-content {
+    color: $condition-three;
+
+    span {
+      color: $neutral-two;
+    }
+
+    svg {
+      position: absolute;
+      left: 15px;
+      margin-top: 4px;
+      fill: currentColor;
+    }
+  }
+
+  .drawer-actions {
+    button {
+      width: 100%;
+    }
+  }
+}

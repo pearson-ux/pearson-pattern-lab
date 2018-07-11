@@ -1,0 +1,46 @@
+.stepper, .zoom {
+  display: flex;
+  align-items: center;
+
+  button {
+    margin: 0 .5em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  svg {
+    fill: $neutral-three;
+  }
+
+  input {
+    margin: 0;
+  }
+
+  .enterNumber {
+    margin-left: .5em;
+    padding: .5em;
+    width: 70px;
+  }
+
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+}
+
+.zoom {
+  .enterNumber {
+    width: 90px;
+  }
+}

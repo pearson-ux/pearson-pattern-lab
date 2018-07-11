@@ -1,0 +1,48 @@
+{
+    "form": [{
+        "name": "Form Name",
+        "instruction": "This information applies to the entire form. It is optional",
+        "defaultBtnLabel": "Default Action",
+        "primaryBtnLabel": "Primary Action",
+        "alert": [{
+            "error": true,
+            "button": [{
+                "label": "Close error dialog",
+                "icon": [{
+                    "icon": "remove-sm-24",
+                    "label": "Close error dialog"
+                }]
+            }],
+            "showIcon": [{
+                "icon": [{
+                    "icon": "warning-18",
+                    "label": "Error"
+                }]
+            }],
+            "title": "Please complete all required fields",
+            "content": "Ronsectetuer adipiscing elit. Aene eoo rjgieo roi an commodo ligula eget dolor enean massa."
+        }],
+        "inputBlock": [{
+                "basicInput": [{
+                    "id": "blockInputOne",
+                    "label": "Character",
+                    "placeholder": "Hulk"
+                }]
+            },
+            {
+                "basicInput": [{
+                    "id": "blockInputTwo",
+                    "label": "Alter Ego",
+                    "placeholder": "Robert Bruce Banner"
+                }]
+            },
+            {
+                "basicInput": [{
+                    "id": "blockInputThree",
+                    "label": "Created By",
+                    "placeholder": "Stan Lee"
+                }]
+            }
+        ]
+    }]
+}

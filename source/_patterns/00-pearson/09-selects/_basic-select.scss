@@ -1,0 +1,17 @@
+.basic-select {
+  position: relative;
+
+  .pe-select-container {
+    svg {
+      height: 20px;
+      top: 8px;
+    }
+  }
+
+  select {
+    &:focus {
+      border: 1px solid $secondary-four;
+      box-shadow: 0px 0px 5px 0px $secondary-four;
+    }
+  }
+}

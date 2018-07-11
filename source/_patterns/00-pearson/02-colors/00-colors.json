@@ -1,0 +1,101 @@
+{
+    "colors": [{
+            "colorList": [{
+                    "class": "main-bg",
+                    "label": "$primary",
+                    "name": "Digital Pearson Blue"
+                },
+                {
+                    "class": "main-two-bg",
+                    "label": "$primary-two",
+                    "name": "Ink Blue"
+                },
+                {
+                    "class": "main-three-bg",
+                    "label": "$primary-three",
+                    "name": "White"
+                },
+                {
+                    "class": "main-four-bg",
+                    "label": "$primary-four",
+                    "name": "White Gray"
+                }
+
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "secondary-bg",
+                    "label": "$secondary",
+                    "name": "Sunshine Yellow"
+                },
+                {
+                    "class": "secondary-two-bg",
+                    "label": "$secondary-two",
+                    "name": "Sunflower Yellow"
+                },
+                {
+                    "class": "secondary-three-bg",
+                    "label": "$secondary-three",
+                    "name": "Digital Ice Blue"
+                },
+                {
+                    "class": "secondary-four-bg",
+                    "label": "$secondary-four",
+                    "name": "Digital Maine Turquoise"
+                },
+                {
+                    "class": "secondary-five-bg",
+                    "label": "$secondary-five",
+                    "name": "Brackish Turquoise"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "neutral-bg",
+                    "label": "$neutral",
+                    "name": "Concrete"
+                },
+                {
+                    "class": "neutral-two-bg",
+                    "label": "$neutral-two",
+                    "name": "Charcoal"
+                },
+                {
+                    "class": "neutral-three-bg",
+                    "label": "$neutral-three",
+                    "name": "Medium Gray"
+                },
+                {
+                    "class": "neutral-four-bg",
+                    "label": "$neutral-four",
+                    "name": "Alto"
+                },
+                {
+                    "class": "neutral-five-bg",
+                    "label": "$neutral-five",
+                    "name": "Moonlight"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "condition-one-bg",
+                    "label": "$condition-one",
+                    "name": "Strawberry Red"
+                },
+                {
+                    "class": "condition-two-bg",
+                    "label": "$condition-two",
+                    "name": "Digital Grass Green"
+                },
+                {
+                    "class": "condition-three-bg",
+                    "label": "$condition-three",
+                    "name": "Hot Pink"
+                }
+            ]
+        }
+    ]
+}
