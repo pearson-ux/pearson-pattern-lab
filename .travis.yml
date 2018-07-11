@@ -10,6 +10,7 @@ before_install:
 install:
 - yarn install
 - gulp patternlab:build
+- gulp style
 before_script:
 - openssl enc -d -aes-256-cbc -k $stored_key -in build_rsa.enc -out /tmp/build_rsa
 - chmod 600 /tmp/build_rsa
