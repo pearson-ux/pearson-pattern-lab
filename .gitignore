@@ -6,5 +6,5 @@ patternlab.json
 Thumbs.db
 .idea/
 public
-build_rsa
-build_rsa.pub
+pearson-pattern-lab_rsa
+pearson-pattern-lab_rsa.pub
