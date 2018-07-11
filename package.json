@@ -37,5 +37,9 @@
   "license": "MIT",
   "engines": {
     "node": ">=6.0"
+  },
+  "devDependencies": {
+    "destroy": "^1.0.4",
+    "send": "^0.16.2"
   }
 }
