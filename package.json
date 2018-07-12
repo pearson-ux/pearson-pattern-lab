@@ -32,7 +32,7 @@
   "author": "Brian Muenzenmeyer",
   "scripts": {
     "gulp": "gulp -- ",
-    "start": "gulp patternlab:serve"
+    "start": "gulp start"
   },
   "license": "MIT",
   "engines": {

@@ -31,7 +31,7 @@ function serve() {
     cleanPublic: config.cleanPublic
   }
 ).then(() => {
-  // do something else when this promise resolves
+    // do something else when this promise resolves
     gulp.watch('scss/*.scss', ['style']);
     gulp.watch('source/_patterns/**/*.scss', ['style']);
     gulp.watch('source/_patterns/**/**/*.scss', ['style']);
@@ -66,7 +66,6 @@ gulp.task('patternlab:build', function () {
 
 gulp.task('patternlab:serve', function () {
   serve().then(() => {
-    // do something else when this promise resolves
   });
 });
 
@@ -95,3 +94,4 @@ gulp.task('style', function () {
   .pipe(gulp.dest('public/css'));
 });
 
+gulp.task('start', ['patternlab:serve', 'style']);
