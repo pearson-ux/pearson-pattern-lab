@@ -1,6 +1,8 @@
 ![Pattern Lab Logo](/patternlab.png "Pattern Lab Logo")
 
-![current release](https://img.shields.io/github/release/pattern-lab/edition-node-gulp.svg) ![license](https://img.shields.io/github/license/pattern-lab/edition-node-gulp.svg) [![Join the chat at Gitter](https://badges.gitter.im/pattern-lab/node.svg)](https://gitter.im/pattern-lab/node)
+![current release](https://img.shields.io/badge/pre--release-v2.0.0--alpha.3-blue.svg)
+[![current elements version](https://img.shields.io/badge/elements--sdk-unstable--2.0--GLP-orange.svg)](https://github.com/Pearson-Higher-Ed/elements-sdk.git#unstable-2.0-GLP)
+![license](https://img.shields.io/github/license/pattern-lab/edition-node-gulp.svg)
 
 # Pattern Lab Node - Gulp Edition
 
