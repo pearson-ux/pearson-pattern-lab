@@ -27,11 +27,17 @@ As an Edition, the simplist installation sequence is to clone this repository.
 
 ``` bash
 mkdir newApp && cd newApp
-git clone https://github.com/pattern-lab/edition-node-gulp.git
+git clone https://github.com/pearson-ux/pearson-pattern-lab.git
 npm install
 ```
 
 ## Getting Started
+
+**build** patterns, copy assets, construct ui, watch files, compile scss
+
+``` bash
+npm start
+```
 
 This edition comes pre-packaged with a couple simple gulp tasks. Extend them as needed.
 
