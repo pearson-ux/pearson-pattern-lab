@@ -1,5 +1,6 @@
 /* Imports Elements SDK SCSS, Font Awesome & Patternlab styles */
-@import "../node_modules/@pearson-components/elements-sdk/src/styles/elements/color/variables";
+@import "../node_modules/@pearson-components/elements-sdk/src/styles/elements";
+
 @import "_ux-override.scss";
 @import "font-awesome/font-awesome";
 @import "elements-v0-icons";
