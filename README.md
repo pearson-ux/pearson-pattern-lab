@@ -1,5 +1,6 @@
 ![Pattern Lab Logo](/patternlab.png "Pattern Lab Logo")
 
+![node release](https://img.shields.io/badge/Node-%3C%3D%209.3.1-green.svg)
 ![current release](https://img.shields.io/badge/pre--release-v2.0.0--alpha.3-blue.svg)
 [![current elements version](https://img.shields.io/badge/elements--sdk-unstable--2.0--GLP-orange.svg)](https://github.com/Pearson-Higher-Ed/elements-sdk.git#unstable-2.0-GLP)
 ![license](https://img.shields.io/github/license/pattern-lab/edition-node-gulp.svg)
