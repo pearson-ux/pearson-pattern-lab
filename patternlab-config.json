@@ -75,7 +75,7 @@
   ],
   "theme": {
     "color": "dark",
-    "density": "compact",
+    "density": "",
     "layout": "horizontal"
   }
 }
