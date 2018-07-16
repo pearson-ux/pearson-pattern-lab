@@ -32,6 +32,8 @@
   "author": "Brian Muenzenmeyer",
   "scripts": {
     "start": "node_modules/gulp/bin/gulp.js run",
+    "build": "node_modules/gulp/bin/gulp.js patternlab:build",
+    "style": "node_modules/gulp/bin/gulp.js styles",
     "postinstall": "node scripts/postinstall.js",
     "gulp": "gulp -- "
   },
