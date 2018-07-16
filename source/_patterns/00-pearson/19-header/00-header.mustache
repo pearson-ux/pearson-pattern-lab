@@ -1,0 +1,19 @@
+{{#header}}
+<header class="header {{styleModifier}}">
+    <div class="logo" role="img" aria-label="Pearson"></div>
+    <div class="actions">
+        {{#buttons}}
+        <span class="{{className}}">{{#notification}} {{> pearson-single-icon}} {{/notification}}
+					<button type="button" class="pe-icon--btn" aria-label="open notifications" data-drawer-id="{{drawerId}}" >
+						{{>pearson-single-icon}}
+					</button>
+				</span>
+        {{/buttons}}
+        <div class="username">
+            {{#avatar}}<span class="avatar"><img src="../../images/{{image}}" alt="avatar"></span>{{/avatar}}
+            <span class="name">{{name}}</span>
+            <span class="nameicon">{{> pearson-single-icon}} </span>
+        </div>
+    </div>
+</header>
+{{> pearson-drawer}} {{/header}}

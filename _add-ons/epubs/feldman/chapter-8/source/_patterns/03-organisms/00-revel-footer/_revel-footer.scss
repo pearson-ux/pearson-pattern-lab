@@ -1,0 +1,21 @@
+.revel-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:1em;
+	border-top:1px solid $neutral-four;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background:white;
+	.slidecontainer {
+		margin:0 1em;
+		cursor: pointer;
+	}
+	button {
+		cursor: pointer;
+	}
+	svg {
+		color: $neutral-three;
+	}
+}

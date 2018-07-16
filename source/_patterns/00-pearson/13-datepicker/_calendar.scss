@@ -1,0 +1,98 @@
+.calendar {
+  max-width: 320px;
+  border: 1px solid $neutral;
+  padding: 1em 20px 20px 20px;
+  background-color: white;
+  z-index: 1;
+
+  .header {
+    @include flex;
+
+    padding: 0 0 0 8px;
+    height: 40px;
+    border-bottom: 0;
+
+    .month {
+      margin-right: 0.3em;
+    }
+
+    h1 {
+      display: flex;
+    }
+
+    svg {
+      fill: $neutral-three;
+
+      &:hover {
+        fill: $neutral-two;
+      }
+
+      &:disabled {
+        fill: $neutral-four;
+      }
+    }
+  }
+
+  .days-of-week {
+    @include flex;
+
+    margin-top: 1em;
+
+    span {
+      @include flex(center, center, row);
+
+      @include box-size(40px, 40px);
+
+      text-align: center;
+    }
+  }
+
+  .weeks {
+    @include flex;
+
+    button {
+      color: $neutral-two;
+
+      @include box-size(40px, 40px);
+
+      text-decoration: none;
+      border-radius: 50%;
+
+      &:hover {
+        background-color: $neutral-five;
+      }
+
+      &.today {
+        border-radius: 0;
+        border: 1px solid $neutral;
+
+        &.selected {
+          background: transparent;
+          color: $neutral-three;
+        }
+      }
+
+      &.selected {
+        background: $neutral-three;
+        color: white;
+      }
+
+      &:disabled {
+        color: $neutral;
+
+        &:hover {
+          background: none;
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  .muted {
+    visibility: hidden;
+  }
+
+  h1, h2 {
+    margin: 0;
+  }
+}

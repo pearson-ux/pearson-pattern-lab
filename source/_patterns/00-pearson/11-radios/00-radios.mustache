@@ -1,0 +1,16 @@
+{{#radios}}
+<fieldset class="pe-fieldset">
+    <legend>{{legend}}</legend>
+    {{#radioList}}
+    <div class="pe-radio">
+        <input type="radio" name="scotch" id="{{id}}" {{#disabled}} disabled{{/disabled}}{{#checked}} checked{{/checked}}>
+        <label for="{{id}}">{{label}}</label>
+        <span>
+			<svg aria-hidden="true" focusable="false" class="pe-icon--radio-dot">
+				<use xlink:href="#new-notification-9"></use>
+			</svg>
+		</span>
+    </div>
+    {{/radioList}}
+</fieldset>
+{{/radios}}

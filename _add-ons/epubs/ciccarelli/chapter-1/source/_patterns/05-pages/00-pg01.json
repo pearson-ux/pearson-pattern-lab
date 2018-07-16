@@ -1,0 +1,66 @@
+{
+  "pageOne": true,
+  "audio": [
+    {
+      "textIconBtn": [
+        {
+          "label": "Listen to the Audio",
+          "icon": [
+            {
+              "icon": "audio-low-18",
+              "label": "audio"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "view": [
+    {
+      "textIconBtn": [
+        {
+          "modalBtn": [
+            {
+              "id": "sampleBtn"
+            }
+          ],
+          "label": "View Sample Response",
+          "icon": [
+            {
+              "icon": "show-on-18",
+              "label": "show"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modal": [
+    {
+      "title": "Sample Response",
+       "modalId": "sampleBtn",
+      "showButtons": false,
+      "paragraphs": [
+        {
+          "text": "Visual acuity begins to show the effects of age starting around age 40. At this point, the ability to see fine detail both up close and far away shows decline. Reading glasses, bifocals, or progressive lenses tend to be the norm rather than the exception as the loss of near vision becomes more pronounced. Additional losses in depth, distance, and dimension are common while adaptability to darkness is also impaired. Given the list of visual changes beginning around age 40, it would appear a young pilot would offer a more secure and stable flight than a middle-aged pilot. Of course, the middle-aged pilot presumably has many more hours of flying experience which may compensate for weaknesses elsewhere. Reaction time may show declines as well but this may result in more attention to detail and diligence thus reducing unnecessary risk-taking. Perhaps the ideal cockpit may then include one experienced middle-aged pilot and one fresh-eyed young pilot."
+        },
+        {
+          "class": "strong margin-top-double",
+          "text": "Consider the following:"
+        },
+        {
+          "text": "Should middle-aged pilots be restricted or limited to daylight flying only?"
+        },
+        {
+          "text": "Does the auto-pilot function serve to compensate for the visual weaknesses of the aging human eye?"
+        }
+      ],
+      "icon": [
+        {
+          "icon": "remove-sm-24"
+        }
+      ]
+    }
+  ],
+  "entryPoint": false
+}

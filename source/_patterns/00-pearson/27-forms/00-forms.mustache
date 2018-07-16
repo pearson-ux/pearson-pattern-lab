@@ -1,0 +1,21 @@
+{{#form}}
+<form class="pe-form">
+    <h1 class="pe-form--name">{{name}}</h1>
+    <p class="pe-form--instr">{{instruction}}</p>
+    {{> pearson-alert}}
+    <div>
+        {{#inputBlock}}
+        <div class="pe-form--input">
+            {{> pearson-placeholder }}
+        </div>
+        {{/inputBlock}}
+        <div class="pe-form--input  pe-form--inline-input">
+            {{> pearson-datepicker }} {{> pearson-datepicker }}
+        </div>
+    </div>
+    <div class="pe-form--button-group">
+        <button class="pe-btn__primary">{{primaryBtnLabel}}</button>
+        <button class="pe-btn--btn_large">{{defaultBtnLabel}}</button>
+    </div>
+</form>
+{{/form}}

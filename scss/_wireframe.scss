@@ -1,0 +1,636 @@
+body.wireframe {
+  // changes the font on all selectors
+  & * {
+    font-family: serif;
+  }
+
+  // inline mark
+  mark {
+    background: yellow;
+  }
+
+  // code block
+  .pe-code {
+    background: grayscale($primary);
+  }
+
+  // links
+  a {
+    color: blue !important;
+  }
+
+  // colors
+  .main-bg {
+    @include setcolor(grayscale($primary));
+  }
+
+  .main-two-bg {
+    @include setcolor(grayscale($primary-two));
+  }
+
+  .main-three-bg {
+    @include setcolor(grayscale($primary-three));
+  }
+
+  .main-four-bg {
+    @include setcolor(grayscale($primary-four));
+  }
+
+  .secondary-bg {
+    @include setcolor(grayscale($secondary));
+  }
+
+  .secondary-two-bg {
+    @include setcolor(grayscale($secondary-two));
+  }
+
+  .secondary-three-bg {
+    @include setcolor(grayscale($secondary-three));
+  }
+
+  .secondary-four-bg {
+    @include setcolor(grayscale($secondary-four));
+  }
+
+  .secondary-five-bg {
+    @include setcolor(grayscale($secondary-five));
+  }
+
+  .neutral-bg {
+    @include setcolor(grayscale($neutral));
+  }
+
+  .neutral-two-bg {
+    @include setcolor(grayscale($neutral-two));
+  }
+
+  .neutral-three-bg {
+    @include setcolor(grayscale($neutral-three));
+  }
+
+  .neutral-four-bg {
+    @include setcolor(grayscale($neutral-four));
+  }
+
+  .neutral-five-bg {
+    @include setcolor(grayscale($neutral-five));
+  }
+
+  .condition-one-bg {
+    @include setcolor(grayscale($condition-one));
+  }
+
+  .condition-two-bg {
+    @include setcolor(grayscale($condition-two));
+  }
+
+  .condition-three-bg {
+    @include setcolor(grayscale($condition-three));
+  }
+
+  // D3 Colors 10 Array //////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////
+
+  .d3-10-array00-bg {
+    @include setcolor(grayscale($d3-10-array00));
+  }
+
+  .d3-10-array01-bg {
+    @include setcolor(grayscale($d3-10-array01));
+  }
+
+  .d3-10-array02-bg {
+    @include setcolor(grayscale($condition-two));
+  }
+
+  .d3-10-array03-bg {
+    @include setcolor(grayscale($condition-one));
+  }
+
+  .d3-10-array04-bg {
+    @include setcolor(grayscale(#9e007e));
+  }
+
+  .d3-10-array05-bg {
+    @include setcolor(grayscale(#bb5e00));
+  }
+
+  .d3-10-array06-bg {
+    @include setcolor(grayscale($condition-three));
+  }
+
+  .d3-10-array07-bg {
+    @include setcolor(grayscale($neutral-three));
+  }
+
+  .d3-10-array08-bg {
+    @include setcolor(grayscale(#a8af0b));
+  }
+
+  .d3-10-array09-bg {
+    @include setcolor(grayscale(#19a5a3));
+  }
+
+  // D3 Colors 20 Array //////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////
+
+  .d3-20-array00-bg {
+    @include setcolor(grayscale($d3-20-array00));
+  }
+
+  .d3-20-array01-bg {
+    @include setcolor(grayscale($d3-20-array01));
+  }
+
+  .d3-20-array02-bg {
+    @include setcolor(grayscale($d3-20-array02));
+  }
+
+  .d3-20-array03-bg {
+    @include setcolor(grayscale($d3-20-array03));
+  }
+
+  .d3-20-array04-bg {
+    @include setcolor(grayscale($d3-20-array04));
+  }
+
+  .d3-20-array05-bg {
+    @include setcolor(grayscale($d3-20-array05));
+  }
+
+  .d3-20-array06-bg {
+    @include setcolor(grayscale($d3-20-array06));
+  }
+
+  .d3-20-array07-bg {
+    @include setcolor(grayscale($d3-20-array07));
+  }
+
+  .d3-20-array08-bg {
+    @include setcolor(grayscale($d3-20-array08));
+  }
+
+  .d3-20-array09-bg {
+    @include setcolor(grayscale($d3-20-array09));
+  }
+
+  .d3-20-array10-bg {
+    @include setcolor(grayscale($d3-20-array10));
+  }
+
+  .d3-20-array11-bg {
+    @include setcolor(grayscale($d3-20-array11));
+  }
+
+  .d3-20-array12-bg {
+    @include setcolor(grayscale($d3-20-array12));
+  }
+
+  .d3-20-array13-bg {
+    @include setcolor(grayscale($d3-20-array13));
+  }
+
+  .d3-20-array14-bg {
+    @include setcolor(grayscale($d3-20-array14));
+  }
+
+  .d3-20-array15-bg {
+    @include setcolor(grayscale($d3-20-array15));
+  }
+
+  .d3-20-array16-bg {
+    @include setcolor(grayscale($d3-20-array16));
+  }
+
+  .d3-20-array17-bg {
+    @include setcolor(grayscale($d3-20-array17));
+  }
+
+  .d3-20-array18-bg {
+    @include setcolor(grayscale($d3-20-array18));
+  }
+
+  .d3-20-array19-bg {
+    @include setcolor(grayscale($d3-20-array19));
+  }
+
+  // D3 Colors 20b Array //////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////
+
+  .d3-20b-array00-bg {
+    @include setcolor(grayscale($d3-20b-array00));
+  }
+
+  .d3-20b-array01-bg {
+    @include setcolor(grayscale($d3-20b-array01));
+  }
+
+  .d3-20b-array02-bg {
+    @include setcolor(grayscale($d3-20b-array02));
+  }
+
+  .d3-20b-array03-bg {
+    @include setcolor(grayscale($d3-20b-array03));
+  }
+
+  .d3-20b-array04-bg {
+    @include setcolor(grayscale($d3-20b-array04));
+  }
+
+  .d3-20b-array05-bg {
+    @include setcolor(grayscale($d3-20b-array05));
+  }
+
+  .d3-20b-array06-bg {
+    @include setcolor(grayscale($d3-20b-array06));
+  }
+
+  .d3-20b-array07-bg {
+    @include setcolor(grayscale($d3-20b-array07));
+  }
+
+  .d3-20b-array08-bg {
+    @include setcolor(grayscale($d3-20b-array08));
+  }
+
+  .d3-20b-array09-bg {
+    @include setcolor(grayscale($d3-20b-array09));
+  }
+
+  .d3-20b-array10-bg {
+    @include setcolor(grayscale($d3-20b-array10));
+  }
+
+  .d3-20b-array11-bg {
+    @include setcolor(grayscale($d3-20b-array11));
+  }
+
+  .d3-20b-array12-bg {
+    @include setcolor(grayscale($d3-20b-array12));
+  }
+
+  .d3-20b-array13-bg {
+    @include setcolor(grayscale($d3-20b-array13));
+  }
+
+  .d3-20b-array14-bg {
+    @include setcolor(grayscale($d3-20b-array14));
+  }
+
+  .d3-20b-array15-bg {
+    @include setcolor(grayscale($d3-20b-array15));
+  }
+
+  .d3-20b-array16-bg {
+    @include setcolor(grayscale($d3-20b-array16));
+  }
+
+  .d3-20b-array17-bg {
+    @include setcolor(grayscale($d3-20b-array17));
+  }
+
+  .d3-20b-array18-bg {
+    @include setcolor(grayscale($d3-20b-array18));
+  }
+
+  .d3-20b-array19-bg {
+    @include setcolor(grayscale($d3-20b-array19));
+  }
+
+  // D3 Colors 20c Array //////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////
+
+  .d3-20c-array00-bg {
+    @include setcolor(grayscale($d3-20c-array00));
+  }
+
+  .d3-20c-array01-bg {
+    @include setcolor(grayscale($d3-20c-array01));
+  }
+
+  .d3-20c-array02-bg {
+    @include setcolor(grayscale($d3-20c-array02));
+  }
+
+  .d3-20c-array03-bg {
+    @include setcolor(grayscale($d3-20c-array03));
+  }
+
+  .d3-20c-array04-bg {
+    @include setcolor(grayscale($d3-20c-array04));
+  }
+
+  .d3-20c-array05-bg {
+    @include setcolor(grayscale($d3-20c-array05));
+  }
+
+  .d3-20c-array06-bg {
+    @include setcolor(grayscale($d3-20c-array06));
+  }
+
+  .d3-20c-array07-bg {
+    @include setcolor(grayscale($d3-20c-array07));
+  }
+
+  .d3-20c-array08-bg {
+    @include setcolor(grayscale($d3-20c-array08));
+  }
+
+  .d3-20c-array09-bg {
+    @include setcolor(grayscale($d3-20c-array09));
+  }
+
+  .d3-20c-array10-bg {
+    @include setcolor(grayscale($d3-20c-array10));
+  }
+
+  .d3-20c-array11-bg {
+    @include setcolor(grayscale($d3-20c-array11));
+  }
+
+  .d3-20c-array12-bg {
+    @include setcolor(grayscale($d3-20c-array12));
+  }
+
+  .d3-20c-array13-bg {
+    @include setcolor(grayscale($d3-20c-array13));
+  }
+
+  .d3-20c-array14-bg {
+    @include setcolor(grayscale($d3-20c-array14));
+  }
+
+  .d3-20c-array15-bg {
+    @include setcolor(grayscale($d3-20c-array15));
+  }
+
+  .d3-20c-array16-bg {
+    @include setcolor(grayscale($d3-20c-array16));
+  }
+
+  .d3-20c-array17-bg {
+    @include setcolor(grayscale($d3-20c-array17));
+  }
+
+  .d3-20c-array18-bg {
+    @include setcolor(grayscale($d3-20c-array18));
+  }
+
+  .d3-20c-array19-bg {
+    @include setcolor(grayscale($d3-20c-array19));
+  }
+
+  // Font Color Helpers - Targets color and fill color for SVG ///
+  ////////////////////////////////////////////////////////////////
+  .black {
+    @include font-color(grayscale(#000));
+  }
+
+  .white {
+    @include font-color(grayscale(#fff));
+  }
+
+  .primary {
+    @include font-color(grayscale($primary));
+  }
+
+  .main-two {
+    @include font-color(grayscale($primary-two));
+  }
+
+  .main-three {
+    @include font-color(grayscale($primary-three));
+  }
+
+  .main-four {
+    @include font-color(grayscale($primary-four));
+  }
+
+  .secondary {
+    @include font-color(grayscale($secondary));
+  }
+
+  .secondary-two {
+    @include font-color(grayscale($secondary-two));
+  }
+
+  .secondary-three {
+    @include font-color(grayscale($secondary-three));
+  }
+
+  .secondary-four {
+    @include font-color(grayscale($secondary-four));
+  }
+
+  .neutral {
+    @include font-color(grayscale($neutral));
+  }
+
+  .neutral-two {
+    @include font-color(grayscale($neutral-two));
+  }
+
+  .neutral-three {
+    @include font-color(grayscale($neutral-three));
+  }
+
+  .neutral-four {
+    @include font-color(grayscale($neutral-four));
+  }
+
+  .neutral-five {
+    @include font-color(grayscale($neutral-five));
+  }
+
+  .condition-one {
+    @include font-color(grayscale($condition-one));
+  }
+
+  .condition-two {
+    @include font-color(grayscale($condition-two));
+  }
+
+  .condition-three {
+    @include font-color(grayscale($condition-three));
+  }
+
+  //buttons
+  .pe-btn,
+  .pe-btn--btn_large,
+  .pe-btn--btn_small,
+  .pe-btn--btn_xlarge,
+  .pe-btn__primary,
+  .pe-btn__primary--btn_large,
+  .pe-btn__primary--btn_small,
+  .pe-btn__primary--btn_xlarge,
+  .pe-btn__cta,
+  .pe-btn__cta--btn_large,
+  .pe-btn__cta--btn_small,
+  .pe-btn__cta--btn_xlarge,
+  .pe-btn__tertiary,
+  .pe-btn__tertiary--btn_large,
+  .pe-btn__tertiary--btn_small,
+  .pe-btn__tertiary--btn_xlarge {
+    border-radius: 0;
+  }
+
+  .pe-btn__primary:not(:disabled),
+  .pe-btn__primary--btn_large:not(:disabled),
+  .pe-btn__primary--btn_xlarge:not(:disabled) {
+    @include setcolor(grayscale($primary));
+  }
+
+  .pe-btn__cta,
+  .pe-btn__cta--btn_large {
+    @include setcolor(grayscale($secondary));
+
+    color: white;
+  }
+
+  div [class$="--btn_xlarge"],
+  a [class$="--btn_xlarge"] {
+    @include setcolor(grayscale($secondary));
+
+    color: white;
+  }
+
+  // inputs
+
+  /* line 10, pattern-lab/scss/_ux-override.scss */
+  .fancy-input .pe-input_underline {
+    @include setcolor(blue);
+  }
+
+  /* line 16, pattern-lab/scss/_ux-override.scss */
+  .fancy-select .pe-input_underline {
+    @include setcolor(blue);
+  }
+
+  /* line 23, pattern-lab/scss/_ux-override.scss */
+  .basic-input .pe-textInput--basic:focus {
+    -webkit-box-shadow: 0px 0px 5px 0px blue;
+    box-shadow: 0px 0px 5px 0px blue;
+  }
+
+  /* line 32, pattern-lab/scss/_ux-override.scss */
+  .pe-checkbox input:checked ~ span {
+    @include setcolor(blue);
+
+    border: 1px solid blue;
+  }
+
+  /* line 10, pattern-lab/scss/_ux-override.scss */
+  .fancy-input .pe-input_underline {
+    @include setcolor(blue);
+  }
+
+  /* line 16, pattern-lab/scss/_ux-override.scss */
+  .fancy-select .pe-input_underline {
+    @include setcolor(blue);
+  }
+
+  /* line 23, pattern-lab/scss/_ux-override.scss */
+  .basic-input .pe-textInput--basic:focus {
+    border: red;
+    box-shadow: 0px 0px 5px 0px blue;
+  }
+
+  /* line 32, pattern-lab/scss/_ux-override.scss */
+  .pe-checkbox input:checked ~ span {
+    @include setcolor(blue);
+
+    border: 1px solid blue;
+  }
+
+  .textarea .pe-multiLineText:focus:not(.pe-multiLineText--error) {
+    border: 1px solid blue;
+    box-shadow: 0px 0px 5px 0px blue;
+  }
+
+  .basic-select select:focus {
+    border: 1px solid blue;
+    box-shadow: 0px 0px 5px 0px blue;
+  }
+
+  .pe-radio input:checked ~ span {
+    color: blue;
+    border: 1px solid blue;
+  }
+
+  .toggle input:checked + label {
+    background: blue;
+  }
+
+  table.selectable .selected {
+    background-color: white;
+    outline: 1px solid blue;
+  }
+
+  /* line 104, pattern-lab/source/_patterns/00-ui-kit/19-tables/_tables.scss */
+  table.selectable .selected:hover {
+    outline: 1px solid blue;
+  }
+
+  .pe-proto.alert-box {
+    box-shadow: none;
+  }
+
+  /* line 29, pattern-lab/source/_patterns/00-ui-kit/21-alerts/_alert.scss */
+  .pe-proto.alert-box.success {
+    border-left-color: grayscale($secondary-four);
+  }
+
+  /* line 32, pattern-lab/source/_patterns/00-ui-kit/21-alerts/_alert.scss */
+  .pe-proto.alert-box.success .alert-content-container {
+    color: grayscale($secondary-four);
+  }
+
+  .tabbed-navigation li.tab-title.active a.tab-name {
+    border-bottom: 3px solid blue;
+  }
+
+  .tabbed-navigation.dark li.tab-title.active a.tab-name {
+    border-bottom: 3px solid white;
+  }
+
+  .tabbed-navigation.dark {
+    @include setcolor(grayscale($secondary-five));
+  }
+
+  .pe-proto.coachmark {
+    width: 280px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: none;
+    z-index: 2;
+  }
+
+  .pe-proto.coachmark .content {
+    width: 100%;
+    border-radius: 0;
+    padding: 20px 24px;
+
+    @include setcolor($neutral);
+
+    position: relative;
+    z-index: 2;
+    color: #252525;
+  }
+
+  .pe-proto.coachmark.btm-center::after,
+  .pe-proto.coachmark.top-right::after,
+  .pe-proto.coachmark.btm-left::after {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid $neutral;
+    filter: none;
+  }
+
+  img {
+    display: none;
+  }
+
+  ul {
+    list-style-type: initial !important;
+  }
+}

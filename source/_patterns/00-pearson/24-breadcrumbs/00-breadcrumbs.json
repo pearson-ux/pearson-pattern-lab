@@ -1,0 +1,22 @@
+{
+    "breadcrumbs": [{
+        "path": [{
+                "link": "#",
+                "label": "Home",
+                "icon": [{
+                    "icon": "breadcrumb-18",
+                    "label": "breadcrumb"
+                }]
+            },
+            {
+                "link": "#",
+                "label": "Level 1",
+                "icon": [{
+                    "icon": "breadcrumb-18",
+                    "label": "breadcrumb"
+                }]
+            }
+        ],
+        "label": "Current page title"
+    }]
+}

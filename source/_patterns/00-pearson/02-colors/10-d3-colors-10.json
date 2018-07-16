@@ -1,0 +1,59 @@
+{
+    "colors": [{
+            "colorList": [{
+                    "class": "d3-10-array00-bg",
+                    "label": "$d3-10-array00",
+                    "name": "Digital Pearson Blue"
+                },
+                {
+                    "class": "d3-10-array01-bg",
+                    "label": "$d3-10-array01",
+                    "name": "Juicy Orange"
+                },
+                {
+                    "class": "d3-10-array02-bg",
+                    "label": "$d3-10-array02",
+                    "name": "Digital Green Grass"
+                },
+                {
+                    "class": "d3-10-array03-bg",
+                    "label": "$d3-10-array03",
+                    "name": "Strawberry Red"
+                },
+                {
+                    "class": "d3-10-array04-bg",
+                    "label": "$d3-10-array04",
+                    "name": "Dark Purple"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "d3-10-array05-bg",
+                    "label": "$d3-10-array05",
+                    "name": "Dark Juicy Orange"
+                },
+                {
+                    "class": "d3-10-array06-bg",
+                    "label": "$d3-10-array06",
+                    "name": "Digital Hot Pink"
+                },
+                {
+                    "class": "d3-10-array07-bg",
+                    "label": "$d3-10-array07",
+                    "name": "Medium Gray"
+                },
+                {
+                    "class": "d3-10-array08-bg",
+                    "label": "$d3-10-array08",
+                    "name": "Dark Lime Green"
+                },
+                {
+                    "class": "d3-10-array09-bg",
+                    "label": "$d3-10-array09",
+                    "name": "Digital Marine Turquoise"
+                }
+            ]
+        }
+    ]
+}

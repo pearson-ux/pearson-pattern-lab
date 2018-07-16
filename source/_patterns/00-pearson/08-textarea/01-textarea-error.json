@@ -1,0 +1,16 @@
+{
+    "textArea": [{
+        "id": "textareaId2",
+        "label": "Tell me who you are",
+        "ariaId": "aria",
+        "icon": [{
+            "icon": "warning-sm-18",
+            "decorative": "false",
+            "a11yLabel": [{
+                "label": "Error"
+            }]
+        }],
+        "error": "You are not the good Cooper",
+        "value": "I am the good Cooper"
+    }]
+}

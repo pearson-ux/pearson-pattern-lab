@@ -1,0 +1,9 @@
+{
+    "toggle": [{
+        "label": "Email notifications",
+        "labelId": "toggle-0-label",
+        "id": "toggle-0",
+        "onIndicator": "On",
+        "offIndicator": "Off"
+    }]
+}

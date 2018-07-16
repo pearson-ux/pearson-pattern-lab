@@ -1,0 +1,155 @@
+{
+    "egTopCoachmark": [{
+        "name": "A Form To Demonstrate Top Coachmarks",
+        "inputBlock": [{
+                "basicInput": [{
+                    "id": "blockInputOne",
+                    "label": "Character",
+                    "placeholder": "Hulk"
+                }]
+            },
+            {
+                "basicInput": [{
+                    "id": "blockInputTwo",
+                    "label": "Alter Ego",
+                    "placeholder": "Robert Bruce Banner"
+                }]
+            }
+        ],
+        "coachmark": [{
+                "trigger": [{
+                    "icon": "info-fill-18",
+                    "label": "information coachmark"
+                }],
+                "initHidden": true,
+                "location": "top-right",
+                "title": "Section Code",
+                "button": [{
+                    "label": "Close coachmark",
+                    "icon": [{
+                        "icon": "remove-sm-24",
+                        "label": "Close coachmark"
+                    }]
+                }],
+                "content": "Enter the labeling convention used by your institution to identify the course code, call number, class section, or session. Example: 53155 BUS 001",
+                "link": false
+            },
+            {
+                "trigger": [{
+                    "icon": "info-fill-24",
+                    "label": "information coachmark"
+                }],
+                "initHidden": true,
+                "location": "top-right",
+                "title": "Section Code",
+                "button": [{
+                    "label": "Close coachmark",
+                    "icon": [{
+                        "icon": "remove-sm-24",
+                        "label": "Close coachmark"
+                    }]
+                }],
+                "content": "Enter the labeling convention used by your institution to identify the course code, call number, class section, or session. Example: 53155 BUS 001",
+                "link": false
+            }
+        ]
+    }],
+    "egBtmCoachmark": [{
+            "name": "A Form To Demonstrate Bottom Coachmarks",
+            "basicInput": [{
+                "id": "basicOne",
+                "label": "First Name",
+                "placeholder": "weee I’m placeholder"
+            }],
+            "label": "Last Name",
+            "placeholder": "weee I’m placeholder",
+            "id": "basicTwo",
+            "coachmark": [{
+                    "trigger": [{
+                        "icon": "info-fill-18",
+                        "label": "information coachmark"
+                    }],
+                    "initHidden": true,
+                    "location": "btm-left",
+                    "title": "Section Code",
+                    "button": [{
+                        "label": "Close coachmark",
+                        "icon": [{
+                            "icon": "remove-sm-24",
+                            "label": "Close coachmark"
+                        }]
+                    }],
+                    "content": "Enter the labeling convention used by your institution to identify the course code, call number, class section, or session. Example: 53155 BUS 001",
+                    "link": false
+                },
+                {
+                    "trigger": [{
+                        "icon": "info-fill-24",
+                        "label": "information coachmark"
+                    }],
+                    "initHidden": true,
+                    "location": "btm-left",
+                    "title": "Section Code",
+                    "button": [{
+                        "label": "Close coachmark",
+                        "icon": [{
+                            "icon": "remove-sm-24",
+                            "label": "Close coachmark"
+                        }]
+                    }],
+                    "content": "Enter the labeling convention used by your institution to identify the course code, call number, class section, or session. Example: 53155 BUS 001",
+                    "link": false
+                }
+            ]
+        },
+        {
+            "name": "A Form To Demonstrate Center Coachmarks",
+            "basicInput": [{
+                "id": "basicOne",
+                "label": "First Name",
+                "placeholder": "weee I’m placeholder"
+            }],
+            "label": "Last Name Last Name Last Name",
+            "placeholder": "weee I’m placeholder",
+            "id": "basicTwo",
+            "coachmark": [{
+                    "trigger": [{
+                        "icon": "info-fill-18",
+                        "label": "information coachmark"
+                    }],
+                    "initHidden": true,
+                    "location": "btm-center",
+                    "title": "Section Code",
+                    "button": [{
+                        "label": "Close coachmark",
+                        "icon": [{
+                            "icon": "remove-sm-24",
+                            "label": "Close coachmark"
+                        }]
+                    }],
+                    "content": "Enter the labeling convention used by your institution to identify the course code, call number, class section, or session. Example: 53155 BUS 001",
+                    "link": false
+                },
+                {
+                    "trigger": [{
+                        "icon": "info-fill-24",
+                        "label": "information coachmark"
+                    }],
+                    "initHidden": true,
+                    "location": "btm-center",
+                    "title": "Section Code",
+                    "button": [{
+                        "label": "Close coachmark",
+                        "icon": [{
+                            "icon": "remove-sm-24",
+                            "label": "Close coachmark"
+                        }]
+                    }],
+                    "content": "Enter the labeling convention used by your institution to identify the course code, call number, class section, or session. Example: 53155 BUS 001",
+                    "link": false
+                }
+            ]
+        }
+    ]
+
+}

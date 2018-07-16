@@ -1,0 +1,47 @@
+.accordion {
+  .section {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 2em;
+
+    &.disabled {
+      color: $neutral-three;
+
+      span {
+        color: $neutral-three;
+      }
+    }
+
+    .grouped > div {
+      margin-right: 2em;
+    }
+
+    .grouped {
+      display: flex;
+      align-items: center;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 0.5em;
+      }
+    }
+
+    .section-content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1.2em;
+      margin-left: calc(18px + 2em);
+
+      .section-item {
+        margin-top: 1em;
+      }
+    }
+  }
+}

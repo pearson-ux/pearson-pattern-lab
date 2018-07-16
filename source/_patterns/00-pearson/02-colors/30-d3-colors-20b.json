@@ -1,0 +1,119 @@
+{
+    "colors": [{
+            "colorList": [{
+                    "class": "d3-20b-array00-bg",
+                    "label": "$d3-20b-array00",
+                    "name": "Digital Pearson Blue"
+                },
+                {
+                    "class": "d3-20b-array01-bg",
+                    "label": "$d3-20b-array01",
+                    "name": "Half Digital Pearson Blue"
+                },
+                {
+                    "class": "d3-20b-array02-bg",
+                    "label": "$d3-20b-array02",
+                    "name": "Juicy Orange"
+                },
+                {
+                    "class": "d3-20b-array03-bg",
+                    "label": "$d3-20b-array03",
+                    "name": "Half Juicy Orange"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "d3-20b-array04-bg",
+                    "label": "$d3-20b-array04",
+                    "name": "Digital Green Grass"
+                },
+                {
+                    "class": "d3-20b-array05-bg",
+                    "label": "$d3-20b-array05",
+                    "name": "Half Digital Green Grass"
+                },
+                {
+                    "class": "d3-20b-array06-bg",
+                    "label": "$d3-20b-array06",
+                    "name": "Strawberry Red"
+                },
+                {
+                    "class": "d3-20b-array07-bg",
+                    "label": "$d3-20b-array07",
+                    "name": "Half Strawberry Red"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "d3-20b-array08-bg",
+                    "label": "$d3-20b-array08",
+                    "name": "Royal Purple"
+                },
+                {
+                    "class": "d3-20b-array09-bg",
+                    "label": "$d3-20b-array09",
+                    "name": "Half Royal Purple"
+                },
+                {
+                    "class": "d3-20b-array10-bg",
+                    "label": "$d3-20b-array10",
+                    "name": "Dark Juicy Orange"
+                },
+                {
+                    "class": "d3-20b-array11-bg",
+                    "label": "$d3-20b-array11",
+                    "name": "Half Dark Juicy Orange"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "d3-20b-array12-bg",
+                    "label": "$d3-20b-array12",
+                    "name": "Digital Hot Pink"
+                },
+                {
+                    "class": "d3-20b-array13-bg",
+                    "label": "$d3-20b-array13",
+                    "name": "Half Digital Hot Pink"
+                },
+                {
+                    "class": "d3-20b-array14-bg",
+                    "label": "$d3-20b-array14",
+                    "name": "Medium Gray"
+                },
+                {
+                    "class": "d3-20b-array15-bg",
+                    "label": "$d3-20b-array15",
+                    "name": "Half Medium Gray"
+                }
+            ]
+        },
+
+        {
+            "colorList": [{
+                    "class": "d3-20b-array16-bg",
+                    "label": "$d3-20b-array16",
+                    "name": "Dark Lime Green"
+                },
+                {
+                    "class": "d3-20b-array17-bg",
+                    "label": "$d3-20b-array17",
+                    "name": "Half Dark Lime Green"
+                },
+                {
+                    "class": "d3-20b-array18-bg",
+                    "label": "$d3-20b-array18",
+                    "name": "Digital Marine Turquoise"
+                },
+                {
+                    "class": "d3-20b-array19-bg",
+                    "label": "$d3-20b-array19",
+                    "name": "Half Digital Marine Turquoise"
+                }
+            ]
+        }
+    ]
+}

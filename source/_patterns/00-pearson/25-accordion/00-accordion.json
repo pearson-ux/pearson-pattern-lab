@@ -1,0 +1,51 @@
+{
+    "accordion": [{
+            "section": [{
+                "label": "Accordion Section One",
+                "iconHeader": [{
+                    "icon": [{
+                        "icon": "book-18",
+                        "label": "book"
+                    }]
+                }],
+                "sectionItem": [{
+                        "label": "Introduction to Real Numbers"
+                    },
+                    {
+                        "label": "Graphing Rational Numbers Using a Number Line"
+                    },
+                    {
+                        "label": "Translating Phrases into Algebraic Inequalities"
+                    },
+                    {
+                        "label": "Finding the Absolute Value of a Real Number"
+                    }
+                ]
+            }]
+        },
+        {
+            "section": [{
+                "label": "Accordion Section Two",
+                "sectionItem": [{
+                        "label": "Introduction to Real Numbers"
+                    },
+                    {
+                        "label": "Graphing Rational Numbers Using a Number Line"
+                    },
+                    {
+                        "label": "Translating Phrases into Algebraic Inequalities"
+                    },
+                    {
+                        "label": "Finding the Absolute Value of a Real Number"
+                    }
+                ]
+            }]
+        },
+        {
+            "section": [{
+                "disabled": true,
+                "label": "Accordion Section Three"
+            }]
+        }
+    ]
+}
