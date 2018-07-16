@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+- '9'
+addons:
+  ssh_known_hosts: 159.203.121.101
+before_install:
+- rvm install 2.3.1
+- gem install sass
+- npm install -g gulp-cli
+install:
+- npm install
+- gulp patternlab:build
+- gulp style
+before_script:
+- openssl enc -d -aes-256-cbc -k $stored_key -in pearson-pattern-lab_rsa.enc -out /tmp/pearson-pattern-lab_rsa
+- chmod 600 /tmp/pearson-pattern-lab_rsa
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public/ -e "ssh -i /tmp/pearson-pattern-lab_rsa" thejimmy@159.203.121.101:/home/webroot/pearson-pattern-lab
+  on:
+    branch: master
+branches:
+  only:
+  - master
