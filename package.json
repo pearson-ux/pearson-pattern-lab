@@ -9,7 +9,13 @@
     "minimist": "^1.2.0",
     "patternlab-node": "^2.0.0",
     "styleguidekit-assets-default": "^3.0.0",
-    "styleguidekit-mustache-default": "^3.0.0"
+    "styleguidekit-mustache-default": "^3.0.0",
+    "autoprefixer": "^8.6.5",
+    "cssnano": "^4.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "@pearson-components/elements-sdk": "git+https://github.com/Pearson-Higher-Ed/elements-sdk.git#unstable-2.0-GLP"
   },
   "keywords": [
     "Pattern Lab",
@@ -25,7 +31,7 @@
   "bugs": "https://github.com/pattern-lab/edition-node-gulp/issues",
   "author": "Brian Muenzenmeyer",
   "scripts": {
-    "start": "gulp patternlab:serve",
+    "start": "node_modules/gulp/bin/gulp.js run",
     "postinstall": "node scripts/postinstall.js",
     "gulp": "gulp -- "
   },

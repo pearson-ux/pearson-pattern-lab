@@ -1,0 +1,55 @@
+{
+    "noActionModal": [{
+        "showOpenButton": true,
+        "modalId": "four",
+        "heading": [{
+            "title": "Modal Title"
+        }],
+        "paragraphs": [{
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum luctus dui, a accumsan velit pulvinar et. In hac habitasse platea dictumst."
+            }
+        ],
+        "icon": [{
+            "icon": "remove-sm-24"
+        }]
+    }]
+}

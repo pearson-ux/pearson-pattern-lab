@@ -1,0 +1,11 @@
+.pe-link--btn {
+  &.back {
+    color: $neutral-three;
+    text-decoration: none;
+    line-height: 18px;
+
+    span {
+      color: $neutral-two;
+    }
+  }
+}

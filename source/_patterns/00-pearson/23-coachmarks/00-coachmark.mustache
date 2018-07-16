@@ -1,0 +1,21 @@
+{{#coachmark}}
+<div class="coachmark-container {{#demo}}coachmark-demo{{/demo}}">
+    {{#trigger}}
+    <svg focusable="false" class="pe-icon--{{icon}}" data-name="coachmark-trigger" role="img" aria-label="{{label}}">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{icon}}"></use>
+    </svg>
+    {{/trigger}}
+    <div class="pe-proto coachmark {{#initHidden}}hidden{{/initHidden}} {{location}}">
+        <div class="content">
+            <div class="title-container">
+                <div class="pe-label pe-label--bold">{{title}}</div>
+                {{#button}}{{> pearson-icon }}{{/button}}
+            </div>
+            <p class="pe-label">
+                {{content}}
+            </p>
+            {{#link}}<a class="coach-link" href="{{path}}{{url}}" aria-label="Close {{location}} coach mark">{{text}}</a>{{/link}}
+        </div>
+    </div>
+</div>
+{{/coachmark}}

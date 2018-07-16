@@ -1,0 +1,16 @@
+{{#pagination}}
+<div class="pagination basic">
+    <div class="control left">
+        {{#controlLeft}} {{> pearson-icon }} {{/controlLeft}}
+    </div>
+    <ul class="items">
+        {{#list}}
+        <li{{#selected}} class="current" {{/selected}} aria-current="false"><a href="#">{{label}}</a>
+            </li>
+            {{/list}}
+    </ul>
+    <div class="control right">
+        {{#controlRight}} {{> pearson-icon }} {{/controlRight}}
+    </div>
+</div>
+{{/pagination}}

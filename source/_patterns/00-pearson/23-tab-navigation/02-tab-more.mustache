@@ -1,0 +1,14 @@
+{{#tabNavigation}}
+<div class="tabbed-navigation">
+    <ul class="tabs" data-tab role="tablist">
+        {{#tabList}}
+        <li class="tab-title{{#active}} active{{/active}}" role="presentation">
+            <a class="pe-label neutral-three tab-name" role="tab" tabindex="0" {{#active}} aria-selected="true" {{/active}}>{{label}}</a>
+        </li>
+        {{/tabList}}
+        <li>
+            {{> pearson-dropdown-text }}
+        </li>
+    </ul>
+</div>
+{{/tabNavigation}}

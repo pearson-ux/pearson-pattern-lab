@@ -1,0 +1,119 @@
+{
+    "colors": [{
+            "colorList": [{
+                    "class": "d3-20c-array00-bg",
+                    "label": "$d3-20c-array00",
+                    "name": "Digital Pearson Blue"
+                },
+                {
+                    "class": "d3-20c-array01-bg",
+                    "label": "$d3-20c-array01",
+                    "name": "4/5, 80% Digital Pearson Blue"
+                },
+                {
+                    "class": "d3-20c-array02-bg",
+                    "label": "$d3-20c-array02",
+                    "name": "3/5, 60% Digital Pearson Blue"
+                },
+                {
+                    "class": "d3-20c-array03-bg",
+                    "label": "$d3-20c-array03",
+                    "name": "2/5, 40% Digital Pearson Blue"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "d3-20c-array04-bg",
+                    "label": "$d3-20c-array04",
+                    "name": "Juicy Orange"
+                },
+                {
+                    "class": "d3-20c-array05-bg",
+                    "label": "$d3-20c-array05",
+                    "name": "4/5, 80% Juicy Orange"
+                },
+                {
+                    "class": "d3-20c-array06-bg",
+                    "label": "$d3-20c-array06",
+                    "name": "3/5, 60% Juicy Orange"
+                },
+                {
+                    "class": "d3-20c-array07-bg",
+                    "label": "$d3-20c-array07",
+                    "name": "2/5, 40% Juicy Orange"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "d3-20c-array08-bg",
+                    "label": "$d3-20c-array08",
+                    "name": "Digital Grass Green"
+                },
+                {
+                    "class": "d3-20c-array09-bg",
+                    "label": "$d3-20c-array09",
+                    "name": "4/5, 80% Digital Grass Green"
+                },
+                {
+                    "class": "d3-20c-array10-bg",
+                    "label": "$d3-20c-array10",
+                    "name": "3/5, 60% Digital Grass Green"
+                },
+                {
+                    "class": "d3-20c-array11-bg",
+                    "label": "$d3-20c-array11",
+                    "name": "2/5, 40% Digital Grass Green"
+                }
+            ]
+        },
+        {
+            "colorList": [{
+                    "class": "d3-20c-array12-bg",
+                    "label": "$d3-20c-array12",
+                    "name": "Royal Purple"
+                },
+                {
+                    "class": "d3-20c-array13-bg",
+                    "label": "$d3-20c-array13",
+                    "name": "4/5, 80% Royal Purple"
+                },
+                {
+                    "class": "d3-20c-array14-bg",
+                    "label": "$d3-20c-array14",
+                    "name": "3/5, 60% Royal Purple"
+                },
+                {
+                    "class": "d3-20c-array15-bg",
+                    "label": "$d3-20c-array15",
+                    "name": "2/5, 40% Royal Purple"
+                }
+            ]
+        },
+
+        {
+            "colorList": [{
+                    "class": "d3-20c-array16-bg",
+                    "label": "$d3-20c-array16",
+                    "name": "Medium Gray"
+                },
+                {
+                    "class": "d3-20c-array17-bg",
+                    "label": "$d3-20c-array17",
+                    "name": "4/5, 80% Medium Gray"
+                },
+                {
+                    "class": "d3-20c-array18-bg",
+                    "label": "$d3-20c-array18",
+                    "name": "3/5, 60% Medium Gray"
+                },
+                {
+                    "class": "d3-20c-array19-bg",
+                    "label": "$d3-20c-array19",
+                    "name": "2/5, 40% Medium Gray"
+                }
+            ]
+        }
+    ]
+}

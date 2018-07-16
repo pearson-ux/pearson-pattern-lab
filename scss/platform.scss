@@ -1,0 +1,52 @@
+/* Imports Elements SDK SCSS, Font Awesome & Patternlab styles */
+@import "../../node_modules/@pearson-components/elements-sdk/src/styles/elements.scss";
+@import "_ux-override.scss";
+@import "font-awesome/font-awesome";
+@import "elements-v0-icons";
+@import "ux-boilerplate";
+@import "ie11.scss";
+
+// Loads generic helper classes
+@import "variables";
+@import "mixins";
+@import "helpers";
+@import "flex";
+
+//Loads CITE fonts
+@import "cite-fonts";
+
+// Start project files located in the 'pattern-lab/source/_patterns' folders
+@import "../source/_patterns/00-pearson/01-typography/ui-mobile-page-heading";
+@import "../source/_patterns/00-pearson/04-buttons/drop-text-btn";
+@import "../source/_patterns/00-pearson/04-buttons/system-back-btn";
+@import "../source/_patterns/00-pearson/04-buttons/glp-btn";
+@import "../source/_patterns/00-pearson/05-dropdown/menu";
+@import "../source/_patterns/00-pearson/05-dropdown/dropdown";
+@import "../source/_patterns/00-pearson/07-basic-inputs/inputIcon";
+@import "../source/_patterns/00-pearson/09-selects/fancy-select";
+@import "../source/_patterns/00-pearson/09-selects/basic-select";
+@import "../source/_patterns/00-pearson/12-steppers/page-progression";
+@import "../source/_patterns/00-pearson/13-datepicker/calendar";
+@import "../source/_patterns/00-pearson/13-datepicker/datepicker";
+@import "../source/_patterns/00-pearson/14-timepicker/timepicker";
+@import "../source/_patterns/00-pearson/16-pagination/basic-pagination";
+@import "../source/_patterns/00-pearson/15-loader/loading";
+@import "../source/_patterns/00-pearson/17-toggle/toggle";
+@import "../source/_patterns/00-pearson/18-tables/tables";
+@import "../source/_patterns/00-pearson/21-alerts/alert";
+@import "../source/_patterns/00-pearson/20-footer/footer";
+@import "../source/_patterns/00-pearson/23-tab-navigation/tab-navigation";
+@import "../source/_patterns/00-pearson/23-coachmarks/coachmark";
+@import "../source/_patterns/00-pearson/22-modal/modal";
+@import "../source/_patterns/00-pearson/26-drawer/drawer";
+@import "../source/_patterns/00-pearson/27-forms/forms";
+@import "../source/_patterns/00-pearson/24-breadcrumbs/breadcrumbs";
+@import "../source/_patterns/00-pearson/25-accordion/accordion";
+@import "../source/_patterns/01-atoms/00-redlines/redline-example";
+
+// Revel styles from add on.
+@import "../../_add-ons/epubs/epub";
+@import "../../_add-ons/epubs/feldman/chapter-8/source/_patterns/01-atoms/00-progress/progress";
+@import "../../_add-ons/epubs/feldman/chapter-8/source/_patterns/02-molecules/00-progress/progress-bar";
+@import "../../_add-ons/epubs/feldman/chapter-8/source/_patterns/03-organisms/00-revel-footer/revel-footer";
+@import "../../_add-ons/epubs/feldman/chapter-8/source/_patterns/03-organisms/01-revel-header/revel-header";

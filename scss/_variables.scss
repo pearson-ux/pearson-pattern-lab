@@ -1,0 +1,244 @@
+// Primary Colors
+$primary: $pe-color-digital-pearson-blue;
+$primary-two: $pe-color-ink-blue;
+$primary-three: $pe-color-white;
+$primary-four: $pe-color-white-gray;
+
+$secondary: $pe-color-sunshine-yellow;
+$secondary-two: $pe-color-sunflower-yellow;
+$secondary-three: $pe-color-digital-ice-blue;
+$secondary-four: $pe-color-digital-marine-turquoise;
+$secondary-five: $pe-color-brackish-turquoise;
+
+$neutral: $pe-color-concrete;
+$neutral-two: $pe-color-charcoal;
+$neutral-three: $pe-color-medium-gray;
+$neutral-four: $pe-color-alto;
+$neutral-five: $pe-color-moonlight;
+$neutral-six: #f5f5f5;
+
+$condition-one: $pe-color-strawberry-red;
+$condition-two: $pe-color-digital-grass-green;
+$condition-three: $pe-color-hot-pink;
+
+$border: $neutral;
+$error: $condition-one;
+$success: $secondary-four;
+
+// Datavis colors p_schemeCategory10
+$d3-10-array00: $primary;
+
+// digital pearson blue
+$d3-10-array01: #ea7600;
+
+// juicy orange
+$d3-10-array02: $condition-two;
+
+// digital green grass
+$d3-10-array03: $condition-one;
+
+// strawberry red
+$d3-10-array04: #9e007e;
+
+// royal purple
+$d3-10-array05: #bb5e00;
+
+// dark juicy orange
+$d3-10-array06: $condition-three;
+
+// digital hot pink
+$d3-10-array07: $neutral-three;
+
+// medium gray
+$d3-10-array08: #a8af0b;
+
+// dark lime green
+$d3-10-array09: $secondary-four;
+
+// digital marine turquoise
+
+// Datavis colors p_schemeCategory20
+$d3-20-array00: $primary;
+
+// digital pearson blue
+$d3-20-array01: #80bdcf;
+
+// half digital pearson blue
+$d3-20-array02: #ea7600;
+
+// juicy orange
+$d3-20-array03: #f5bb7a;
+
+// half juicy orange
+$d3-20-array04: $condition-two;
+
+// digital green grass
+$d3-20-array05: #7fc19a;
+
+// half digital green grass
+$d3-20-array06: $condition-one;
+
+// strawberry red
+$d3-20-array07: #ef7e8e;
+
+// half strawberry red
+$d3-20-array08: #9e007e;
+
+// royal purple
+$d3-20-array09: #cf7dbf;
+
+// half royal purple
+$d3-20-array10: #bb5e00;
+
+// dark juicy orange
+$d3-20-array11: #deaf7c;
+
+// half dark juicy orange
+$d3-20-array12: $condition-three;
+
+// digital hot pink
+$d3-20-array13: #ee7fba;
+
+// half digital hot pink
+$d3-20-array14: $neutral-three;
+
+// medium gray
+$d3-20-array15: #b4b7b7;
+
+// half medium gray
+$d3-20-array16: #a8af0b;
+
+// dark lime green
+$d3-20-array17: #d3d880;
+
+// half dark lime green
+$d3-20-array18: $secondary-four;
+
+// digital marine turquoise
+$d3-20-array19: #89d2d2;
+
+// half digital marine turquoise
+
+// Datavis colors p_schemeCategory20b
+$d3-20b-array00: #6e0057;
+
+// dark royal purple
+$d3-20b-array01: #8c307a;
+
+// 4/5, 80% dark royal purple
+$d3-20b-array02: #a9649b;
+
+// 3/5, 60% dark royal purple
+$d3-20b-array03: #c698bd;
+
+// 2/5, 40% dark royal purple
+$d3-20b-array04: #025a27;
+
+// dark digital grass green
+$d3-20b-array05: #327c51;
+
+// 4/5, 80% dark digital grass green
+$d3-20b-array06: #659d7c;
+
+// 3/5, 60% dark digital grass green
+$d3-20b-array07: #99bda9;
+
+// 2/5, 40% dark digital grass green
+$d3-20b-array08: #bb5e00;
+
+// dark juicy orange
+$d3-20b-array09: #cb7f28;
+
+// 4/5, 80% dark juicy orange
+$d3-20b-array10: #d79f61;
+
+// 3/5, 60% dark juicy orange
+$d3-20b-array11: #e5bf96;
+
+// 2/5, 40% dark juicy orange
+$d3-20b-array12: #af0019;
+
+// dark strawberry red
+$d3-20b-array13: #c13144;
+
+// 4/5, 80% dark strawberry red
+$d3-20b-array14: #d16574;
+
+// 3/5, 60% dark strawberry red
+$d3-20b-array15: #e098a2;
+
+// 2/5, 40% dark strawberry red
+$d3-20b-array16: #ae035c;
+
+// dark digital hot pink
+$d3-20b-array17: #c0317d;
+
+// 4/5, 80% dark digital hot pink
+$d3-20b-array18: #d0669e;
+
+// 3/5, 60% dark digital hot pink
+$d3-20b-array19: #e099bf;
+
+// 2/5, 40% dark digital hot pink
+
+// Datavis colors p_schemeCategory20c
+$d3-20c-array00: $primary;
+
+// digital pearson blue
+$d3-20c-array01: #3095b2;
+
+// 4/5, 80% digital pearson blue
+$d3-20c-array02: #65afc5;
+
+// 3/5, 60% digital pearson blue
+$d3-20c-array03: #99cad8;
+
+// 2/5, 40% digital pearson blue
+$d3-20c-array04: #ea7600;
+
+// juicy orange
+$d3-20c-array05: #f09222;
+
+// 4/5, 80% juicy orange
+$d3-20c-array06: #f4ae5f;
+
+// 3/5, 60% juicy orange
+$d3-20c-array07: #f8c996;
+
+// 2/5, 40% juicy orange
+$d3-20c-array08: $condition-two;
+
+// digital grass green
+$d3-20c-array09: #2f9c5e;
+
+// 4/5, 80% digital grass green
+$d3-20c-array10: #65b587;
+
+// 3/5, 60% digital grass green
+$d3-20c-array11: #98ceae;
+
+// 2/5, 40% digital grass green
+$d3-20c-array12: #9e007e;
+
+// royal purple
+$d3-20c-array13: #b32d99;
+
+// 4/5, 80% royal purple
+$d3-20c-array14: #c763b3;
+
+// 3/5, 60% royal purple
+$d3-20c-array15: #d998cc;
+
+// 2/5, 40% royal purple
+$d3-20c-array16: $neutral-three;
+
+// medium gray
+$d3-20c-array17: #888d8d;
+
+// 4/5, 80% medium gray
+$d3-20c-array18: #a6a9a9;
+
+// 3/5, 60% medium gray
+$d3-20c-array19: #c3c6c6;
+
+// 2/5, 40% medium gray

@@ -7,7 +7,13 @@ var gulp = require('gulp'),
   path = require('path'),
   browserSync = require('browser-sync').create(),
   argv = require('minimist')(process.argv.slice(2)),
-  chalk = require('chalk');
+  chalk = require('chalk'),
+  sass = require('gulp-sass'),
+  postcss = require('gulp-postcss'),
+  autoprefixer = require('autoprefixer'),
+  cssnano = require('cssnano'),
+  sourcemaps = require('gulp-sourcemaps'),
+  exec = require('child_process').exec;
 
 /**
  * Normalize all paths to be plain, paths with no leading './',
@@ -258,9 +264,62 @@ gulp.task('patternlab:connect', gulp.series(function (done) {
   });
 }));
 
+// compile scss
+gulp.task('styles', function () {
+  return gulp.src('scss/style.scss')
+  .pipe(sourcemaps.init())
+  .pipe(sass()).on('error', sass.logError)
+  // Use postcss with autoprefixer and compress the compiled file using cssnano
+  .pipe(postcss([
+    autoprefixer({
+      browsers: ['last 2 version', 'safari > 6', 'ie 11', 'opera 12.1', 'ios 6', 'android > 3','Firefox > 47'],
+      cascade: false
+    }),
+    cssnano()
+  ]))
+  // Now add/write the sourcemaps
+  .pipe(sourcemaps.write())
+  .pipe(gulp.dest('source/css'))
+  .pipe(gulp.dest('public/css'));
+});
+
 /******************************************************
  * COMPOUND TASKS
 ******************************************************/
 gulp.task('default', gulp.series('patternlab:build'));
 gulp.task('patternlab:watch', gulp.series('patternlab:build', watch));
 gulp.task('patternlab:serve', gulp.series('patternlab:build', 'patternlab:connect', watch));
+
+gulp.task('watch', function() {
+  gulp.watch('./scss/*.scss', gulp.series('styles'));
+  gulp.watch('./scss/**/*.scss', gulp.series('styles'));
+  gulp.watch('./source/_patterns/**/*.scss', gulp.series('styles'));
+  gulp.watch('./source/_patterns/**/**/*.scss', gulp.series('styles'));
+});
+
+gulp.task('run', function(cb) {
+  exec('node_modules/gulp/bin/gulp.js patternlab:build --gulpfile ./gulpfile.js', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+
+  exec('node_modules/gulp/bin/gulp.js styles --gulpfile ./gulpfile.js', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+
+  exec('node_modules/gulp/bin/gulp.js patternlab:serve --gulpfile ./gulpfile.js', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+
+  exec('node_modules/gulp/bin/gulp.js watch --gulpfile ./gulpfile.js', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+});
+

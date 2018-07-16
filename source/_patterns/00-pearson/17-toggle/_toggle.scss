@@ -1,0 +1,90 @@
+.toggle {
+  button {
+    &:focus {
+      + label {
+        outline: 1px dotted #212121;
+        outline: 5px auto -webkit-focus-ring-color;
+      }
+    }
+  }
+
+  button.pe-toggle {
+    background: $neutral-three;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 100px;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    cursor: pointer;
+    border: 1px solid $neutral;
+
+    &[aria-checked='true'] {
+      background: $primary;
+
+      &::before {
+        left: 31px;
+      }
+    }
+
+    &::before {
+      content: '';
+      background: #fff;
+      display: block;
+      position: absolute;
+      left: -1px;
+      top: 0;
+      border-radius: 100%;
+      width: 23px;
+      height: 23px;
+      transition: left 0.3s;
+      border: 1px solid $neutral-three;
+    }
+
+    span {
+      position: absolute;
+      top: 6px;
+      font-size: 0.8em;
+      pointer-events: none;
+    }
+
+    & :first-child {
+      right: 27px;
+    }
+
+    & :last-child {
+      right: 8px;
+    }
+
+    &[aria-checked='false'] :first-child,
+    &[aria-checked='true'] :last-child {
+      display: none;
+    }
+
+    &[aria-checked='false'] :last-child,
+    &[aria-checked='true'] :first-child {
+      color: #fff;
+    }
+
+    + label.pe-toggle {
+      vertical-align: middle;
+    }
+  }
+
+  .feedback {
+    display: flex;
+    align-items: center;
+
+    .form-control {
+      padding-left: 25px;
+
+      @media (max-width: 600px) {
+        padding-left: 0;
+      }
+    }
+  }
+}

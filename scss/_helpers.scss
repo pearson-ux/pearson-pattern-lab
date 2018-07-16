@@ -1,0 +1,546 @@
+// Box Reset ///////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  @media (max-width: 640px) {
+    overflow-x: hidden;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// Background Color Helpers ////////////////////////////////////
+////////////////////////////////////////////////////////////////
+.black-bg {
+  @include setcolor(#000);
+}
+
+.white-bg {
+  @include setcolor(#fff);
+}
+
+.main-bg {
+  @include setcolor($primary);
+}
+
+.main-two-bg {
+  @include setcolor($primary-two);
+}
+
+.main-three-bg {
+  @include setcolor($primary-three);
+}
+
+.main-four-bg {
+  @include setcolor($primary-four);
+}
+
+.secondary-bg {
+  @include setcolor($secondary);
+}
+
+.secondary-two-bg {
+  @include setcolor($secondary-two);
+}
+
+.secondary-three-bg {
+  @include setcolor($secondary-three);
+}
+
+.secondary-four-bg {
+  @include setcolor($secondary-four);
+}
+
+.secondary-five-bg {
+  @include setcolor($secondary-five);
+}
+
+.neutral-bg {
+  @include setcolor($neutral);
+}
+
+.neutral-two-bg {
+  @include setcolor($neutral-two);
+}
+
+.neutral-three-bg {
+  @include setcolor($neutral-three);
+}
+
+.neutral-four-bg {
+  @include setcolor($neutral-four);
+}
+
+.neutral-five-bg {
+  @include setcolor($neutral-five);
+}
+
+.condition-one-bg {
+  @include setcolor($condition-one);
+}
+
+.condition-two-bg {
+  @include setcolor($condition-two);
+}
+
+.condition-three-bg {
+  @include setcolor($condition-three);
+}
+
+// D3 Colors 10 Array //////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+.d3-10-array00-bg {
+  @include setcolor($d3-10-array00);
+}
+
+.d3-10-array01-bg {
+  @include setcolor($d3-10-array01);
+}
+
+.d3-10-array02-bg {
+  @include setcolor($condition-two);
+}
+
+.d3-10-array03-bg {
+  @include setcolor($condition-one);
+}
+
+.d3-10-array04-bg {
+  @include setcolor(#9e007e);
+}
+
+.d3-10-array05-bg {
+  @include setcolor(#bb5e00);
+}
+
+.d3-10-array06-bg {
+  @include setcolor($condition-three);
+}
+
+.d3-10-array07-bg {
+  @include setcolor($neutral-three);
+}
+
+.d3-10-array08-bg {
+  @include setcolor(#a8af0b);
+}
+
+.d3-10-array09-bg {
+  @include setcolor(#19a5a3);
+}
+
+// D3 Colors 20 Array //////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+.d3-20-array00-bg {
+  @include setcolor($d3-20-array00);
+}
+
+.d3-20-array01-bg {
+  @include setcolor($d3-20-array01);
+}
+
+.d3-20-array02-bg {
+  @include setcolor($d3-20-array02);
+}
+
+.d3-20-array03-bg {
+  @include setcolor($d3-20-array03);
+}
+
+.d3-20-array04-bg {
+  @include setcolor($d3-20-array04);
+}
+
+.d3-20-array05-bg {
+  @include setcolor($d3-20-array05);
+}
+
+.d3-20-array06-bg {
+  @include setcolor($d3-20-array06);
+}
+
+.d3-20-array07-bg {
+  @include setcolor($d3-20-array07);
+}
+
+.d3-20-array08-bg {
+  @include setcolor($d3-20-array08);
+}
+
+.d3-20-array09-bg {
+  @include setcolor($d3-20-array09);
+}
+
+.d3-20-array10-bg {
+  @include setcolor($d3-20-array10);
+}
+
+.d3-20-array11-bg {
+  @include setcolor($d3-20-array11);
+}
+
+.d3-20-array12-bg {
+  @include setcolor($d3-20-array12);
+}
+
+.d3-20-array13-bg {
+  @include setcolor($d3-20-array13);
+}
+
+.d3-20-array14-bg {
+  @include setcolor($d3-20-array14);
+}
+
+.d3-20-array15-bg {
+  @include setcolor($d3-20-array15);
+}
+
+.d3-20-array16-bg {
+  @include setcolor($d3-20-array16);
+}
+
+.d3-20-array17-bg {
+  @include setcolor($d3-20-array17);
+}
+
+.d3-20-array18-bg {
+  @include setcolor($d3-20-array18);
+}
+
+.d3-20-array19-bg {
+  @include setcolor($d3-20-array19);
+}
+
+// D3 Colors 20b Array //////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+.d3-20b-array00-bg {
+  @include setcolor($d3-20b-array00);
+}
+
+.d3-20b-array01-bg {
+  @include setcolor($d3-20b-array01);
+}
+
+.d3-20b-array02-bg {
+  @include setcolor($d3-20b-array02);
+}
+
+.d3-20b-array03-bg {
+  @include setcolor($d3-20b-array03);
+}
+
+.d3-20b-array04-bg {
+  @include setcolor($d3-20b-array04);
+}
+
+.d3-20b-array05-bg {
+  @include setcolor($d3-20b-array05);
+}
+
+.d3-20b-array06-bg {
+  @include setcolor($d3-20b-array06);
+}
+
+.d3-20b-array07-bg {
+  @include setcolor($d3-20b-array07);
+}
+
+.d3-20b-array08-bg {
+  @include setcolor($d3-20b-array08);
+}
+
+.d3-20b-array09-bg {
+  @include setcolor($d3-20b-array09);
+}
+
+.d3-20b-array10-bg {
+  @include setcolor($d3-20b-array10);
+}
+
+.d3-20b-array11-bg {
+  @include setcolor($d3-20b-array11);
+}
+
+.d3-20b-array12-bg {
+  @include setcolor($d3-20b-array12);
+}
+
+.d3-20b-array13-bg {
+  @include setcolor($d3-20b-array13);
+}
+
+.d3-20b-array14-bg {
+  @include setcolor($d3-20b-array14);
+}
+
+.d3-20b-array15-bg {
+  @include setcolor($d3-20b-array15);
+}
+
+.d3-20b-array16-bg {
+  @include setcolor($d3-20b-array16);
+}
+
+.d3-20b-array17-bg {
+  @include setcolor($d3-20b-array17);
+}
+
+.d3-20b-array18-bg {
+  @include setcolor($d3-20b-array18);
+}
+
+.d3-20b-array19-bg {
+  @include setcolor($d3-20b-array19);
+}
+
+// D3 Colors 20c Array //////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+.d3-20c-array00-bg {
+  @include setcolor($d3-20c-array00);
+}
+
+.d3-20c-array01-bg {
+  @include setcolor($d3-20c-array01);
+}
+
+.d3-20c-array02-bg {
+  @include setcolor($d3-20c-array02);
+}
+
+.d3-20c-array03-bg {
+  @include setcolor($d3-20c-array03);
+}
+
+.d3-20c-array04-bg {
+  @include setcolor($d3-20c-array04);
+}
+
+.d3-20c-array05-bg {
+  @include setcolor($d3-20c-array05);
+}
+
+.d3-20c-array06-bg {
+  @include setcolor($d3-20c-array06);
+}
+
+.d3-20c-array07-bg {
+  @include setcolor($d3-20c-array07);
+}
+
+.d3-20c-array08-bg {
+  @include setcolor($d3-20c-array08);
+}
+
+.d3-20c-array09-bg {
+  @include setcolor($d3-20c-array09);
+}
+
+.d3-20c-array10-bg {
+  @include setcolor($d3-20c-array10);
+}
+
+.d3-20c-array11-bg {
+  @include setcolor($d3-20c-array11);
+}
+
+.d3-20c-array12-bg {
+  @include setcolor($d3-20c-array12);
+}
+
+.d3-20c-array13-bg {
+  @include setcolor($d3-20c-array13);
+}
+
+.d3-20c-array14-bg {
+  @include setcolor($d3-20c-array14);
+}
+
+.d3-20c-array15-bg {
+  @include setcolor($d3-20c-array15);
+}
+
+.d3-20c-array16-bg {
+  @include setcolor($d3-20c-array16);
+}
+
+.d3-20c-array17-bg {
+  @include setcolor($d3-20c-array17);
+}
+
+.d3-20c-array18-bg {
+  @include setcolor($d3-20c-array18);
+}
+
+.d3-20c-array19-bg {
+  @include setcolor($d3-20c-array19);
+}
+
+// Font Color Helpers - Targets color and fill color for SVG ///
+////////////////////////////////////////////////////////////////
+.black {
+  @include font-color(#000);
+}
+
+.white {
+  @include font-color(#fff);
+}
+
+.primary {
+  @include font-color($primary);
+}
+
+.main-two {
+  @include font-color($primary-two);
+}
+
+.main-three {
+  @include font-color($primary-three);
+}
+
+.main-four {
+  @include font-color($primary-four);
+}
+
+.secondary {
+  @include font-color($secondary);
+}
+
+.secondary-two {
+  @include font-color($secondary-two);
+}
+
+.secondary-three {
+  @include font-color($secondary-three);
+}
+
+.secondary-four {
+  @include font-color($secondary-four);
+}
+
+.neutral {
+  @include font-color($neutral);
+}
+
+.neutral-two {
+  @include font-color($neutral-two);
+}
+
+.neutral-three {
+  @include font-color($neutral-three);
+}
+
+.neutral-four {
+  @include font-color($neutral-four);
+}
+
+.neutral-five {
+  @include font-color($neutral-five);
+}
+
+.condition-one {
+  @include font-color($condition-one);
+}
+
+.condition-two {
+  @include font-color($condition-two);
+}
+
+.condition-three {
+  @include font-color($condition-three);
+}
+
+.flex-container {
+  @include flex;
+
+  &.justify-flex-start {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.circle-image {
+  img {
+    border-radius: 50%;
+  }
+}
+
+.circle-image li {
+  list-style: none;
+  width: 50%;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+}
+
+.margin-sides {
+  margin: 0 1em;
+}
+
+.margin-right {
+  margin-right: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+.justify-end {
+  justify-content: flex-end !important;
+}
+
+.pad-top-4 {
+  padding-top: 4em;
+}
+
+.pad-top-2 {
+  padding-top: 2em;
+}
+
+.badge {
+  max-width: 125px;
+  margin-bottom: 1em;
+}
+
+.stars {
+  max-width: 250px;
+  margin-bottom: 1em;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+body {
+  background: white;
+}

@@ -1,0 +1,11 @@
+{{#tabNavigation}}
+<div class="tabbed-navigation">
+    <ul class="tabs" data-tab role="tablist">
+        {{#tabList}}
+        <li class="tab-title{{#active}} active{{/active}}" role="presentation">
+            <a class="pe-label neutral-three tab-name" role="tab" tabindex="0" aria-selected="{{active-label}}">{{label}}</a>
+        </li>
+        {{/tabList}}
+    </ul>
+</div>
+{{/tabNavigation}}

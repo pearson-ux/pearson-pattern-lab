@@ -1,0 +1,20 @@
+{
+    "alert": [{
+        "error": true,
+        "button": [{
+            "label": "Close error dialog",
+            "icon": [{
+                "icon": "remove-sm-24",
+                "label": "Close error dialog"
+            }]
+        }],
+        "showIcon": [{
+            "icon": [{
+                "icon": "warning-18",
+                "label": "Error"
+            }]
+        }],
+        "title": "Lorem ipsom dolor sit amet.",
+        "content": "Ronsectetuer adipiscing elit. Aene eoo rjgieo roi an commodo ligula eget dolor enean massa."
+    }]
+}

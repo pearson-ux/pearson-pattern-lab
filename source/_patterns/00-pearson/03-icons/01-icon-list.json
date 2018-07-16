@@ -1,0 +1,1601 @@
+{
+    "iconList": [{
+            "front": [{
+                "icon": [{
+                    "icon": "flip-card-24",
+                    "decorative": true
+                }],
+                "size": "flip-card-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "flip-card-18",
+                    "decorative": true
+                }],
+                "size": "flip-card-18",
+                "label": "flip"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "file-word-24",
+                    "decorative": true
+                }],
+                "size": "file-word-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "file-word-18",
+                    "decorative": true
+                }],
+                "size": "file-word-18",
+                "label": "word file"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "file-powerpoint-24",
+                    "decorative": true
+                }],
+                "size": "file-powerpoint-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "file-powerpoint-18",
+                    "decorative": true
+                }],
+                "size": "file-powerpoint-18",
+                "label": "powerpoint file"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "file-pdf-24",
+                    "decorative": true
+                }],
+                "size": "file-pdf-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "file-pdf-18",
+                    "decorative": true
+                }],
+                "size": "file-pdf-18",
+                "label": "pdf file"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "file-excel-24",
+                    "decorative": true
+                }],
+                "size": "file-excel-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "file-excel-18",
+                    "decorative": true
+                }],
+                "size": "file-excel-18",
+                "label": "excel file"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "adobe-acrobat-24",
+                    "decorative": true
+                }],
+                "size": "adobe-acrobat-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "adobe-acrobat-18",
+                    "decorative": true
+                }],
+                "size": "adobe-acrobat-18",
+                "label": "adobe acrobat"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "upload-24",
+                    "decorative": true
+                }],
+                "size": "upload-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "upload-18",
+                    "decorative": true
+                }],
+                "size": "upload-18",
+                "label": "upload"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "download-24",
+                    "decorative": true
+                }],
+                "size": "download-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "download-18",
+                    "decorative": true
+                }],
+                "size": "download-18",
+                "label": "download"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "shopping-cart-24",
+                    "decorative": true
+                }],
+                "size": "shopping-cart-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "shopping-cart-18",
+                    "decorative": true
+                }],
+                "size": "shopping-cart-18",
+                "label": "shopping cart"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "comment-24",
+                    "decorative": true
+                }],
+                "size": "comment-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "comment-18",
+                    "decorative": true
+                }],
+                "size": "comment-18",
+                "label": "comment"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "archive-24",
+                    "decorative": true
+                }],
+                "size": "archive-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "archive-18",
+                    "decorative": true
+                }],
+                "size": "archive-18",
+                "label": "archive"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "audio-high-24",
+                    "decorative": true
+                }],
+                "size": "audio-high-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "audio-high-18",
+                    "decorative": true
+                }],
+                "size": "audio-high-18",
+                "label": "increase volume"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "audio-low-24",
+                    "decorative": true
+                }],
+                "size": "audio-low-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "audio-low-18",
+                    "decorative": true
+                }],
+                "size": "audio-low-18",
+                "label": "decrease volume"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "audio-off-24",
+                    "decorative": true
+                }],
+                "size": "audio-off-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "audio-off-18",
+                    "decorative": true
+                }],
+                "size": "audio-off-18",
+                "label": "turn off audio"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "ban-24",
+                    "decorative": true
+                }],
+                "size": "ban-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "ban-18",
+                    "decorative": true
+                }],
+                "size": "ban-18",
+                "label": "ban"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "book-24",
+                    "decorative": true
+                }],
+                "size": "book-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "book-18",
+                    "decorative": true
+                }],
+                "size": "book-18",
+                "label": "book"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "bookmark-off-24",
+                    "decorative": true
+                }],
+                "size": "bookmark-off-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "bookmark-off-18",
+                    "decorative": true
+                }],
+                "size": "bookmark-off-18",
+                "label": "undo bookmark"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "bookmark-on-24",
+                    "decorative": true
+                }],
+                "size": "bookmark-on-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "bookmark-on-18",
+                    "decorative": true
+                }],
+                "size": "bookmark-on-18",
+                "label": "bookmark"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "calendar-24",
+                    "decorative": true
+                }],
+                "size": "calendar-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "calendar-18",
+                    "decorative": true
+                }],
+                "size": "calendar-18",
+                "label": "calendar"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "camera-24",
+                    "decorative": true
+                }],
+                "size": "camera-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "camera-18",
+                    "decorative": true
+                }],
+                "size": "camera-18",
+                "label": "camera"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "camera-video-24",
+                    "decorative": true
+                }],
+                "size": "camera-video-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "camera-video-18",
+                    "decorative": true
+                }],
+                "size": "camera-video-18",
+                "label": "video camera"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "capslock-24",
+                    "decorative": true
+                }],
+                "size": "capslock-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "capslock-18",
+                    "decorative": true
+                }],
+                "size": "capslock-18",
+                "label": "capslock"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "check-lg-24",
+                    "decorative": true
+                }],
+                "size": "check-lg-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "check-lg-18",
+                    "decorative": true
+                }],
+                "size": "check-lg-18",
+                "label": "check"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "check-sm-24",
+                    "decorative": true
+                }],
+                "size": "check-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "check-sm-18",
+                    "decorative": true
+                }],
+                "size": "check-sm-18",
+                "label": "check"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "checkbox-off-24",
+                    "decorative": true
+                }],
+                "size": "checkbox-off-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "checkbox-off-18",
+                    "decorative": true
+                }],
+                "size": "checkbox-off-18",
+                "label": "unchecked"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "checkbox-on-24",
+                    "decorative": true
+                }],
+                "size": "checkbox-on-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "checkbox-on-18",
+                    "decorative": true
+                }],
+                "size": "checkbox-on-18",
+                "label": "checked"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "checkbox-tristate-24",
+                    "decorative": true
+                }],
+                "size": "checkbox-tristate-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "checkbox-tristate-18",
+                    "decorative": true
+                }],
+                "size": "checkbox-tristate-18",
+                "label": "indeterminate "
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "chevron-back-sm-24",
+                    "decorative": true
+                }],
+                "size": "chevron-back-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "chevron-back-sm-18",
+                    "decorative": true
+                }],
+                "size": "chevron-back-sm-18",
+                "label": "back"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "chevron-next-sm-24",
+                    "decorative": true
+                }],
+                "size": "chevron-next-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "chevron-next-sm-18",
+                    "decorative": true
+                }],
+                "size": "chevron-next-sm-18",
+                "label": "next"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "chevron-back-24",
+                    "decorative": true
+                }],
+                "size": "chevron-back-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "chevron-back-18",
+                    "decorative": true
+                }],
+                "size": "chevron-back-18",
+                "label": "back"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "chevron-next-24",
+                    "decorative": true
+                }],
+                "size": "chevron-next-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "chevron-next-18",
+                    "decorative": true
+                }],
+                "size": "chevron-next-18",
+                "label": "next"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "clock-24",
+                    "decorative": true
+                }],
+                "size": "clock-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "clock-18",
+                    "decorative": true
+                }],
+                "size": "clock-18",
+                "label": "back"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "delete-24",
+                    "decorative": true
+                }],
+                "size": "delete-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "delete-18",
+                    "decorative": true
+                }],
+                "size": "delete-18",
+                "label": "delete"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "desktop-24",
+                    "decorative": true
+                }],
+                "size": "desktop-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "desktop-18",
+                    "decorative": true
+                }],
+                "size": "desktop-18",
+                "label": "desktop"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "dropdown-close-sm-24",
+                    "decorative": true
+                }],
+                "size": "dropdown-close-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "dropdown-close-sm-18",
+                    "decorative": true
+                }],
+                "size": "dropdown-close-sm-18",
+                "label": "close dropdown"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "dropdown-open-sm-24",
+                    "decorative": true
+                }],
+                "size": "dropdown-open-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "dropdown-open-sm-18",
+                    "decorative": true
+                }],
+                "size": "dropdown-open-sm-18",
+                "label": "open dropdown"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "dropdown-close-24",
+                    "decorative": true
+                }],
+                "size": "dropdown-close-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "dropdown-close-18",
+                    "decorative": true
+                }],
+                "size": "dropdown-close-18",
+                "label": "close dropdown"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "dropdown-open-24",
+                    "decorative": true
+                }],
+                "size": "dropdown-open-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "dropdown-open-18",
+                    "decorative": true
+                }],
+                "size": "dropdown-open-18",
+                "label": "open dropdown"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "edit-24",
+                    "decorative": true
+                }],
+                "size": "edit-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "edit-18",
+                    "decorative": true
+                }],
+                "size": "edit-18",
+                "label": "edit"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "ellipsis-24",
+                    "decorative": true
+                }],
+                "size": "ellipsis-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "ellipsis-18",
+                    "decorative": true
+                }],
+                "size": "ellipsis-18",
+                "label": "ellipsis"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "email-24",
+                    "decorative": true
+                }],
+                "size": "email-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "email-18",
+                    "decorative": true
+                }],
+                "size": "email-18",
+                "label": "email"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "favorite-off-24",
+                    "decorative": true
+                }],
+                "size": "favorite-off-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "favorite-off-18",
+                    "decorative": true
+                }],
+                "size": "favorite-off-18",
+                "label": "undo favorite"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "favorite-on-24",
+                    "decorative": true
+                }],
+                "size": "favorite-on-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "favorite-on-18",
+                    "decorative": true
+                }],
+                "size": "favorite-on-18",
+                "label": "favorite"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "file-24",
+                    "decorative": true
+                }],
+                "size": "file-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "file-18",
+                    "decorative": true
+                }],
+                "size": "file-18",
+                "label": "file"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "font-lg-24",
+                    "decorative": true
+                }],
+                "size": "font-lg-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "font-lg-18",
+                    "decorative": true
+                }],
+                "size": "font-lg-18",
+                "label": "font"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "font-setting-24",
+                    "decorative": true
+                }],
+                "size": "font-setting-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "font-setting-18",
+                    "decorative": true
+                }],
+                "size": "font-setting-18",
+                "label": "font setting"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "font-sm-24",
+                    "decorative": true
+                }],
+                "size": "font-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "font-sm-18",
+                    "decorative": true
+                }],
+                "size": "font-sm-18",
+                "label": "font"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "group-24",
+                    "decorative": true
+                }],
+                "size": "group-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "group-18",
+                    "decorative": true
+                }],
+                "size": "group-18",
+                "label": "group"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "help-fill-24",
+                    "decorative": true
+                }],
+                "size": "help-fill-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "help-fill-18",
+                    "decorative": true
+                }],
+                "size": "help-fill-18",
+                "label": "help"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "help-outline-24",
+                    "decorative": true
+                }],
+                "size": "help-outline-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "help-outline-18",
+                    "decorative": true
+                }],
+                "size": "help-outline-18",
+                "label": "help"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "image-24",
+                    "decorative": true
+                }],
+                "size": "image-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "image-18",
+                    "decorative": true
+                }],
+                "size": "image-18",
+                "label": "image"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "info-fill-24",
+                    "decorative": true
+                }],
+                "size": "info-fill-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "info-fill-18",
+                    "decorative": true
+                }],
+                "size": "info-fill-18",
+                "label": "information"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "info-outline-24",
+                    "decorative": true
+                }],
+                "size": "info-outline-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "info-outline-18",
+                    "decorative": true
+                }],
+                "size": "info-outline-18",
+                "label": "information"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "item-add-24",
+                    "decorative": true
+                }],
+                "size": "item-add-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "item-add-18",
+                    "decorative": true
+                }],
+                "size": "item-add-18",
+                "label": "add an item"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "item-remove-24",
+                    "decorative": true
+                }],
+                "size": "item-remove-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "item-remove-18",
+                    "decorative": true
+                }],
+                "size": "item-remove-18",
+                "label": "remove an item"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "lock-close-24",
+                    "decorative": true
+                }],
+                "size": "lock-close-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "lock-close-18",
+                    "decorative": true
+                }],
+                "size": "lock-close-18",
+                "label": "lock"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "lock-open-24",
+                    "decorative": true
+                }],
+                "size": "lock-open-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "lock-open-18",
+                    "decorative": true
+                }],
+                "size": "lock-open-18",
+                "label": "unlock"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "note-24",
+                    "decorative": true
+                }],
+                "size": "note-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "note-18",
+                    "decorative": true
+                }],
+                "size": "note-18",
+                "label": "note"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "notification-24",
+                    "decorative": true
+                }],
+                "size": "notification-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "notification-18",
+                    "decorative": true
+                }],
+                "size": "notification-18",
+                "label": "notification"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "pause-24",
+                    "decorative": true
+                }],
+                "size": "pause-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "pause-18",
+                    "decorative": true
+                }],
+                "size": "pause-18",
+                "label": "pause"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "person-24",
+                    "decorative": true
+                }],
+                "size": "person-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "person-18",
+                    "decorative": true
+                }],
+                "size": "person-18",
+                "label": "person"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "pivot-close-24",
+                    "decorative": true
+                }],
+                "size": "pivot-close-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "pivot-close-18",
+                    "decorative": true
+                }],
+                "size": "pivot-close-18",
+                "label": "close"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "pivot-open-24",
+                    "decorative": true
+                }],
+                "size": "pivot-open-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "pivot-open-18",
+                    "decorative": true
+                }],
+                "size": "pivot-open-18",
+                "label": "open"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "play-24",
+                    "decorative": true
+                }],
+                "size": "play-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "play-18",
+                    "decorative": true
+                }],
+                "size": "play-18",
+                "label": "play"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "point-back-24",
+                    "decorative": true
+                }],
+                "size": "point-back-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "point-back-18",
+                    "decorative": true
+                }],
+                "size": "point-back-18",
+                "label": "back"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "point-next-24",
+                    "decorative": true
+                }],
+                "size": "point-next-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "point-next-18",
+                    "decorative": true
+                }],
+                "size": "point-next-18",
+                "label": "next"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "print-24",
+                    "decorative": true
+                }],
+                "size": "print-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "print-18",
+                    "decorative": true
+                }],
+                "size": "print-18",
+                "label": "print"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "radio-button-on-24",
+                    "decorative": true
+                }],
+                "size": "radio-button-on-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "radio-button-on-18",
+                    "decorative": true
+                }],
+                "size": "radio-button-on-18",
+                "label": "radion button selected"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "radio-button-off-24",
+                    "decorative": true
+                }],
+                "size": "radio-button-off-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "radio-button-off-18",
+                    "decorative": true
+                }],
+                "size": "radio-button-off-18",
+                "label": "radio button unselected"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "remove-lg-24",
+                    "decorative": true
+                }],
+                "size": "remove-lg-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "remove-lg-18",
+                    "decorative": true
+                }],
+                "size": "remove-lg-18",
+                "label": "remove"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "remove-sm-24",
+                    "decorative": true
+                }],
+                "size": "remove-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "remove-sm-18",
+                    "decorative": true
+                }],
+                "size": "remove-sm-18",
+                "label": "remove"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "screen-full-24",
+                    "decorative": true
+                }],
+                "size": "screen-full-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "screen-full-18",
+                    "decorative": true
+                }],
+                "size": "screen-full-18",
+                "label": "full screen"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "screen-minimize-24",
+                    "decorative": true
+                }],
+                "size": "screen-minimize-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "screen-minimize-18",
+                    "decorative": true
+                }],
+                "size": "screen-minimize-18",
+                "label": "minimize screen"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "search-lg-24",
+                    "decorative": true
+                }],
+                "size": "search-lg-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "search-lg-18",
+                    "decorative": true
+                }],
+                "size": "search-lg-18",
+                "label": "search"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "search-sm-24",
+                    "decorative": true
+                }],
+                "size": "search-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "search-sm-18",
+                    "decorative": true
+                }],
+                "size": "search-sm-18",
+                "label": "search"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "settings-24",
+                    "decorative": true
+                }],
+                "size": "settings-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "settings-18",
+                    "decorative": true
+                }],
+                "size": "settings-18",
+                "label": "settings"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "show-off-24",
+                    "decorative": true
+                }],
+                "size": "show-off-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "show-off-18",
+                    "decorative": true
+                }],
+                "size": "show-off-18",
+                "label": "hidden"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "show-on-24",
+                    "decorative": true
+                }],
+                "size": "show-on-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "show-on-18",
+                    "decorative": true
+                }],
+                "size": "show-on-18",
+                "label": "show"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "sort-down-24",
+                    "decorative": true
+                }],
+                "size": "sort-down-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "sort-down-18",
+                    "decorative": true
+                }],
+                "size": "sort-down-18",
+                "label": "sort"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "sort-up-24",
+                    "decorative": true
+                }],
+                "size": "sort-up-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "sort-up-18",
+                    "decorative": true
+                }],
+                "size": "sort-up-18",
+                "label": "sort"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "tip-24",
+                    "decorative": true
+                }],
+                "size": "tip-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "tip-18",
+                    "decorative": true
+                }],
+                "size": "tip-18",
+                "label": "tip"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "view-list-24",
+                    "decorative": true
+                }],
+                "size": "view-list-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "view-list-18",
+                    "decorative": true
+                }],
+                "size": "view-list-18",
+                "label": "list view"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "view-tile-24",
+                    "decorative": true
+                }],
+                "size": "view-tile-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "view-tile-18",
+                    "decorative": true
+                }],
+                "size": "view-tile-18",
+                "label": "tile view"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "warning-24",
+                    "decorative": true
+                }],
+                "size": "warning-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "warning-18",
+                    "decorative": true
+                }],
+                "size": "warning-18",
+                "label": "warning"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "zoom-in-24",
+                    "decorative": true
+                }],
+                "size": "zoom-in-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "zoom-in-18",
+                    "decorative": true
+                }],
+                "size": "zoom-in-18",
+                "label": "zoom in"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "zoom-out-24",
+                    "decorative": true
+                }],
+                "size": "zoom-out-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "zoom-out-18",
+                    "decorative": true
+                }],
+                "size": "zoom-out-18",
+                "label": "zoom out"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "link-24",
+                    "decorative": true
+                }],
+                "size": "link-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "link-18",
+                    "decorative": true
+                }],
+                "size": "link-18",
+                "label": "link"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "breadcrumb-24",
+                    "decorative": true
+                }],
+                "size": "breadcrumb-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "breadcrumb-18",
+                    "decorative": true
+                }],
+                "size": "breadcrumb-18",
+                "label": "breadcrumb"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "warning-sm-24",
+                    "decorative": true
+                }],
+                "size": "warning-sm-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "warning-sm-18",
+                    "decorative": true
+                }],
+                "size": "warning-sm-18",
+                "label": "warning small"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "text-bold-24",
+                    "decorative": true
+                }],
+                "size": "text-bold-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "text-bold-18",
+                    "decorative": true
+                }],
+                "size": "text-bold-18",
+                "label": "text bold"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "text-italic-24",
+                    "decorative": true
+                }],
+                "size": "text-italic-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "text-italic-18",
+                    "decorative": true
+                }],
+                "size": "text-italic-18",
+                "label": "text italic"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "attachment-24",
+                    "decorative": true
+                }],
+                "size": "attachment-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "attachment-18",
+                    "decorative": true
+                }],
+                "size": "attachment-18",
+                "label": "attachment"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "number-list-24",
+                    "decorative": true
+                }],
+                "size": "number-list-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "number-list-18",
+                    "decorative": true
+                }],
+                "size": "number-list-18",
+                "label": "number list"
+            }]
+        },
+        {
+            "front": [{
+                "icon": [{
+                    "icon": "link-out-24",
+                    "decorative": true
+                }],
+                "size": "link-out-24"
+            }],
+            "back": [{
+                "icon": [{
+                    "icon": "link-out-18",
+                    "decorative": true
+                }],
+                "size": "link-out-18",
+                "label": "link out"
+            }]
+        }
+    ]
+}

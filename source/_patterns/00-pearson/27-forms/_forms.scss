@@ -1,0 +1,25 @@
+/* Variables for the forms styles */
+
+.pe-form--inline-input {
+  > div {
+    width: 100%;
+
+    &:first-child {
+      margin-right: 20px;
+
+      @media screen and (min-width: 768px) {
+        margin-right: 40px;
+      }
+
+      @media screen and (max-width: 480px) {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.pe-form {
+  .datepicker {
+    max-width: 100%;
+  }
+}
