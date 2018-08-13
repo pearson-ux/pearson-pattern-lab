@@ -98,13 +98,16 @@
   }
 
   var menuCount = 1;
+
   menus.forEach(menu => {
     menu.setAttribute("id", "menu" + menuCount);
     menuCount += 1;
-    menu.setAttribute(
-      "aria-labelledby",
-      menu.parentElement.previousElementSibling.id
-    );
+    if (menu.parentElement.previousElementSibling !== null) {
+      menu.setAttribute(
+        "aria-labelledby",
+        menu.parentElement.previousElementSibling.id
+      );
+    }
     menu.setAttribute("aria-activedescendant", menu.firstElementChild.id);
     menuitems.forEach(item => {
       item.style.padding = "7px 10px";
@@ -233,7 +236,10 @@
   });
 
   menubuttons.forEach(menubutton => {
-    var menuID = menubutton.nextElementSibling.firstElementChild.id;
-    menubutton.setAttribute("aria-controls", menuID);
+    if (menubutton.nextElementSibling !== null) {
+      var menuID = menubutton.nextElementSibling.firstElementChild.id;
+      menubutton.setAttribute("aria-controls", menuID);
+    }
+
   });
 })();

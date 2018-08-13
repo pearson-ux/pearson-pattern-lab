@@ -295,6 +295,7 @@ gulp.task('watch', function() {
   gulp.watch('./scss/**/*.scss', gulp.series('styles'));
   gulp.watch('./source/_patterns/**/*.scss', gulp.series('styles'));
   gulp.watch('./source/_patterns/**/**/*.scss', gulp.series('styles'));
+  gulp.watch('./source/js/*.js', gulp.series('pl-copy:js'));
 });
 
 gulp.task('run', function(cb) {
