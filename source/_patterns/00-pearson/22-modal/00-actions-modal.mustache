@@ -1,11 +1,11 @@
 {{#actionsModal}} {{#showOpenButton}}
 <button class="pe-btn pe-btn--btn_large" data-modal-id="{{modalId}}">Open Modal with Actions</button>{{/showOpenButton}}
-<div class="modal-overlay content-scroll hidden {{#showOnLoad}}show-on-load{{/showOnLoad}}" aria-hidden="true" data-overlay-open="{{modalId}}" aria-modal="true">
-    <div class="modal-body hidden {{#showOnLoad}}show-on-load{{/showOnLoad}}" aria-labelledby="modalTitle" aria-describedby="modalText" data-modal-open="{{modalId}}" role="dialog" aria-modal="true" tabindex="-1">
+<div class="modal-overlay content-scroll hidden {{#showOnLoad}}show-on-load{{/showOnLoad}}" data-overlay-open="{{modalId}}">
+    <div class="modal-body hidden {{#showOnLoad}}show-on-load{{/showOnLoad}}" aria-labelledby="modalTitle" aria-describedby="modalText" data-modal-open="{{modalId}}" aria-hidden="true" role="dialog" aria-modal="true" tabindex="-1">
         {{#heading}}
         <h3 class="pe-title pe-title--large" id="modalTitle">{{title}}</h3>
         {{/heading}}
-        <div class="modal-content" tabindex="0">
+        <div class="modal-content">
             {{#paragraphs}}
             <p>{{text}}</p>
             {{/paragraphs}}
