@@ -1,0 +1,50 @@
+{
+  "header": [{
+        "avatar": false,
+        "name": "Casey",
+        "image": "avatar-dale.jpg",
+        "buttons": [{
+                "className": "help",
+                "notification": false,
+                "icon": [{
+                    "icon": "help-fill-18",
+                    "label": "help"
+                }]
+            }
+        ],
+        "icon": [{
+            "icon": "person-18",
+            "label": "user"
+        }],
+        "showDrawerButton": false,
+        "drawer": [{
+            "showButton": true,
+            "drawerId": "notifications",
+            "title": "Notifications",
+            "icon": [{
+                "icon": "remove-sm-24",
+                "label": "close"
+            }],
+            "topics": [{
+                    "title": "Notification One",
+                    "content": "You haven't received any notifications yet."
+                },
+                {
+                    "title": "Notification Two",
+                    "content": "You haven't received any notifications yet."
+                },
+                {
+                    "title": "Notification Three",
+                    "content": "You haven't received any notifications yet."
+                }
+            ],
+            "archive": [{
+                "title": "Archive",
+                "topics": [{
+                    "title": "Previous notification",
+                    "content": "This is an old notification"
+                }]
+            }]
+        }]
+    }]
+}
