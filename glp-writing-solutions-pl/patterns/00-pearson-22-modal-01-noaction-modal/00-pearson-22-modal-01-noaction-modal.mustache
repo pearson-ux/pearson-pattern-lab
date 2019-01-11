@@ -1,0 +1,18 @@
+{{#noActionModal}}{{#showOpenButton}}
+<button class="pe-btn pe-btn--btn_large" data-modal-id="{{modalId}}">Open Modal without Actions</button>{{/showOpenButton}}
+<div class="modal-overlay overlay-scroll hidden" data-overlay-open="{{modalId}}">
+  <div class="modal-body hidden" aria-labelledby="modalTitle" data-modal-open="{{modalId}}" aria-hidden="true" aria-modal="true" role="dialog" tabindex="-1" aria-describedby="modalText">
+    <div class="modal-close" data-button-close="{{modalId}}">
+      {{> pearson-icon }}
+    </div>
+    {{#heading}}
+    <h3 class="pe-title pe-title--large" id="modalTitle">{{title}}</h3>
+    {{/heading}}
+    <div class="modal-content">
+      {{#paragraphs}}
+      <p>{{text}}</p>
+      {{/paragraphs}}
+    </div>
+  </div>
+</div>
+{{/noActionModal}}

@@ -1,0 +1,51 @@
+<!--
+Button is for example only -
+You can use any button you want -
+Just make sure the data-drawer-id is present and matches the drawer you want to open
+-->
+<button class="pe-btn pe-btn--btn_large" data-drawer-id="one">Toggle Drawer</button>
+<div class="drawer" data-drawer-open="one" aria-hidden="true">
+  <div class="title">
+    <div class="hidden" aria-hidden="true">
+      <button role="button" type="button" class="pe-link--btn back">
+<svg focusable="false" class="pe-icon--chevron-back-18" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron-back-18"></use>
+</svg>
+
+    <span>Back</span>
+</button>
+    </div>
+    <h3 class="pe-title" aria-hidden="false">Notifications</h3>
+    <button type="button" class="pe-icon--btn" aria-label="">
+<svg focusable="false" class="pe-icon--remove-sm-24" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#remove-sm-24"></use>
+</svg>
+
+</button>
+
+
+  </div>
+  <div class="notifications" aria-hidden="false">
+    <div class="notification-content">
+      <svg focusable="false" class="pe-icon--new-notification-9" role="img" aria-label="new notification">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+            </svg>
+      <div class="topic" data-drawer-id="one">
+        <span class="pe-label pe-label--bold"></span>
+        <p>You haven&#39;t received any notifications yet.</p>
+      </div>
+    </div>
+    <div class="drawer-actions text-center">
+      <button class="pe-btn pe-btn--btn_large">View Archive</button>
+    </div>
+  </div>
+  <div class="archive hidden" aria-hidden="true">
+    <h3 class="pe-title">Archive</h3>
+    <div class="topic" data-drawer-id="">
+      <span class="pe-label pe-label--bold">Previous notification</span>
+      <p>This is an old notification</p>
+    </div>
+  </div>
+
+
+</div>

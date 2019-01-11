@@ -1,0 +1,22 @@
+{{#calendar}}
+<section class="calendar">
+  <div class="header">
+    <h1>
+      <span class="pe-title pe-title--small neutral-two month">{{month}}</span>
+      <span class="pe-title pe-title--small neutral-two year">{{year}}</span>
+    </h1>
+    <div class="button-group">
+      {{#buttons}} {{> pearson-icon}} {{/buttons}}
+    </div>
+  </div>
+  <div class="days-of-week">
+    {{#days}}
+    <span class="pe-label pe-label--small">{{day}}</span> {{/days}}
+  </div>
+  {{#week}}
+  <div class="days">
+
+  </div>
+  {{/week}}
+</section>
+{{/calendar}}

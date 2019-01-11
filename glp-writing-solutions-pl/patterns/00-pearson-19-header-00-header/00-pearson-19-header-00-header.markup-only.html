@@ -1,0 +1,100 @@
+<header class="header ">
+  <div class="logo" role="img" aria-label="Pearson"></div>
+  <div class="actions">
+    <span class="notification"> 
+<svg focusable="false" class="pe-icon--new-notification-9" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+</svg>
+					<button type="button" class="pe-icon--btn" aria-label="open notifications" data-drawer-id="notifications" >
+<svg focusable="false" class="pe-icon--notification-18" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#notification-18"></use>
+</svg>
+
+					</button>
+				</span>
+    <span class="help">					<button type="button" class="pe-icon--btn" aria-label="open notifications" data-drawer-id="" >
+<svg focusable="false" class="pe-icon--help-fill-18" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#help-fill-18"></use>
+</svg>
+
+					</button>
+				</span>
+    <div class="username">
+      <span class="avatar"><img src="../../images/avatar-dale.jpg" alt="avatar"></span>
+      <span class="name">Dale Cooper</span>
+      <span class="nameicon">
+<svg focusable="false" class="pe-icon--person-18" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#person-18"></use>
+</svg>
+ </span>
+    </div>
+  </div>
+</header>
+<!--
+Button is for example only -
+You can use any button you want -
+Just make sure the data-drawer-id is present and matches the drawer you want to open
+-->
+<div class="drawer" data-drawer-open="notifications" aria-hidden="true">
+  <div class="title">
+    <div class="hidden" aria-hidden="true">
+      <button role="button" type="button" class="pe-link--btn back">
+<svg focusable="false" class="pe-icon--chevron-back-18" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron-back-18"></use>
+</svg>
+
+    <span>Back</span>
+</button>
+    </div>
+    <h3 class="pe-title" aria-hidden="false">Notifications</h3>
+    <button type="button" class="pe-icon--btn" aria-label="">
+<svg focusable="false" class="pe-icon--remove-sm-24" aria-hidden="" >
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#remove-sm-24"></use>
+</svg>
+
+</button>
+
+
+  </div>
+  <div class="notifications" aria-hidden="false">
+    <div class="notification-content">
+      <svg focusable="false" class="pe-icon--new-notification-9" role="img" aria-label="new notification">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+            </svg>
+      <div class="topic" data-drawer-id="">
+        <span class="pe-label pe-label--bold">Notification One</span>
+        <p>You haven&#39;t received any notifications yet.</p>
+      </div>
+    </div>
+    <div class="notification-content">
+      <svg focusable="false" class="pe-icon--new-notification-9" role="img" aria-label="new notification">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+            </svg>
+      <div class="topic" data-drawer-id="">
+        <span class="pe-label pe-label--bold">Notification Two</span>
+        <p>You haven&#39;t received any notifications yet.</p>
+      </div>
+    </div>
+    <div class="notification-content">
+      <svg focusable="false" class="pe-icon--new-notification-9" role="img" aria-label="new notification">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+            </svg>
+      <div class="topic" data-drawer-id="">
+        <span class="pe-label pe-label--bold">Notification Three</span>
+        <p>You haven&#39;t received any notifications yet.</p>
+      </div>
+    </div>
+    <div class="drawer-actions text-center">
+      <button class="pe-btn pe-btn--btn_large">View Archive</button>
+    </div>
+  </div>
+  <div class="archive hidden" aria-hidden="true">
+    <h3 class="pe-title">Archive</h3>
+    <div class="topic" data-drawer-id="">
+      <span class="pe-label pe-label--bold">Previous notification</span>
+      <p>This is an old notification</p>
+    </div>
+  </div>
+
+
+</div>

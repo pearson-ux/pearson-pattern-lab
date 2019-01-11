@@ -52,7 +52,7 @@
             {
                 "label": "Option Two",
                 "link": "#",
-                "divider": true,
+                "divider": false,
                 "icon": [{
                     "icon": "check-sm-18",
                     "label": "selected"

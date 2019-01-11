@@ -1,0 +1,11 @@
+{{#select}}
+<div class="fancy-select">
+  <label class="pe-textLabelInput__label" for="{{id}}">{{label}}</label>
+  <select class="pe-selectInput--basic" id="{{id}}">
+        {{#optionList}}
+        <option value="{{value}}">{{label}}</option>
+        {{/optionList}}
+    </select>
+  <span class="pe-input_underline"></span> {{> pearson-single-icon }}
+</div>
+{{/select}}

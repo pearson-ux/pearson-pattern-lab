@@ -1,0 +1,28 @@
+{{#tableSort}}
+<div class="responsive-table">
+  <table class="sortable" aria-label="{{tableName}}">
+    <thead>
+      <tr>
+        {{#th}}
+        <th scope="col" class="sort" aria-sort="none">
+          <button class="sort-btn" title="Unsorted">{{label}} {{#icons}}
+                        <span class="sortable-icon {{direction}}">{{>pearson-single-icon}}</span>
+                        {{/icons}}
+                    </button>
+        </th>
+        {{/th}}
+      </tr>
+    </thead>
+    <tbody>
+      {{#tr}}
+      <tr>
+        <th scope="row">{{label}}</th>
+        {{#td}}
+        <td>{{label}}</td>
+        {{/td}}
+      </tr>
+      {{/tr}}
+    </tbody>
+  </table>
+</div>
+{{/tableSort}}

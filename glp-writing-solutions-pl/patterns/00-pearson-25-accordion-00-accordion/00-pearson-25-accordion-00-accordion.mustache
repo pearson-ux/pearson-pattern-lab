@@ -1,0 +1,29 @@
+{{#accordion}}
+<div class="accordion">
+  {{#section}}
+  <div class="section {{#disabled}}disabled{{/disabled}}">
+    <div class="grouped">
+      <div class="icons">
+        <svg focusable="false" class="pe-icon--dropdown-open-18" role="img" aria-label="">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dropdown-open-18"></use>
+                </svg>
+        <svg focusable="false" class="pe-icon--dropdown-close-18" role="img" aria-label="" style="display:none">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dropdown-close-18"></use>
+                </svg>
+      </div>
+      <div class="section-header">
+        {{#iconHeader}} {{> pearson-single-icon}} {{/iconHeader}}
+        <span class="pe-title" role="button" aria-expanded="false">{{label}}</span>
+      </div>
+    </div>
+    <div class="section-content" style="display:none" aria-hidden="true">
+      {{#sectionItem}}
+      <div class="section-item">
+        <span class="pe-copy pe-copy--large">{{label}}</span>
+      </div>
+      {{/sectionItem}}
+    </div>
+  </div>
+  {{/section}}
+</div>
+{{/accordion}}
