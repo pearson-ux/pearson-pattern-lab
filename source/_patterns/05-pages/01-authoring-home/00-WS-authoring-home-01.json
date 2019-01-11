@@ -43,8 +43,10 @@
                 "topics": [{
                     "title": "Previous notification",
                     "content": "This is an old notification"
-                }]
+                    }]
             }]
+
+
         }]
     }]
 }
