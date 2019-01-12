@@ -6,7 +6,7 @@
             <div class="control-group-large">
 
                 <div class="fancy-input">
-                    <label class="pe-textLabelInput__label" for="a">Assignment Title</label>
+                    <label class="pe-textLabelInput__label" for="a">Assignment title</label>
                     <input type="text" class="pe-textInput" id="a" aria-required="true" placeholder="Enter a title" value="">
                     <span class="pe-input_underline"></span>
                 </div>
@@ -63,25 +63,29 @@
                     <div class="create-prompt">
                         <a href="#" class="create-prompt-link">Create Prompt</a>
 
-                    <div class="tab-content">
-                        <div class="textarea">
-                            <textarea class="pe-multiLineText" id="textareaId" cols="30" rows="5" placeholder="Enter a prompt"></textarea>
-                        </div>
-			                  <div class="placement" style="z-index: 25;">{{> atoms-slim-editor}}</div>
+
+                    <div class="textarea">
+                        <textarea class="pe-multiLineText" id="textareaId" cols="30" rows="5" placeholder="Enter a prompt"></textarea>
                     </div>
+			              <div class="placement" style="z-index: 25;">{{> atoms-slim-editor}}</div>
                 </div>
 
                 </div>
 
                 <div class="rubric-details">
                     <label class="pe-textLabelInput__label" for="e">Rubric</label>
-                    <a href="#">AACU Creative Thinking VALUE Rubric <span><img src="external-link-icon.svg" focusable="false" aria-hidden=""></span></a>
+                    <a href="#">AACU Creative Thinking VALUE Rubric <span><img height="14" src="../../images/external-link-icon.svg" focusable="false" aria-hidden=""></span></a>
                 </div>
 
+                <div class="learning-objectives">
+                    <label class="pe-textLabelInput__label" for="f">Learning objective - <span class="pe-title--small">You can enter a goal for this assignment that students can see</span></label>
+
+                    <div class="textarea">
+                    <textarea class="pe-multiLineText" id="g" cols="30" rows="5" placeholder="Enter a learning objective"></textarea>
+                    </div>
+                </div>
             </div>
 
-
         </div>
-
     </div>
 </div>

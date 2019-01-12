@@ -1,5 +1,7 @@
 .basic-settings {
 
+    width: 709px;
+
     .control-group-large label.pe-textLabelInput__label {
         font-size: 20px;
         font-weight: 400;
@@ -29,6 +31,14 @@
 
     .rubric-details {
         margin-top: 13px;
+        margin-bottom: 40px;
+        span {
+            margin-left: 5px;
+        }
+    }
+
+    .learning-objectives {
+        margin-bottom: 96.5px;
     }
 
 }

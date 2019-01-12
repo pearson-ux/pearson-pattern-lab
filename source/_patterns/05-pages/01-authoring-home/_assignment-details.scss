@@ -1,12 +1,5 @@
 .assignment-details {
-    // .container {
-    //     margin: 31px 37px 0 31px;
-    //     width: 100%;
-    //     h1.pe-page-title {
-    //         font-size: 30px;
-    //     }
-    // }
-    
+
     .title-box {
         margin-top: 31px;
         margin-left: 37px;
@@ -14,7 +7,7 @@
         margin-bottom: 40px;
         display: flex;
         flex-direction: row;
-        align-items: flex-start        
+        align-items: flex-start
     }
     .pe-page-title {
         font-size: 30px;
@@ -22,6 +15,19 @@
     .class-id {
         margin-top: 24px;
         margin-left: 93px;
+    }
+
+    .container-inputs {
+        margin-left: 70px;
+    }
+
+    .nav-container-position {
+        position: absolute;
+        margin-left: 70px;
+    }
+
+    .nav-rule {
+        border-top: 2px solid #c7c7c7;
     }
 }
 
