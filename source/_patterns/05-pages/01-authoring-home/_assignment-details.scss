@@ -1,0 +1,33 @@
+.assignment-details {
+    // .container {
+    //     margin: 31px 37px 0 31px;
+    //     width: 100%;
+    //     h1.pe-page-title {
+    //         font-size: 30px;
+    //     }
+    // }
+    
+    .title-box {
+        margin-top: 31px;
+        margin-left: 37px;
+        margin-right: 37px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start        
+    }
+    .pe-page-title {
+        font-size: 30px;
+    }
+    .class-id {
+        margin-top: 24px;
+        margin-left: 93px;
+    }
+}
+
+
+
+
+
+
+

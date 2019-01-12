@@ -1,0 +1,34 @@
+.pe-proto {
+  &.slim-editor {
+  	height: 44px;
+  	button.pe-icon--btn {
+  		color: $neutral-three;
+  	}
+	@include flex($justify-content: flex-start);
+	border: 1px solid $border;
+	.item {
+	  padding:1em;
+	  &:hover {
+		cursor: pointer;
+		span {
+		  color: $primary;
+		}
+	  }
+	  &.close {
+		-webkit-flex: 1 0 auto;
+		-ms-flex: 1 0 auto;
+		flex: 1 0 auto;
+		text-align: right;
+		cursor: default;
+
+		button {
+		  &:hover {
+			svg {
+			  color:$primary;
+			}
+		  }
+		}
+	  }
+	}
+  }
+}

@@ -46,7 +46,12 @@
 @import "../source/_patterns/00-pearson/24-breadcrumbs/breadcrumbs";
 @import "../source/_patterns/00-pearson/25-accordion/accordion";
 
+@import "../source/_patterns/01-atoms/slim-editor";
+@import "../source/_patterns/02-molecules/01-assignment-details/header-assignment-details";
+@import "../source/_patterns/02-molecules/01-assignment-details/basic-settings";
+
 @import "../source/_patterns/05-pages/01-authoring-home/authoring-home";
+@import "../source/_patterns/05-pages/01-authoring-home/assignment-details";
 
 // Revel styles from add on.
 @import "../_add-ons/epubs/epub";

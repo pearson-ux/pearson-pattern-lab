@@ -1,0 +1,87 @@
+<div class="sub-container settings create-assignment">
+    <div class="basic-settings">
+
+        <div class="create-assignment--container">
+
+            <div class="control-group-large">
+
+                <div class="fancy-input">
+                    <label class="pe-textLabelInput__label" for="a">Assignment Title</label>
+                    <input type="text" class="pe-textInput" id="a" aria-required="true" placeholder="Enter a title" value="">
+                    <span class="pe-input_underline"></span>
+                </div>
+
+                <div class="fancy-input">
+                    <label class="pe-textLabelInput__label" for="b">Keywords</label>
+                    <input type="text" class="pe-textInput" id="b" aria-required="true" placeholder="Separated by commas" value="">
+                    <span class="pe-input_underline"></span>
+                </div>
+
+                <div class="discipline-setting">
+                    <label class="pe-textLabelInput__label" for="c">Discipline - <span class="pe-title--small">select all that apply</span></label>
+
+                    <div class="dropdown">
+                        <button role="button" aria-haspopup="true" aria-expanded="false" type="button" class="pe-btn pe-btn--btn_large">Anatomy & Physiology
+                          <svg focusable="false" class="pe-icon--dropdown-open-sm-18" aria-hidden="" >
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dropdown-open-sm-18"></use>
+                          </svg>
+                        </button>
+
+                    <div class="dropdown-menu discipline-dropdown" style="margin-top:-12px">
+                        <ul role="menu" class="menu pe-label hidden">
+                            <li role="menuitemcheckbox" aria-checked="false">
+                                <a href="#">
+                                    <svg focusable="false" class="pe-icon--check-sm-18" aria-hidden="" >
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#check-sm-18"></use>
+                                    </svg>
+					                          Option One
+				                        </a>
+                            </li>
+                            <li role="menuitemcheckbox" aria-checked="false">
+                                <a href="#">
+                                    <svg focusable="false" class="pe-icon--check-sm-18" aria-hidden="" >
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#check-sm-18"></use>
+                                    </svg>
+					                          Option Two
+				                        </a>
+                            </li>
+                            <li role="menuitemcheckbox" aria-checked="false">
+                                <a href="#">
+                                    <svg focusable="false" class="pe-icon--check-sm-18" aria-hidden="" >
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#check-sm-18"></use>
+                                    </svg>
+					                          Option Three
+				                        </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="instructions">
+                    <label class="pe-textLabelInput__label" for="d">Instructions</label>
+
+                    <div class="create-prompt">
+                        <a href="#" class="create-prompt-link">Create Prompt</a>
+
+                    <div class="tab-content">
+                        <div class="textarea">
+                            <textarea class="pe-multiLineText" id="textareaId" cols="30" rows="5" placeholder="Enter a prompt"></textarea>
+                        </div>
+			                  <div class="placement" style="z-index: 25;">{{> atoms-slim-editor}}</div>
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="rubric-details">
+                    <label class="pe-textLabelInput__label" for="e">Rubric</label>
+                    <a href="#">AACU Creative Thinking VALUE Rubric <span><img src="external-link-icon.svg" focusable="false" aria-hidden=""></span></a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
