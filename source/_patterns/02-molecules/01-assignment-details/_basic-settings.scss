@@ -17,8 +17,20 @@
         button#menubutton1 {
             margin-bottom: 40px;
         }
+        .menu {
+            height: 220px;
+            overflow-y: scroll;
+        }
+        .menu li a {
+            padding: 4px 10px 4px 10px !important;
+        }
         ul#menu1.menu.pe-label {
             margin-top: -36px;
+        }
+        li {
+            padding: 7px 10px;
+            outline: 0 !important;
+            background-color: #fff !important;
         }
     }
 
