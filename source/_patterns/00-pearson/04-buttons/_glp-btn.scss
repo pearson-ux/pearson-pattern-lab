@@ -1,6 +1,7 @@
 .pe-btn, .pe-btn--btn_large, .pe-btn--btn_small, .pe-btn--btn_xlarge, .pe-btn__primary, .pe-btn__primary--btn_large, .pe-btn__primary--btn_small, .pe-btn__primary--btn_xlarge, .pe-btn__cta, .pe-btn__cta--btn_large, .pe-btn__cta--btn_small, .pe-btn__cta--btn_xlarge, .pe-btn__tertiary, .pe-btn__tertiary--btn_large, .pe-btn__tertiary--btn_small, .pe-btn__tertiary--btn_xlarge {
   box-sizing: border-box;
-  border: none;
+  // border: none;
+  border: 1px solid transparent; //Anne added to remove wiggle
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
