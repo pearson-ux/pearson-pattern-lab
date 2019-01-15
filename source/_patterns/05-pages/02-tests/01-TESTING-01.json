@@ -11,6 +11,8 @@
                 "label": "help"
             }]
         }],
+        "path": "../..",
+        "url": "link.pages-TESTING-02",
         "icon": [{
             "icon": "person-18",
             "label": "user"
