@@ -1,0 +1,24 @@
+{{#headerCore}}
+<h1 class="pe-title pe-title--small for-mobile" style="margin-right:40px">{{title}}</h1>
+<header class="pe-proto core-header {{styleModifier}}">
+<div class="max-content-width">
+    <div class="open-btn">
+        <button type="button" class="pe-icon--btn" onclick="location.href = '{{path}}{{url}}'">
+            {{>ui-kit-single-icon}}
+        </button>
+        <button class="pe-icon--btn" aria-label="Assignment Panel" aria-expanded="false" data-drawer-id="{{drawerId}}"><i class="material-icons">menu</i>
+        </button>
+    </div>
+    <h1 class="pe-title pe-title--small no-mobile" style="margin-right:40px">{{title}}</h1>
+    {{#font}}
+    <button type="button" class="pe-icon--btn font" aria-label="Text Size and Theme Chooser" aria-expanded="false">
+        {{>ui-kit-single-icon}}
+    </button>
+    {{/font}} {{> organisms-font-sizer}}
+</div>
+</header>
+
+<div class="drawer-container" data-drawer-open="{{drawerId}}">
+    {{> organisms-side-menu}}
+</div>
+{{/headerCore}}

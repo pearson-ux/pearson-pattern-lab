@@ -544,3 +544,13 @@ img {
 body {
   background: white;
 }
+
+.no-link-style {
+	text-decoration:none;
+	color: $neutral-two;
+
+	&:hover, &:focus {
+		text-decoration:underline;
+		color: #005a70;
+	}
+}

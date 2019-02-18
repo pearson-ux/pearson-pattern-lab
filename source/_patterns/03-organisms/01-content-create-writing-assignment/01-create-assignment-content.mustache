@@ -1,0 +1,175 @@
+<div class="glp-wsl max-content-width">
+    <section class="assignment-creation-content">
+        <!-- <h1 class="pe-title margin-bottom">Assignment Details</h1> -->
+
+        <div class="wsl-assignment-ID-number">ID #123456</div>
+
+        <div class="group fancy-input">
+            <label class="pe-title margin-bottom assignment-creation-input" for="wslAssignmentTitle">Assignment title</label>
+            <input type="text" class="pe-textInput" id="wslAssignmentTitle" aria-required="true">
+            <span class="pe-input_underline"></span>
+        </div>
+
+        <div class="group fancy-input">
+            <label class="pe-title margin-bottom assignment-creation-input" for="wslAssignmentKeywords">Keywords</label>
+            <input type="text" class="pe-textInput" id="wslAssignmentKeywords" aria-required="true">
+            <span class="pe-input_underline"></span>
+        </div>
+
+        <div class="group single-select">
+            <label class="pe-title margin-bottom assignment-creation-input">Citation style</label>
+            <div class="list-single-select">	
+                <select id="dropdown btn-menu" name="dropdown" class="action-container">
+                    <option selected>Anatomy & Physiology</option>
+                    <option>Astronomy</option>
+                    <option>Biology</option>
+                    <option>Business Administration</option>
+                    <option>Option etc</option>
+                </select>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role=img aria-label="Discipline List" class="pe-icon--dropdown-open-sm-24">
+                    <use xlink:href="#dropdown-open-sm-24"></use>
+                </svg>
+            </div>
+        </div>
+
+        <div class="group prompt">
+            <label class="pe-title margin-bottom assignment-creation-input">Writing prompt - <span class="assignment-creation-directive"><a href="#">Learn more</a></span></label>
+           <div class="assignment-creation-prompt">
+                <button class="pe-btn pe-btn--btn_large">Choose prompt</button>
+                <a href="#">Clear prompt</a>
+           </div>
+           <div class="prompt-note">
+               <p><span class="pe--semibold">Note:</span> This is a system-scored assignment. Editing the prompt or rubric disables system scoring.</p>
+               <a href="#">Edit</a>
+           </div>
+           <div class="prompt-field" contenteditable="true">
+                <p class="pe-label--bold">Introducing the Government in American History: A Structuralist Case Study</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+            </div>
+        </div>
+
+        <div class="group rubric">
+            <label class="pe-title margin-bottom assignment-creation-input">Rubric</label>
+            <div class="assignment-creation-rubric-link">
+                <a href="#" class="icon-external-link">AACU Creative Thinking VALUE Rubric</a>
+            </div>
+        </div>
+
+        <div class="group scoring-method">
+            <label class="pe-title margin-bottom assignment-creation-input">Choose scoring method - <span class="assignment-creation-directive"><a href="#">Learn more</a></span></label>
+
+            <fieldset>
+                <legend class="pe-title--small hide">Scoring method</legend>
+                <div class="pe-radio">
+                    <input type="radio" id="radio01" name="radiobutton1" value="tea">
+                    <label for="radio01"><span class="pe--semibold">AI-assisted scoring</span> - You train the system by scoring 20 submissions. The system scores the rest.</label>
+                    <span>
+                    <svg aria-hidden="true" focusable="false" class="pe-icon--radio-dot">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+                    </svg>
+                    </span>
+                </div>
+                <div class="pe-radio">
+                    <input type="radio" id="radio02" name="radiobutton2" value="coffee">
+                    <label class="flex-row" for="radio02"><span class="pe--semibold">Instant scoring</span> - The system scores submissions immediately without input from you.</label>
+                    <span>
+                    <svg aria-hidden="true" focusable="false" class="pe-icon--radio-dot">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+                    </svg>
+                    </span>
+                </div>
+                <div class="pe-radio">
+                    <input type="radio" id="radio03" name="radiobutton3" value="mocha">
+                    <label class="flex-row" for="radio03"><span class="pe--semibold">Manual scoring</span> - You can create or edit prompts and rubrics. You score all submissions.</label>
+                    <span>
+                    <svg aria-hidden="true" focusable="false" class="pe-icon--radio-dot">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+                    </svg>
+                    </span>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="group instant-feedback">
+            <label class="pe-title margin-bottom assignment-creation-input">Allow instant feedback before submission - <span class="assignment-creation-directive">only for system-scored writing prompts</span></label>
+            <div class="toggle toggle-container">
+                <button role="switch" name="instantFeedback" value="false" id="instant-feedback-toggle-01" class="pe-toggle toggle-button" aria-invalid="false" aria-labelledby="instant-feedback-toggle-01-label" aria-describedby="instant-feedback-toggle-01-desc" aria-checked="true" checked="">
+                    <span>ON</span>
+                    <span>OFF</span>
+                </button>
+                <p for="instant-feedback-toggle-01" id="instant-feedback-toggle-01-desc" class="pe-toggle">When ON students can get instant feedback up to 5 times before submitting an assignment for a grade.</p>
+            </div>    
+        </div>
+
+        <div class="group learning-objective">
+            <label class="pe-title margin-bottom assignment-creation-input">Learning objective - <span class="assignment-creation-directive">You can enter a goal for this assignment that students can see</span></label>
+            <div class="textarea learning-objective-container">
+                <textarea class="pe-multiLineText" placeholder="Enter a learning objective here"></textarea>
+            </div>
+        </div>
+
+        <div class="group single-select">
+            <label class="pe-title margin-bottom assignment-creation-input">Citation style</label>
+            <div class="list-single-select">	
+                <select id="dropdown btn-menu" name="dropdown" class="action-container">
+                    <option selected>No style required</option>
+                    <option>Placeholder for option</option>
+                    <option>Placeholder for option</option>
+                    <option>Placeholder for option</option>
+                    <option>Placeholder for option</option>
+                </select>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role=img aria-label="Discipline List" class="pe-icon--dropdown-open-sm-24">
+                    <use xlink:href="#dropdown-open-sm-24"></use>
+                </svg>
+            </div>
+        </div>
+
+        <div class="group response-length">
+            <label class="pe-title margin-bottom assignment-creation-input">Response length</label>
+            <fieldset>
+                <!-- <legend class="pe-title--small">Response length</legend> -->
+                <div class="pe-radio">
+                    <input type="radio" id="radio01" name="radiobutton2" value="tea">
+                    <label for="radio01">No required Length</label>
+                    <span>
+                    <svg aria-hidden="true" focusable="false" class="pe-icon--radio-dot">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+                    </svg>
+                    </span>
+                </div>
+                <div class="pe-radio fib">
+                    <input type="radio" id="radio02" name="radiobutton2" value="coffee">
+                    <label class="flex-row" for="radio02"><span></span>Response should be a minimum of
+                    <div class="fib-input">
+                        <input type="text" class="pe-textInput margin-left" id="a" placeholder="500">
+                        <span class="pe-input_underline margin-left"></span>
+                    </div>
+                    and a maximum
+                    <div class="fib-input">
+                        <input type="text" class="pe-textInput margin-left" id="a" placeholder="1000">
+                        <span class="pe-input_underline margin-left"></span>
+                    </div>
+                    words
+                    </label>
+                    <span>
+                    <svg aria-hidden="true" focusable="false" class="pe-icon--radio-dot">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#new-notification-9"></use>
+                    </svg>
+                    </span>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="group plagiarism-detection">
+            <label class="pe-title margin-bottom assignment-creation-input">Plagiarism detection</label>
+            <div class="toggle toggle-container">
+                <button role="switch" name="plagiarismDetection" value="false" id="plagiarism-detection-toggle-01" class="pe-toggle toggle-button" aria-invalid="false" aria-labelledby="plagiarism-detection-toggle-01-label" aria-describedby="plagiarism-detection-toggle-01-desc" aria-checked="false" checked="">
+                    <span>ON</span>
+                    <span>OFF</span>
+                </button>
+                <p for="plagiarism-detection-toggle-01" id="plagiarism-detection-toggle-01-desc" class="pe-toggle">When ON a “similarity score” and link to a detailed report will be displayed on student submissions.</p>
+            </div>    
+        </div>
+
+    </section>
+</div>

@@ -46,6 +46,16 @@
 @import "../source/_patterns/00-pearson/24-breadcrumbs/breadcrumbs";
 @import "../source/_patterns/00-pearson/25-accordion/accordion";
 
+@import "../source/_patterns/01-atoms/01-radios/radios.scss";
+
+@import "../source/_patterns/02-molecules/01-header/core-header.scss";
+@import "../source/_patterns/02-molecules/01-header/create-assigment-header.scss";
+@import "../source/_patterns/02-molecules/01-header/create-assignment-action-bar.scss";
+
+@import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-content.scss";
+
+
+
 // Revel styles from add on.
 @import "../_add-ons/epubs/epub";
 @import "../_add-ons/epubs/feldman/chapter-8/source/_patterns/01-atoms/00-progress/progress";
