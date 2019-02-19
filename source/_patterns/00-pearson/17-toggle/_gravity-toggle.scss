@@ -1,0 +1,127 @@
+$pe-color-concrete: #c7c7c7;
+$pe-color-digital-pearson-blue: #047a9c;
+$pe-color-moonlight: #e9e9e9;
+$pe-color-steel: #a9a9a9;
+
+$pe-color-focus-blue: #1977d4;
+$pe-focus-outline-distance: 4px;
+
+button.pe-toggle {
+  font-size: 24px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 2em;
+  height: 1em;
+  padding: 0;
+  border: 0;
+  border-radius: 22px;
+  margin: 4px 0;
+  color: #fff;
+  background-color: $pe-color-steel;
+  cursor: pointer;
+  transition: background 0.3s;
+  overflow: visible;
+}
+
+button.pe-toggle[aria-checked='true'] {
+  background-color: $pe-color-digital-pearson-blue;
+}
+
+button.pe-toggle[disabled] {
+  color: $pe-color-concrete;
+  background-color: $pe-color-moonlight;
+  cursor: not-allowed;
+}
+
+button.pe-toggle::before {
+  content: '';
+  background: #fff;
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(1em * 3/4);
+  height: calc(1em * 3/4);
+  transition: left 0.3s;
+  border-radius: 100%;
+}
+
+button.pe-toggle[aria-checked='true']::before {
+  left: 27px;
+}
+
+button.pe-toggle[disabled]::before {
+  background-color: $pe-color-concrete;
+}
+
+button.pe-toggle:focus {
+  outline: 0;
+}
+
+button.pe-toggle::-moz-focus-inner {
+  border: 0;
+}
+
+button.pe-toggle:focus::after {
+  border: 2px solid #1977d4;
+  border-radius: 22px;
+  content: "";
+  height: -webkit-calc(100% + 7px);
+  height: calc(100% + 7px);
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: -webkit-calc(100% + 7px);
+  width: calc(100% + 7px);
+  z-index: 1;
+}
+
+.pe-toggle svg {
+  width: calc(1em * 3/4);
+  height: calc(1em * 3/4);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: currentColor;
+  pointer-events: none;
+}
+
+.pe-toggle svg:first-child {
+  left: 5px;
+}
+
+.pe-toggle svg:last-child {
+  right: 5px;
+}
+
+button.pe-toggle[aria-checked='false'] svg:first-child,
+button.pe-toggle[aria-checked='true'] svg:last-child {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button.pe-toggle,
+  button.pe-toggle::before {
+    transition: none !important;
+  }
+}
+
+$pe-color-strawberry-red: #d0021b;
+
+.pe-input-label {
+  font: 12px/16px 'Open Sans', serif, Arial, Helvetica, sans-serif;
+  color: #6a7070;
+}
+
+.pe-input-description,
+.pe-input-error {
+  display: block;
+  margin-top: 4px;
+}
+
+.pe-input-error {
+  color: $pe-color-strawberry-red;
+}

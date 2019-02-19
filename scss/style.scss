@@ -34,6 +34,10 @@
 @import "../source/_patterns/00-pearson/16-pagination/basic-pagination";
 @import "../source/_patterns/00-pearson/15-loader/loading";
 @import "../source/_patterns/00-pearson/17-toggle/toggle";
+.gravity-toggle {
+  @import "../source/_patterns/00-pearson/17-toggle/gravity-toggle";
+
+}
 @import "../source/_patterns/00-pearson/18-tables/tables";
 @import "../source/_patterns/00-pearson/19-header/header";
 @import "../source/_patterns/00-pearson/21-alerts/alert";
