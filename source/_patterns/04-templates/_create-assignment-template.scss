@@ -1,0 +1,18 @@
+.glp-wsl {
+    &.assessment-control-bar-container {
+        &.white-bg.border-bottom {
+            top: 10px;
+        }
+    }
+
+    .assignment-creation-content {
+        max-width: 1280px;
+        width: 1128px;
+        margin: 0 72px;
+    }
+
+    +.content-formatter-assignment-creation {
+        margin-top: 38.5px;
+    }
+
+}
