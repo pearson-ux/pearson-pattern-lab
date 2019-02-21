@@ -1,0 +1,10 @@
+.glp-wsl {
+  &.gravity-grid {
+    .grid-container {
+      display: grid;
+      //grid-template-columns: auto auto auto;
+      background: #2196F3;
+      padding: 0;
+    }
+  }
+}
