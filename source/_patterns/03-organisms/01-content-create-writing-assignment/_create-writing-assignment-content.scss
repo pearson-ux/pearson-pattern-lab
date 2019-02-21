@@ -31,7 +31,7 @@
         }
         .list-single-select {
             position: relative;    
-            width: 220px;    
+            width: 220px;   
         }
 
         svg.pe-icon--dropdown-open-sm-24 {
@@ -113,7 +113,7 @@
         fieldset {
             border: 0;
             padding: 0;
-            margin: 25px 0 0 22px;
+            margin: 25px 0 0 0;
         }
 
         .toggle-container {
@@ -129,6 +129,18 @@
 
         .learning-objective-container {
             margin-top: 16px;
+            ::placeholder {
+                color: #252525;
+                opacity: 1; /* Firefox */
+              }
+              
+              :-ms-input-placeholder { /* Internet Explorer 10-11 */
+               color: #252525;
+              }
+              
+              ::-ms-input-placeholder { /* Microsoft Edge */
+               color: #252525;
+              }
         }
 
         .response-length {

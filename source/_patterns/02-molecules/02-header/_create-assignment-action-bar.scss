@@ -1,14 +1,9 @@
 .glp-wsl {
   &.assessment-control-bar-container {
-    //@include card-box-shadow;
-    position:fixed;
-    //top: 70px;
-    background-color: white;
-    width:100%;
-    z-index: 1001;
+    background-color: #fff;
+    width: 100%;
     border-bottom: 1px solid #e9e9e9;
-    // padding: 1.2em 40px;
-    padding: 1.2em 106px;
+    padding: 1.2em 40px;
 
     &.border-bottom {
       border-bottom:1px solid #e9e9e9;
@@ -18,10 +13,10 @@
       width:100%;
       padding-top: 16px;
       padding-bottom: 12px;
-      margin:auto;
-      display:flex;
-      justify-content:space-between;
-      text-align:right;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      text-align: right;
 
       div {
         justify-self: flex-end;
@@ -39,5 +34,5 @@
     }
   }
 }
-  
+
 
