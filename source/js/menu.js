@@ -5,234 +5,265 @@
     menuitems = document.querySelectorAll("[role=menuitemcheckbox]"),
     html = document.getElementsByTagName("html")[0];
 
-  html.addEventListener("click", event => {
-    menubuttons.forEach(menubutton => {
-      var isExpanded = menubutton.getAttribute("aria-expanded");
-      if (isExpanded === "true") {
-        menubutton.setAttribute("aria-expanded", "false");
-        menubutton.nextElementSibling
-          .querySelector("[role=menu]")
-          .classList.add("hidden");
-      }
-    });
-  });
+  // html.addEventListener("click", event => {
+  //   menubuttons.forEach(menubutton => {
+  //     const gravity = menubutton.getAttribute('[data-action="dropdown"]');
+  //     if (!gravity) {
+  //       var isExpanded = menubutton.getAttribute("aria-expanded");
+  //       if (isExpanded === "true") {
+  //         menubutton.setAttribute("aria-expanded", "false");
+  //         menubutton.nextElementSibling
+  //         .querySelector("[role=menu]")
+  //         .classList.add("hidden");
+  //       }
+  //     }
+  //   });
+  // });
 
   var menuButtonsCount = 1;
   menubuttons.forEach(menubutton => {
-    menubutton.addEventListener("click", event => {
-      const target = event.currentTarget,
-        menu = target.nextElementSibling.querySelector("[role=menu]"),
-        _this = menubutton,
-        isExpanded = _this.getAttribute("aria-expanded");
-      event.stopPropagation();
+   const gravity = menubutton.getAttribute('[data-action="dropdown"]');
+   if (!gravity) {
 
-      if (isExpanded === "true") {
-        _this.setAttribute("aria-expanded", "false");
-        menu.classList.add("hidden");
-        _this.focus();
-      }
-      if (isExpanded === "false") {
-        _this.setAttribute("aria-expanded", "true");
-        menu.classList.remove("hidden");
-        menu.focus();
-      }
-    });
+     menubutton.addEventListener("click", event => {
+       const target = event.currentTarget,
+         menu = target.nextElementSibling.querySelector("[role=menu]"),
+         _this = menubutton,
+         isExpanded = _this.getAttribute("aria-expanded");
+       console.log(menu)
+       event.stopPropagation();
 
-    menubutton.addEventListener("keyup", event => {
-      const target = event.currentTarget,
-        menu = target.nextElementSibling.querySelector("[role=menu]"),
-        _this = menubutton,
-        isExpanded = _this.getAttribute("aria-expanded");
+       if (isExpanded === "true") {
+         _this.setAttribute("aria-expanded", "false");
+         menu.classList.add("hidden");
+         _this.focus();
+       }
+       if (isExpanded === "false") {
+         _this.setAttribute("aria-expanded", "true");
+         menu.classList.remove("hidden");
+         menu.focus();
+       }
+     });
 
-      if (event.keyCode == 40) {
-        //down arrow
-        console.log("down key pressed");
-        _this.setAttribute("aria-expanded", "true");
-        menu.classList.remove("hidden");
-        menu.focus();
-        event.stopPropagation();
-      }
-    });
+     menubutton.addEventListener("keyup", event => {
+       const target = event.currentTarget,
+         menu = target.nextElementSibling.querySelector("[role=menu]"),
+         _this = menubutton,
+         isExpanded = _this.getAttribute("aria-expanded");
 
-    menubutton.setAttribute("id", "menubutton" + menuButtonsCount);
-    menuButtonsCount += 1;
+       if (event.keyCode == 40) {
+         //down arrow
+         console.log("down key pressed");
+         _this.setAttribute("aria-expanded", "true");
+         menu.classList.remove("hidden");
+         menu.focus();
+         event.stopPropagation();
+       }
+     });
+
+     menubutton.setAttribute("id", "menubutton" + menuButtonsCount);
+     menuButtonsCount += 1;
+   }
+
   });
 
   var itemCount = 1;
   menuitems.forEach(item => {
-    item.addEventListener("click", event => {
-      const target = event.currentTarget,
-        isChecked = target.getAttribute("aria-checked");
-      event.stopPropagation();
+    const gravity = item.parentNode.parentNode.parentNode.parentNode.classList.contains('gr-dropdowns');
 
-      if (isChecked === "true") target.setAttribute("aria-checked", "false");
-      else target.setAttribute("aria-checked", "true");
+    if (!gravity) {
+      item.addEventListener("click", event => {
+        const target = event.currentTarget,
+          isChecked = target.getAttribute("aria-checked");
+        event.stopPropagation();
 
-      const menu = target.parentElement;
-      menu.setAttribute("aria-activedescendant", target.id);
-      restyleMenuItems();
+        if (isChecked === "true") target.setAttribute("aria-checked", "false");
+        else target.setAttribute("aria-checked", "true");
 
-      var activeDescendantID = menu.getAttribute("aria-activedescendant");
-      var activeDescendant = document.getElementById(activeDescendantID);
-      activeDescendant.style.outline = "2px solid navy";
-      activeDescendant.style.backgroundColor = "#E9E9E9";
+        const menu = target.parentElement;
+        menu.setAttribute("aria-activedescendant", target.id);
+        restyleMenuItems();
 
-      menu.focus();
-    });
-    item.setAttribute("id", "menuitem" + itemCount);
-    itemCount += 1;
+        var activeDescendantID = menu.getAttribute("aria-activedescendant");
+        var activeDescendant = document.getElementById(activeDescendantID);
+        activeDescendant.style.outline = "2px solid navy";
+        activeDescendant.style.backgroundColor = "#E9E9E9";
+
+        menu.focus();
+      });
+      item.setAttribute("id", "menuitem" + itemCount);
+      itemCount += 1;
+    }
+
   });
 
   function restyleMenuItems() {
     menuitems.forEach(item => {
-      item.style.outline = "none";
-      item.style.backgroundColor = "white";
-      item.style.padding = "7px 10px";
+      const gravity = item.parentNode.parentNode.parentNode.parentNode.classList.contains('gr-dropdowns');
+      console.log(gravity)
+      if (!gravity) {
+        item.style.outline = "none";
+        item.style.backgroundColor = "white";
+
+      }
     });
     menus.forEach(menu => {
       var activeDescendantID = menu.getAttribute("aria-activedescendant");
       var activeDescendant = document.getElementById(activeDescendantID);
-      activeDescendant.style.outline = "2px solid navy";
-      activeDescendant.style.backgroundColor = "#E9E9E9";
+      if (activeDescendant !== null) {
+        activeDescendant.style.outline = "2px solid navy";
+        activeDescendant.style.backgroundColor = "#E9E9E9";
+      }
     });
   }
 
   var menuCount = 1;
 
   menus.forEach(menu => {
-    menu.setAttribute("id", "menu" + menuCount);
-    menuCount += 1;
-    if (menu.parentElement.previousElementSibling !== null) {
-      menu.setAttribute(
-        "aria-labelledby",
-        menu.parentElement.previousElementSibling.id
-      );
-    }
-    menu.setAttribute("aria-activedescendant", menu.firstElementChild.id);
-    menuitems.forEach(item => {
-      item.style.padding = "7px 10px";
-    });
-    var activeDescendantID = menu.getAttribute("aria-activedescendant");
-    var activeDescendant = document.getElementById(activeDescendantID);
-    activeDescendant.style.outline = "2px solid navy";
-    activeDescendant.style.backgroundColor = "#E9E9E9";
+  const gravity = menu.parentNode.parentNode.classList.contains('gr-dropdowns');
+    if (!gravity) {
+      menu.setAttribute("id", "menu" + menuCount);
+      menuCount += 1;
+      if (menu.parentElement.previousElementSibling !== null) {
+        menu.setAttribute(
+          "aria-labelledby",
+          menu.parentElement.previousElementSibling.id
+        );
+      }
+      menu.setAttribute("aria-activedescendant", menu.firstElementChild.id);
+      menuitems.forEach(item => {
 
-    if (!menu.parentElement.classList.contains("dropdown-menu")) {
-      menu.classList.remove("hidden");
-      menu.removeAttribute("aria-labelledby");
-    }
-
-    menu.addEventListener("keydown", event => {
-      const target = event.currentTarget;
+      });
       var activeDescendantID = menu.getAttribute("aria-activedescendant");
       var activeDescendant = document.getElementById(activeDescendantID);
+      if (activeDescendant !== null) {
+        activeDescendant.style.outline = "2px solid navy";
+        activeDescendant.style.backgroundColor = "#E9E9E9";
+      }
 
-      switch (event.which || event.keyCode) {
-        case 9: //tab
-          if (menu.parentElement.classList.contains("dropdown-menu")) {
+
+      if (!menu.parentElement.classList.contains("dropdown-menu")) {
+        menu.classList.remove("hidden");
+        menu.removeAttribute("aria-labelledby");
+      }
+
+      menu.addEventListener("keydown", event => {
+        const target = event.currentTarget;
+        var activeDescendantID = menu.getAttribute("aria-activedescendant");
+        var activeDescendant = document.getElementById(activeDescendantID);
+
+        switch (event.which || event.keyCode) {
+          case 9: //tab
+            if (menu.parentElement.classList.contains("dropdown-menu")) {
+              menu.parentElement.previousElementSibling.setAttribute(
+                "aria-expanded",
+                "false"
+              );
+              target.classList.toggle("hidden");
+            }
+
+            return;
+            break;
+
+          case 38: // up
+            if (activeDescendant == menu.firstElementChild) {
+              menu.setAttribute(
+                "aria-activedescendant",
+                menu.lastElementChild.id
+              );
+            } else {
+              menu.setAttribute(
+                "aria-activedescendant",
+                activeDescendant.previousElementSibling.id
+              );
+            }
+            restyleMenuItems();
+
+            activeDescendantID = menu.getAttribute("aria-activedescendant");
+            activeDescendant = document.getElementById(activeDescendantID);
+            activeDescendant.style.outline = "2px solid navy";
+            activeDescendant.style.backgroundColor = "#E9E9E9";
+
+            break;
+
+          case 40: // down
+            if (activeDescendant == menu.lastElementChild) {
+              menu.setAttribute(
+                "aria-activedescendant",
+                menu.firstElementChild.id
+              );
+            } else {
+              menu.setAttribute(
+                "aria-activedescendant",
+                activeDescendant.nextElementSibling.id
+              );
+            }
+
+            restyleMenuItems();
+
+            activeDescendantID = menu.getAttribute("aria-activedescendant");
+            activeDescendant = document.getElementById(activeDescendantID);
+            activeDescendant.style.outline = "2px solid navy";
+            activeDescendant.style.backgroundColor = "#E9E9E9";
+
+            break;
+
+          case 27: // ESC
             menu.parentElement.previousElementSibling.setAttribute(
               "aria-expanded",
               "false"
             );
             target.classList.toggle("hidden");
-          }
+            menu.parentElement.previousElementSibling.focus();
+            break;
 
-          return;
-          break;
+          case 13:
+          case 32: // enter space
+            restyleMenuItems();
 
-        case 38: // up
-          if (activeDescendant == menu.firstElementChild) {
-            menu.setAttribute(
+            activeDescendantID = menu.getAttribute("aria-activedescendant");
+            activeDescendant = document.getElementById(activeDescendantID);
+            activeDescendant.style.outline = "2px solid navy";
+            activeDescendant.style.backgroundColor = "#E9E9E9";
+            activeDescendant.click();
+            break;
+          case 36: // home
+            target.setAttribute(
               "aria-activedescendant",
-              menu.lastElementChild.id
+              target.firstElementChild.id
             );
-          } else {
-            menu.setAttribute(
+            restyleMenuItems();
+
+            activeDescendantID = menu.getAttribute("aria-activedescendant");
+            activeDescendant = document.getElementById(activeDescendantID);
+            activeDescendant.style.outline = "2px solid navy";
+            activeDescendant.style.backgroundColor = "#E9E9E9";
+            break;
+
+          case 35: // end
+            target.setAttribute(
               "aria-activedescendant",
-              activeDescendant.previousElementSibling.id
+              target.lastElementChild.id
             );
-          }
-          restyleMenuItems();
+            restyleMenuItems();
 
-          activeDescendantID = menu.getAttribute("aria-activedescendant");
-          activeDescendant = document.getElementById(activeDescendantID);
-          activeDescendant.style.outline = "2px solid navy";
-          activeDescendant.style.backgroundColor = "#E9E9E9";
+            activeDescendantID = menu.getAttribute("aria-activedescendant");
+            activeDescendant = document.getElementById(activeDescendantID);
+            activeDescendant.style.outline = "2px solid navy";
+            activeDescendant.style.backgroundColor = "#E9E9E9";
+            break;
 
-          break;
+          default:
+            return; // exit this handler for other keys
+        }
+        event.preventDefault(); // prevent the default action (scroll / move caret)
+      });
+    }
 
-        case 40: // down
-          if (activeDescendant == menu.lastElementChild) {
-            menu.setAttribute(
-              "aria-activedescendant",
-              menu.firstElementChild.id
-            );
-          } else {
-            menu.setAttribute(
-              "aria-activedescendant",
-              activeDescendant.nextElementSibling.id
-            );
-          }
 
-          restyleMenuItems();
 
-          activeDescendantID = menu.getAttribute("aria-activedescendant");
-          activeDescendant = document.getElementById(activeDescendantID);
-          activeDescendant.style.outline = "2px solid navy";
-          activeDescendant.style.backgroundColor = "#E9E9E9";
 
-          break;
 
-        case 27: // ESC
-          menu.parentElement.previousElementSibling.setAttribute(
-            "aria-expanded",
-            "false"
-          );
-          target.classList.toggle("hidden");
-          menu.parentElement.previousElementSibling.focus();
-          break;
-
-        case 13:
-        case 32: // enter space
-          restyleMenuItems();
-
-          activeDescendantID = menu.getAttribute("aria-activedescendant");
-          activeDescendant = document.getElementById(activeDescendantID);
-          activeDescendant.style.outline = "2px solid navy";
-          activeDescendant.style.backgroundColor = "#E9E9E9";
-          activeDescendant.click();
-          break;
-        case 36: // home
-          target.setAttribute(
-            "aria-activedescendant",
-            target.firstElementChild.id
-          );
-          restyleMenuItems();
-
-          activeDescendantID = menu.getAttribute("aria-activedescendant");
-          activeDescendant = document.getElementById(activeDescendantID);
-          activeDescendant.style.outline = "2px solid navy";
-          activeDescendant.style.backgroundColor = "#E9E9E9";
-          break;
-
-        case 35: // end
-          target.setAttribute(
-            "aria-activedescendant",
-            target.lastElementChild.id
-          );
-          restyleMenuItems();
-
-          activeDescendantID = menu.getAttribute("aria-activedescendant");
-          activeDescendant = document.getElementById(activeDescendantID);
-          activeDescendant.style.outline = "2px solid navy";
-          activeDescendant.style.backgroundColor = "#E9E9E9";
-          break;
-
-        default:
-          return; // exit this handler for other keys
-      }
-      event.preventDefault(); // prevent the default action (scroll / move caret)
-    });
   });
 
   menubuttons.forEach(menubutton => {
