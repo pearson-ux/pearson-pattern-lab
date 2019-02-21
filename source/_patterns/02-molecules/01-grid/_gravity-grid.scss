@@ -2,7 +2,10 @@
   &.gravity-grid {
     .grid-container {
       display: grid;
-      //grid-template-columns: auto auto auto;
+      grid-template-columns: repeat(12, 72px); //#of columns, size of each column
+      //grid-template-columns: repeat(12, 24px [col-start]); //#of columns, size of each columns
+      grid-column-gap: 24px; //gutter
+      grid-template-rows: auto;
       background: #2196F3;
       padding: 0;
     }
