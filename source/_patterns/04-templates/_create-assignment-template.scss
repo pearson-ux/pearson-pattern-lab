@@ -1,7 +1,9 @@
 .glp-wsl {
     &.assessment-control-bar-container {
         &.white-bg.border-bottom {
-            top: 10px;
+            margin-top: 70px;
+            width: 100%;
+            z-index: 1001;
         }
     }
 

@@ -1,0 +1,174 @@
+.glp-wsl {
+  &.visible-gravity-grid {
+    .grid-container {
+      max-width: 1280px;
+      display: grid;
+      grid-template-columns: repeat(12, 72px); //#of columns, size of each column
+      //grid-template-columns: repeat(12, 24px [col-start]); //#of columns, size of each columns
+      grid-column-gap: 24px; //gutter
+      grid-template-rows: auto;
+      padding: 0;
+    }
+    .grid-item {
+      width: 72px;
+      border: 1px solid black;
+    }
+
+    //Responsive
+    /* 12-cols -----------------*/
+    //Large Desktop
+    // @media (max-width: 1280px) {
+    //   .grid-container {
+    //     display: grid;
+    //     grid-template-columns: repeat(12, 72px); //#of columns, size of each column
+    //     grid-column-gap: 24px; //gutter
+    //     grid-template-rows: auto;
+    //     padding: 0;
+    //   }
+    //   .grid-item {
+    //     width: 72px;
+    //     border: 1px solid black;
+    //   }
+    // }
+
+    //Standard Desktop
+    @media (max-width: 1175px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(12, 64px); //#of columns, size of each column
+        grid-column-gap: 24px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 64px;
+        border: 1px solid red;
+      }
+    }
+
+    //Small Desktop
+    @media (max-width: 1079px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(12, 56px); //#of columns, size of each column
+        grid-column-gap: 24px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 56px;
+        border: 1px solid orange;
+      }
+    }
+
+    //Large tablet
+    @media (max-width: 983px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(12, 48px); //#of columns, size of each column
+        grid-column-gap: 24px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 48px;
+        border: 1px solid yellow;
+      }
+    }
+    
+
+    /* 8-cols -----------------*/
+    //Standard Tablet
+    @media (max-width: 887px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(8, 64px); //#of columns, size of each column
+        grid-column-gap: 24px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 64px;
+        border: 1px solid green;
+      }
+    }
+
+    //Small Tablet
+    @media (max-width: 727px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(8, 56px); //#of columns, size of each column
+        grid-column-gap: 16px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 56px;
+        border: 1px solid blue;
+      }
+    }
+
+
+    /* 4-cols -----------------*/
+    //Extra large phone
+    @media (max-width: 591px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 96px); //#of columns, size of each column
+        grid-column-gap: 16px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 96px;
+        border: 1px solid purple;
+      }
+    }
+
+    //Large phone
+    @media (max-width: 447px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 80px); //#of columns, size of each column
+        grid-column-gap: 16px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 80x;
+        border: 1px solid pink;
+      }
+    }
+
+    //Medium phone
+    @media (max-width: 399px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 72px); //#of columns, size of each column
+        grid-column-gap: 16px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 72px;
+        border: 1px solid gray;
+      }
+    }
+
+    //Small phone
+    @media (max-width: 351px) {
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 56px); //#of columns, size of each column
+        grid-column-gap: 16px; //gutter
+        grid-template-rows: auto;
+        padding: 0;
+      }
+      .grid-item {
+        width: 56px;
+        border: 1px solid deeppink;
+      }
+    }
+
+  }
+}

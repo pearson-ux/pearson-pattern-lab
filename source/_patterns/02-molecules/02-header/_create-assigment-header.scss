@@ -9,22 +9,22 @@
             transition: all 0.5s ease;
             position: relative;
             width: 100%;
-      
+
             .max-content-width {
                 @include flex;
                 width: 100%;
                 position: relative;
                 padding: 1.2em 40px;
             }
-      
+
             .actions {
                 display: flex;
                 align-items: center;
-      
+
                 button + button {
                     margin-left: 20px;
                 }
-      
+
                 button.edit {
                     height: 32px;
                     width: 32px;
@@ -37,23 +37,23 @@
                     }
                 }
             }
-      
+
           .open-btn {
             @include flex;
-      
+
             button {
               margin-right: 1em;
-      
+
                 svg {
                     pointer-events:none;
                 }
-      
+
               &.active {
                 color: $neutral-three;
               }
             }
           }
-      
+
           h1 {
             margin: 0;
               overflow:hidden;
@@ -61,32 +61,32 @@
               white-space: nowrap;
               max-width: 100%;
           }
-      
+
           &.resize {
             margin-left: 320px;
             width: calc(100% - 320px);
-      
+
             @media (min-width: 640px) {
               width: calc(100% - 400px);
               margin-left: 400px;
             }
           }
-      
+
           .font-sizer {
             position: absolute;
             right: 0;
             left: unset;
             top: 3.5em;
           }
-      
+
           &.cite {
             background-color: transparent;
             color: white;
             z-index: 1100;
-      
+
             button {
               color: white;
-      
+
               &#whiteButton {
                 color: black;
               }
@@ -102,7 +102,7 @@
 
         }
       }
-      
+
       .drawer-container {
         width: 320px;
         max-width: 320px;
@@ -110,18 +110,18 @@
         display: none;
         top: 0px;
         position: fixed;
-      
+
         //padding:30px;
         overflow: hidden;
         height: 100%;
         transition: all 0.5s ease;
         z-index: 1;
-      
+
         @media (min-width: 640px) {
           width: 400px;
           max-width: 400px;
         }
-      
+
         &.open {
           left: 0;
           display: block;
@@ -129,7 +129,7 @@
           z-index: 2000;
             box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.15);
         }
-      
+
         //&:before {
         //  content: '';
         //  display: block;
@@ -142,16 +142,16 @@
         //  height: 100%;
         //}
       }
-      
+
       .for-mobile {
         @media (min-width: 640px) {
           display: none;
         }
-      
+
         text-align: center;
         margin-right: 0 !important;
       }
-      
+
       .no-mobile {
         @media (max-width: 640px) {
           display: none;

@@ -53,9 +53,11 @@
 
 @import "../source/_patterns/01-atoms/01-radios/radios.scss";
 
-@import "../source/_patterns/02-molecules/01-header/core-header.scss";
-@import "../source/_patterns/02-molecules/01-header/create-assigment-header.scss";
-@import "../source/_patterns/02-molecules/01-header/create-assignment-action-bar.scss";
+@import "../source/_patterns/02-molecules/01-grid/visible-gravity-grid";
+@import "../source/_patterns/02-molecules/01-grid/gravity-grid.scss";
+@import "../source/_patterns/02-molecules/02-header/core-header.scss";
+@import "../source/_patterns/02-molecules/02-header/create-assigment-header.scss";
+@import "../source/_patterns/02-molecules/02-header/create-assignment-action-bar.scss";
 
 @import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-content.scss";
 

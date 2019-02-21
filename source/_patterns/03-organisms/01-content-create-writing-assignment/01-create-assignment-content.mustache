@@ -11,13 +11,13 @@
         </div>
 
         <div class="group fancy-input">
-            <label class="pe-title margin-bottom assignment-creation-input" for="wslAssignmentKeywords">Keywords</label>
+            <label class="pe-title margin-bottom assignment-creation-input" for="wslAssignmentKeywords">Keywords - <span class="assignment-creation-directive">separated by commas</span></label>
             <input type="text" class="pe-textInput" id="wslAssignmentKeywords" aria-required="true">
             <span class="pe-input_underline"></span>
         </div>
 
         <div class="group single-select">
-            <label class="pe-title margin-bottom assignment-creation-input">Citation style</label>
+            <label class="pe-title margin-bottom assignment-creation-input">Discipline</label>
             <div class="list-single-select">	
                 <select id="dropdown btn-menu" name="dropdown" class="action-container">
                     <option selected>Anatomy & Physiology</option>
@@ -32,6 +32,13 @@
             </div>
         </div>
 
+       
+
+
+
+            
+
+
         <div class="group prompt">
             <label class="pe-title margin-bottom assignment-creation-input">Writing prompt - <span class="assignment-creation-directive"><a href="#">Learn more</a></span></label>
            <div class="assignment-creation-prompt">
@@ -43,7 +50,7 @@
                <a href="#">Edit</a>
            </div>
            <div class="prompt-field" contenteditable="true">
-                <p class="pe-label--bold">Introducing the Government in American History: A Structuralist Case Study</p>
+                <p class="pe-label--bold">Government in America</p>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
             </div>
         </div>
@@ -91,11 +98,15 @@
         </div>
 
         <div class="group instant-feedback">
-            <label class="pe-title margin-bottom assignment-creation-input">Allow instant feedback before submission - <span class="assignment-creation-directive">only for system-scored writing prompts</span></label>
-            <div class="toggle toggle-container">
-                <button role="switch" name="instantFeedback" value="false" id="instant-feedback-toggle-01" class="pe-toggle toggle-button" aria-invalid="false" aria-labelledby="instant-feedback-toggle-01-label" aria-describedby="instant-feedback-toggle-01-desc" aria-checked="true" checked="">
-                    <span>ON</span>
-                    <span>OFF</span>
+            <label for="instant-feedback-toggle-01" class="pe-title margin-bottom assignment-creation-input">Allow instant feedback before submission - <span class="assignment-creation-directive">only for system-scored writing prompts</span></label>
+            <div class="gravity-toggle toggle-container">
+                <button role="switch" name="instant-feedback-toggle-01" value="false" id="instant-feedback-toggle-01" class="pe-toggle toggle-button" aria-invalid="false" aria-labelledby="instant-feedback-toggle-01-label" aria-describedby="instant-feedback-toggle-01-desc" aria-checked="true" checked="">
+                    <svg focusable="false" aria-hidden="true">
+                        <use xlink:href="#check-sm-18"></use>
+                    </svg>
+                    <svg focusable="false" aria-hidden="true">
+                        <use xlink:href="#remove-sm-18"></use>
+                    </svg>
                 </button>
                 <p for="instant-feedback-toggle-01" id="instant-feedback-toggle-01-desc" class="pe-toggle">When ON students can get instant feedback up to 5 times before submitting an assignment for a grade.</p>
             </div>    
@@ -161,11 +172,15 @@
         </div>
 
         <div class="group plagiarism-detection">
-            <label class="pe-title margin-bottom assignment-creation-input">Plagiarism detection</label>
-            <div class="toggle toggle-container">
-                <button role="switch" name="plagiarismDetection" value="false" id="plagiarism-detection-toggle-01" class="pe-toggle toggle-button" aria-invalid="false" aria-labelledby="plagiarism-detection-toggle-01-label" aria-describedby="plagiarism-detection-toggle-01-desc" aria-checked="false" checked="">
-                    <span>ON</span>
-                    <span>OFF</span>
+            <label for="plagiarism-detection-toggle-01" class="pe-title margin-bottom assignment-creation-input">Plagiarism detection</label>
+            <div class="gravity-toggle toggle-container">
+                <button role="switch" name="plagiarism-detection-toggle-01" value="false" id="plagiarism-detection-toggle-01" class="pe-toggle" aria-invalid="false" aria-labelledby="plagiarism-detection-toggle-01-label" aria-describedby="plagiarism-detection-toggle-01-desc" aria-checked="false">
+                    <svg focusable="false" aria-hidden="true">
+                        <use xlink:href="#check-sm-18"></use>
+                    </svg>
+                    <svg focusable="false" aria-hidden="true">
+                        <use xlink:href="#remove-sm-18"></use>
+                    </svg>
                 </button>
                 <p for="plagiarism-detection-toggle-01" id="plagiarism-detection-toggle-01-desc" class="pe-toggle">When ON a “similarity score” and link to a detailed report will be displayed on student submissions.</p>
             </div>    
