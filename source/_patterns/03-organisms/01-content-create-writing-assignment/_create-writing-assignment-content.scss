@@ -63,6 +63,10 @@
 
         select { /* for Firefox */ -moz-appearance: none; /* for Chrome */ -webkit-appearance: none; } /* For IE10 */ select::-ms-expand { display: none; }
 
+        .list-multi-select {
+            margin-top: 8px;
+        }
+
         .assignment-creation-prompt {
             margin-top: 8px;
             a {
@@ -145,6 +149,22 @@
 
         .response-length {
             margin-top: 48px;
+
+            //Responsive
+            @media (max-width: 727px) {
+                .fib .fib-input {
+                    min-width: 66px;
+                    padding-right: 10px;
+                }
+            }
+
+            @media (max-width: 591px) {
+                .fib .fib-input {
+                    min-width: 66px;
+                    margin-left: -15px;
+                    padding-right: 15px;
+                }
+            }
         }
 
 

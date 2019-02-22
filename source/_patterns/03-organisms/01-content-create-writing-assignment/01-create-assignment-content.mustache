@@ -17,7 +17,14 @@
         </div>
 
         <div class="group single-select">
+
+            {{#selectDiscipline}}
             <label class="pe-title margin-bottom assignment-creation-input">Discipline</label>
+            {{/selectDiscipline}}
+
+            <label class="pe-title margin-bottom assignment-creation-input">Discipline - <span class="assignment-creation-directive">select all that apply</span></label>
+
+            {{#selectDiscipline}}
             <div class="list-single-select">	
                 <select id="dropdown btn-menu" name="dropdown" class="action-container">
                     <option selected>Anatomy & Physiology</option>
@@ -30,14 +37,15 @@
                     <use xlink:href="#dropdown-open-sm-24"></use>
                 </svg>
             </div>
+            {{/selectDiscipline}}
+
+            <div class="list-multi-select">
+                {{> atoms-gravity-multi-dropdown-wsl}}
+            </div>
+
         </div>
 
-       
-
-
-
-            
-
+    
 
         <div class="group prompt">
             <label class="pe-title margin-bottom assignment-creation-input">Writing prompt - <span class="assignment-creation-directive"><a href="#">Learn more</a></span></label>

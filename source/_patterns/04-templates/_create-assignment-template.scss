@@ -7,14 +7,27 @@
         }
     }
 
-    .assignment-creation-content {
-        max-width: 1280px;
-        width: 1128px;
-        margin: 0 72px;
-    }
-
-    +.content-formatter-assignment-creation {
+    &.content-formatter-assignment-creation {
         margin-top: 38.5px;
+        margin-left: 105px;
+        margin-right: 104px;
+
+        //Responsive
+        @media (max-width: 887px) {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        @media (max-width: 432px) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+  
+        @media (max-width: 399px) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
     }
 
 }
