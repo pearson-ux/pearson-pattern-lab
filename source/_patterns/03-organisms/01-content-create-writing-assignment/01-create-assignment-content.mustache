@@ -4,6 +4,17 @@
 
         <div class="wsl-assignment-ID-number">ID #123456</div>
 
+        <div class="group basic-input">
+            <label class="pe-title margin-bottom assignment-creation-input" for="wslAssignmentTitle">Assignment title</label>
+            <input type="text" class="pe-textInput--basic" id="wslAssignmentTitle" placeholder="{{placeholder}}" aria-required="true">
+        </div>
+
+        <div class="group basic-input">
+            <label class="pe-title margin-bottom assignment-creation-input" for="wslAssignmentKeywords">Keywords - <span class="assignment-creation-directive">separated by commas</span></label>
+            <input type="text" class="pe-textInput--basic" id="wslAssignmentKeywords" placeholder="{{placeholder}}" aria-required="true">
+        </div>
+
+        {{#fancyInputAssignmentCreation}}
         <div class="group fancy-input">
             <label class="pe-title margin-bottom assignment-creation-input" for="wslAssignmentTitle">Assignment title</label>
             <input type="text" class="pe-textInput" id="wslAssignmentTitle" aria-required="true">
@@ -15,6 +26,7 @@
             <input type="text" class="pe-textInput" id="wslAssignmentKeywords" aria-required="true">
             <span class="pe-input_underline"></span>
         </div>
+        {{/fancyInputAssignmentCreation}}
 
         <div class="group single-select">
 
@@ -123,7 +135,7 @@
         <div class="group learning-objective">
             <label class="pe-title margin-bottom assignment-creation-input">Learning objective - <span class="assignment-creation-directive">You can enter a goal for this assignment that students can see</span></label>
             <div class="textarea learning-objective-container">
-                <textarea class="pe-multiLineText" placeholder="Enter a learning objective here"></textarea>
+                <textarea class="pe-multiLineText"></textarea>
             </div>
         </div>
 
