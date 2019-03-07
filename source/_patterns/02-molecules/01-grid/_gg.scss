@@ -1,9 +1,7 @@
-/* SHOULD I SET THE max-width of the .grid-item? */
 .glp-wsl {
-  &.visible-gravity-grid {
+  &.gg {
     .grid-container {
       max-width: 1280px;
-      width: 1128px;
       display: grid;
       grid-template-columns: repeat(12, 72px); //#of columns, size of each column
       grid-column-gap: 24px; //gutter
@@ -17,12 +15,14 @@
     //Responsive
     /* 12-cols -----------------*/
     //Large Desktop
-    @media (max-width: 1280px) {
+    @media (min-width: 1176px) {
       .grid-container {
+        max-width: 1128px;
         display: grid;
         grid-template-columns: repeat(12, 72px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 72px;
@@ -31,14 +31,14 @@
     }
 
     //Standard Desktop
-    @media (max-width: 1175px) {
+    @media (min-width: 1080px) {
       .grid-container {
-        max-width: 1175px;
-        width: 1032px;
+        max-width: 1032px;
         display: grid;
         grid-template-columns: repeat(12, 64px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 64px;
@@ -47,14 +47,14 @@
     }
 
     //Small Desktop
-    @media (max-width: 1079px) {
+    @media (min-width: 984px) {
       .grid-container {
-        max-width: 1079px;
-        width: 936px;
+        max-width: 936px;
         display: grid;
         grid-template-columns: repeat(12, 56px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 56px;
@@ -63,14 +63,14 @@
     }
 
     //Large tablet
-    @media (max-width: 983px) {
+    @media (min-width: 888px) {
       .grid-container {
-        max-width: 983px;
-        width: 840px;
+        max-width: 840px;
         display: grid;
         grid-template-columns: repeat(12, 48px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 48px;
@@ -81,14 +81,14 @@
 
     /* 8-cols -----------------*/
     //Standard Tablet
-    @media (max-width: 887px) {
+    @media (min-width: 728px) {
       .grid-container {
-        max-width: 887px;
-        width: 680px;
+        max-width: 680px;
         display: grid;
         grid-template-columns: repeat(8, 64px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 64px;
@@ -97,14 +97,14 @@
     }
 
     //Small Tablet
-    @media (max-width: 727px) {
+    @media (min-width: 592px) {
       .grid-container {
-        max-width: 727px;
-        width: 560px;
+        max-width: 560px;
         display: grid;
         grid-template-columns: repeat(8, 56px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 56px;
@@ -115,14 +115,14 @@
 
     /* 4-cols -----------------*/
     //Extra large phone
-    @media (max-width: 591px) {
+    @media (min-width: 448px) {
       .grid-container {
-        max-width: 591px;
-        width: 432px;
+        max-width: 432px;
         display: grid;
         grid-template-columns: repeat(4, 96px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 96px;
@@ -131,14 +131,14 @@
     }
 
     //Large phone
-    @media (max-width: 447px) {
+    @media (min-width: 400px) {
       .grid-container {
-        max-width: 447px;
-        width: 368px;
+        max-width: 368px;
         display: grid;
         grid-template-columns: repeat(4, 80px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
         grid-template-rows: auto;
+        margin: auto;
       }
       .grid-item {
         width: 80x;
@@ -147,10 +147,9 @@
     }
 
     //Medium phone
-    @media (max-width: 399px) {
+    @media (min-width: 352px) {
       .grid-container {
-        max-width: 399px;
-        width: 336px;
+        max-width: 336px;
         display: grid;
         grid-template-columns: repeat(4, 72px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
@@ -163,9 +162,9 @@
     }
 
     //Small phone
-    @media (max-width: 351px) {
+    @media (min-width: 272px) {
       .grid-container {
-        max-width: 351px;
+        max-width: 272px;
         width: 272px;
         display: grid;
         grid-template-columns: repeat(4, 56px); //#of columns, size of each column

@@ -1,0 +1,32 @@
+.glp-wsl {
+    // &.max-content-width {
+    //     width: 100%;
+    // }
+
+    .assignment-creation-content {
+
+        .group {
+            margin-bottom: 38px;
+            cursor: pointer;
+        }
+
+        .supporting-documents {
+            .accordion {
+                .grouped {
+                    span.pe-title {
+                        font-size: 18px;
+                    }
+                    > div {
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .add-supporting-docs-container {
+                margin-left: -12px;
+                margin-top: -10px;
+            }
+        }
+        
+    } 
+        
+}

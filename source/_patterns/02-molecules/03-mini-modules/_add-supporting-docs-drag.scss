@@ -1,0 +1,102 @@
+.glp-wsl {
+  &.add-supporting-docs-drag {
+    .uploader-container {
+      border:1px solid $border;
+      padding:1em;
+    }
+    .uploader {
+      @include flex;
+      .browse {
+        @include flex($justify-content: center);
+        -webkit-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+        padding-left: 2em;
+        span {
+          margin-left: 1em;
+        }
+      }
+      .or-text {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display:flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 0 1em;
+      }
+      span {
+        position: relative;
+      }
+      @media(max-width: 640px) {
+        display: none;
+      }
+    }
+    .line {
+      border-left: 1px solid $border;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display:flex;
+      height:40px;
+      margin:.3em 0;
+    }
+    .drag-drop {
+      @include flex($justify-content: center);
+      -webkit-flex: 2;
+      -ms-flex: 2;
+      flex:2;
+      padding-right: 2em;
+      span {
+        margin-left: 1em;
+      }
+      svg {
+        @include box-size(50px, 50px);
+      }
+      @media(max-width: 640px) {
+        display: none;
+      }
+    }
+
+    .uploaded {
+      background-color: $neutral-four;
+      padding:1em;
+      ul {
+        margin:0;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display:flex;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        list-style-type: none;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        li {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display:flex;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin:1em;
+          &:first-child {
+            margin-left:0;
+          }
+          svg {
+            margin:0 .5em;
+          }
+    
+
+        }
+      }
+    }
+  
+  }
+}

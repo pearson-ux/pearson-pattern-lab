@@ -1,0 +1,30 @@
+<div class="glp-wsl add-supporting-docs-drag">
+  <div class="uploader-container">
+    <div class="uploader">
+        <div class="browse">
+            <button class="pe-btn__primary pe-btn--btn_large">Browse</button>
+            <span>Your computer</span>
+        </div>
+        <div class="or-text">
+            <div class="line"></div>
+            <span>or</span>
+            <div class="line"></div>
+        </div>
+        <div class="drag-drop">
+            {{> pearson-single-icon(icon: "screen-full-24" ) }}
+            <span>Drag and drop your file here.</span>
+        </div>
+    </div>
+</div>
+
+{{#uploaded }}
+    <div class="uploaded">
+        <ul>
+            <li>Attached Files:</li>
+            <li>{{> atoms-single-icon(icon: "note-18" ) }} Eli Whitney Brief Sketch.docx {{> atoms-single-icon(icon: "item-remove-18" ) }}</li>
+            <li>{{> atoms-single-icon(icon: "note-18" ) }} Freshman Writing Guide.docx {{> atoms-single-icon(icon: "item-remove-18" ) }}</li>
+        </ul>
+    </div>
+{{/uploaded}}
+  
+</div>

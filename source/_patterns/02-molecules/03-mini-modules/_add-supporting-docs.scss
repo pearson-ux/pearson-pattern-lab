@@ -1,0 +1,23 @@
+.glp-wsl {
+  &.add-supporting-docs {
+    .uploaded-docs {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-flow: row wrap;
+      width: 700px;
+      li.icon.col {
+        width: 190px;
+        list-style: none;
+        margin-right: 12px;
+        padding: 14px 0;
+      }
+      > .icon {
+        svg {
+        color: $neutral-three;
+        }
+      }
+
+    }
+  }
+}

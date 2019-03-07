@@ -69,10 +69,10 @@
 
         .assignment-creation-prompt {
             margin-top: 8px;
-            a {
+            margin-bottom: 24px;
+            .clear-prompt {
                 margin-left: 32px;
             }
-            
         }
 
         .prompt-note {
@@ -97,6 +97,23 @@
 
         textarea {
             resize-x: none;
+        }
+
+        .manual-choose-prompt {
+            textarea {
+                margin-top: 24px;
+                margin-bottom: 12px;
+            }
+            .show-formatting-options-link {
+                margin-bottom: 24px;
+            }
+        }
+
+
+        .show-formatting-url {
+            // margin-top: 12px !important;
+            // margin-left: 0 !important;
+            // margin-bottom: 24px !important;
         }
     
         .assignment-creation-rubric-link {
