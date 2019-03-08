@@ -5,6 +5,7 @@
   "dependencies": {
     "@pearson-components/elements-sdk": "git+https://github.com/Pearson-Higher-Ed/elements-sdk.git#unstable-2.0-GLP",
     "autoprefixer": "^8.6.5",
+    "braces": "^2.3.2",
     "browser-sync": "^2.26.3",
     "chalk": "^1.1.3",
     "cssnano": "^4.1.10",
@@ -12,6 +13,7 @@
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
+    "lodash": "^4.17.11",
     "minimist": "^1.2.0",
     "patternlab-node": "^2.0.0",
     "styleguidekit-assets-default": "^3.0.0",

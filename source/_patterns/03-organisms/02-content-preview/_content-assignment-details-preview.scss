@@ -51,20 +51,29 @@
                 margin-top: 24px;
                 padding: 24px 60px 66px 25px;
                 display: flex;
-                flex: 1 672px;
+                flex: 1 936px;
                 flex-direction: row;
                 flex-wrap: none;
                 .font-size-20 {
                     font-size: 20px;
+                    padding-right: 25px;
                 }
                 .left-col {
+                    display: flex;
+                    flex-direction: column;
+                    // flex: 1 672px;
+                    width: 672px;
+                    .left-container {
+                        border-right: 1px solid #d9d9d9;
+                    }
                     .p-line-height {
                         margin-top: -6px;
                     }
-
-
-
-                    
+                }
+                .rigth-col {
+                    .right-container {
+                        flex: 1 296px;
+                    }
                 }
             }
         }
