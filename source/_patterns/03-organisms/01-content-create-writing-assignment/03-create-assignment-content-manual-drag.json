@@ -1,9 +1,7 @@
 {
-    "manual": [{
-        "accordion": [{
-            "section": [{
-                "label": "Add supporting documents"
-            }]
+    "accordion": [{
+        "section": [{
+            "label": "Add supporting documents"
         }]
     }]
 }

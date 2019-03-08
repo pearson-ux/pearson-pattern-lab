@@ -56,7 +56,7 @@
         margin-left: 1em;
       }
       svg {
-        @include box-size(50px, 50px);
+        fill: #6a7070;
       }
       @media(max-width: 640px) {
         display: none;

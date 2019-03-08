@@ -1,10 +1,11 @@
 .glp-wsl {
-    // &.max-content-width {
-    //     width: 100%;
-    // }
+    &.max-content-width {
+        width: 100%;
+    }
 
     .assignment-creation-content {
         max-width: 776px;
+        margin: auto;
 
         .group {
             margin-bottom: 38px;

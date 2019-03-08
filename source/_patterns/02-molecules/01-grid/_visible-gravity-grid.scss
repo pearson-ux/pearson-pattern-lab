@@ -1,9 +1,10 @@
 /* SHOULD I SET THE max-width of the .grid-item? */
 .glp-wsl {
   &.visible-gravity-grid {
+    max-width: 1128px;
+    width: 100%;
+    margin: auto;
     .grid-container {
-      max-width: 1280px;
-      width: 1128px;
       display: grid;
       grid-template-columns: repeat(12, 72px); //#of columns, size of each column
       grid-column-gap: 24px; //gutter
@@ -18,6 +19,7 @@
     /* 12-cols -----------------*/
     //Large Desktop
     @media (max-width: 1280px) {
+      max-width: 1128px;
       .grid-container {
         display: grid;
         grid-template-columns: repeat(12, 72px); //#of columns, size of each column
@@ -32,9 +34,8 @@
 
     //Standard Desktop
     @media (max-width: 1175px) {
+      max-width: 1032px;
       .grid-container {
-        max-width: 1175px;
-        width: 1032px;
         display: grid;
         grid-template-columns: repeat(12, 64px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
@@ -49,8 +50,7 @@
     //Small Desktop
     @media (max-width: 1079px) {
       .grid-container {
-        max-width: 1079px;
-        width: 936px;
+        max-width: 936px;
         display: grid;
         grid-template-columns: repeat(12, 56px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
@@ -65,8 +65,7 @@
     //Large tablet
     @media (max-width: 983px) {
       .grid-container {
-        max-width: 983px;
-        width: 840px;
+        max-width: 840px;
         display: grid;
         grid-template-columns: repeat(12, 48px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
@@ -83,8 +82,7 @@
     //Standard Tablet
     @media (max-width: 887px) {
       .grid-container {
-        max-width: 887px;
-        width: 680px;
+        max-width: 680px;
         display: grid;
         grid-template-columns: repeat(8, 64px); //#of columns, size of each column
         grid-column-gap: 24px; //gutter
@@ -99,8 +97,7 @@
     //Small Tablet
     @media (max-width: 727px) {
       .grid-container {
-        max-width: 727px;
-        width: 560px;
+        max-width: 560px;
         display: grid;
         grid-template-columns: repeat(8, 56px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
@@ -117,8 +114,7 @@
     //Extra large phone
     @media (max-width: 591px) {
       .grid-container {
-        max-width: 591px;
-        width: 432px;
+        max-width: 432px;
         display: grid;
         grid-template-columns: repeat(4, 96px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
@@ -133,8 +129,7 @@
     //Large phone
     @media (max-width: 447px) {
       .grid-container {
-        max-width: 447px;
-        width: 368px;
+        max-width: 368px;
         display: grid;
         grid-template-columns: repeat(4, 80px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
@@ -149,8 +144,7 @@
     //Medium phone
     @media (max-width: 399px) {
       .grid-container {
-        max-width: 399px;
-        width: 336px;
+        max-width: 336px;
         display: grid;
         grid-template-columns: repeat(4, 72px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
@@ -165,8 +159,7 @@
     //Small phone
     @media (max-width: 351px) {
       .grid-container {
-        max-width: 351px;
-        width: 272px;
+        max-width: 272px;
         display: grid;
         grid-template-columns: repeat(4, 56px); //#of columns, size of each column
         grid-column-gap: 16px; //gutter
