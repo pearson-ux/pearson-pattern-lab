@@ -254,21 +254,26 @@
                 </div>
             </div>
     
-            <div class="group single-select">
-                <label class="pe-title margin-bottom assignment-creation-input">Citation style</label>
-                <div class="list-single-select">	
-                    <select id="dropdown btn-menu" name="dropdown" class="action-container">
-                        <option selected>No style required</option>
-                        <option>Placeholder for option</option>
-                        <option>Placeholder for option</option>
-                        <option>Placeholder for option</option>
-                        <option>Placeholder for option</option>
-                    </select>
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role=img aria-label="Discipline List" class="pe-icon--dropdown-open-sm-24">
-                        <use xlink:href="#dropdown-open-sm-24"></use>
-                    </svg>
-                </div>
+             <!-- NATIVE SELECT <div class="group list-single-select">
+            <label class="pe-title margin-bottom assignment-creation-input">Citation style</label>
+            <div class="list-single-select">	
+                <select id="dropdown2 btn-menu2" name="dropdown" class="action-container">
+                    <option selected>No style required</option>
+                    <option>Placeholder for option</option>
+                    <option>Placeholder for option</option>
+                    <option>Placeholder for option</option>
+                    <option>Placeholder for option</option>
+                </select>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role=img aria-label="Discipline List" class="pe-icon--dropdown-open-sm-24">
+                    <use xlink:href="#dropdown-open-sm-24"></use>
+                </svg>
             </div>
+        </div> -->
+
+        <div class="group single-select">
+            {{> atoms-gravity-single-dropdown-wsl}}
+        </div>
+    
     
             <div class="group response-length">
                 <label class="pe-title margin-bottom assignment-creation-input">Response length</label>

@@ -1,0 +1,14 @@
+.gr-dropdowns {
+	&.wsl-glp {
+		button#menubutton2 {
+			width: 220px;
+			border-radius: 4px;
+		}
+
+		button#menubutton2.pe-btn.pe-btn--btn_large::after {
+			width: 220px;
+			border-radius: 4px;
+		}
+		
+	}
+}
