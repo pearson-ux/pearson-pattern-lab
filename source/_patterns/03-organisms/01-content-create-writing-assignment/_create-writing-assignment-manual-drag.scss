@@ -1,8 +1,5 @@
 .glp-wsl {
-    // &.max-content-width {
-    //     width: 100%;
-    // }
-
+    
     .assignment-creation-content {
         max-width: 776px;
 
@@ -22,12 +19,13 @@
                     }
                 }
             }
-            .add-supporting-docs-container {
-                margin-left: -12px;
-                margin-top: -10px;
-            }
-        }
         
+        }   
+        
+        .add-supporting-docs-drag {
+            margin-left: -46px;
+            margin-top: -10px;
+        }
     } 
         
 }

@@ -61,12 +61,13 @@
 @import "../source/_patterns/02-molecules/02-header/create-assigment-header.scss";
 @import "../source/_patterns/02-molecules/02-header/create-assignment-action-bar.scss";
 @import "../source/_patterns/02-molecules/03-mini-modules/add-supporting-docs";
-@import "../source/_patterns/02-molecules/03-mini-modules/add-supporting-docs-drag";
+@import "../source/_patterns/02-molecules/03-mini-modules/add-supporting-drag";
 
 @import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-content.scss";
 @import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-content-manual.scss";
+@import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-manual-drag.scss";
 
-@import "../source/_patterns/04-templates/assignment-creation-templates/create-assignment-template";
+@import "../source/_patterns/04-templates/01-assignment-creation-templates/create-assignment-template";
 
 
 
