@@ -50,20 +50,69 @@
   }
 }
 
+// .pe-radio {
+//   & input {
+//     &:checked ~ span {
+//       color: #19a6a4;
+//       border: 1px solid #c7c7c7;
+//     }
+
+//     &:disabled {
+//       &:checked ~ span {
+//         color: #c7c7c7;
+//       }
+//     }
+//   }
+// }
+
 .pe-radio {
-  & input {
-    &:checked ~ span {
-      color: #19a6a4;
-      border: 1px solid #c7c7c7;
+  & input[type=radio] {
+     width:20px;
+     height:20px;
+    ~ span {
+      height:16px;
+      width:16px;
+      padding:0;
+      //margin: 3px 0 0;
+      border: 2px solid $neutral;
+
+      svg {
+         height: 12px;
+         width:12px;
+         position:absolute;
+         left:2px;
+         top:2px;
+      }
+    }
+
+    &:checked:not(:disabled) {
+      ~ span {
+        border: 2px solid #047A9C;
+
+        svg {
+          fill: #047A9C;
+        }
+      }
+    }
+
+    &:focus {
+      ~ span {
+        border: 2px solid #047A9C;
+      }
     }
 
     &:disabled {
-      &:checked ~ span {
-        color: #c7c7c7;
+      &:checked {
+        ~ span {
+          svg {
+            fill: #C7C7C7;
+          }
+        }
       }
     }
   }
 }
+
 
 .textarea {
   .pe-multiLineText {

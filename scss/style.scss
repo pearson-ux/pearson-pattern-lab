@@ -55,7 +55,6 @@
 @import "../source/_patterns/01-atoms/02-wsl-dropdowns/gravity-multi-dropdown-wsl";
 @import "../source/_patterns/01-atoms/02-wsl-dropdowns/gravity-single-dropdown-wsl";
 
-@import "../source/_patterns/02-molecules/01-grid/gg";
 @import "../source/_patterns/02-molecules/01-grid/visible-gravity-grid";
 @import "../source/_patterns/02-molecules/01-grid/gravity-grid.scss";
 @import "../source/_patterns/02-molecules/02-header/core-header.scss";
@@ -67,6 +66,8 @@
 @import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-content.scss";
 @import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-content-manual.scss";
 @import "../source/_patterns/03-organisms/01-content-create-writing-assignment/create-writing-assignment-manual-drag.scss";
+@import "../source/_patterns/03-organisms/02-content-preview/content-assignment-details-preview.scss";
+
 
 @import "../source/_patterns/04-templates/01-assignment-creation-templates/create-assignment-template";
 
