@@ -1,0 +1,116 @@
+<section class="glp-wsl">
+    <div class="container student-view">
+      <div class="sub-container">
+        <div class="content-pane">
+            <div class="left-col">
+                <div class="left-container">
+                    <h2 class="pe-copy pe-copy--large font-size-20">Learning Objective</h2>
+                    <p class="font-size-16 p-line-height">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look
+                    even slightly believable.</p>
+                    <h2 class="pe-copy pe-copy--large font-size-20">Instructions</h2>
+                    <p class="font-size-16 p-line-height">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+                    web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    </p><h3 class="pe-label pe-label--large"><span class="pe-label--bold">Supporting Files</span></h3>
+                    <div class="instruction-attachments">
+                        <ul ckass=:>
+                        <li>
+                            <div class="icon-container">
+                            <i class="fa fa-file" aria-hidden="true"></i>
+                            <a class="filename" href="#">Docname.doc</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-container">
+                            <i class="fa fa-video-camera" aria-hidden="true"></i>
+                            <a class="filename" href="#">vidfile.avi</a>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                    </div>
+                    <aside class="right-col background">
+                    <button class="pe-btn__primary--btn_xlarge">Start Writing</button>
+                    <div class="student-rubric">
+                        <!-- <table>
+                        <caption>Your score is based on:</caption>
+                        <tbody><tr>
+                            <th scope="row">Organization</th>
+                            <td><b>33%</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Argument</th>
+                            <td><b>33%</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Structure</th>
+                            <td><b>34%</b></td>
+                        </tr>
+            
+                        </tbody>
+                        </table> 
+                        <p><a href="" class="external">View Rubric</a></p>
+                        -->
+                        
+                        <div class="rubric-breakdown">
+                            <p class="rubric-breakdown-title">Your score is based on:</p>
+                            <ul class="rubric-breakdown-list">
+                                <li><p>Organization <span=class="rubric-percentage">33%</span></p></li>
+                                <li><p>Argument <span=class="rubric-percentage">33%</span></p></li>
+                                <li><p>Structure <span=class="rubric-percentage">33%</span></p></li>
+                            </ul>
+                            <a href="" aria-label="aria-label-01" class="rubric-breakdown-link external pe-url--small">
+                                View rubric <span class="fa fa-external-link" role="img" aria-label="Open in new tab or window"></span>
+                                <!-- OPTION 2 - View Rubric <i class="fa fa-external-link" style="font-size: 14px"></i> -->
+                                <!-- OPTION 3 - GRAVITY - weird focus - View rubric 
+                                <svg focusable="false" class="pe-icon--link-out-18" aria-hidden="true" style="width: 14px; text-align: center; overflow: hidden;">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#link-out-18"></use>
+                                </svg> -->
+                            </a>
+                        </div>
+                        
+                    </div>
+                    </aside>
+        </div><!--white-pane-->
+      </div><!--sub-container-->
+    </div>
+
+    {{#oldpattern}}
+    {{#subheader}}
+    <div class="subheader-container assignment-list">
+        <div class="subheader">
+        <div class="breadcrumbs">
+            <div>
+                <ul>
+                    <li><a href="#">{{subheader.listone}}</a></li>
+                    <li class="crumb"><svg aria-hidden="true" focusable="false" class="pe-icon--chevron-next-18"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron-next-18"></use></svg></li>
+                    <li>{{subheader.listthree}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    {{/subheader}}
+
+    <div class="container student-view">
+        <div class="flex {{styleModifier}}">
+            <h1 class="left-col">{{assignmentTitle}}</h1>
+            {{#closeBtn}}<div class="right-col text-center">{{>atoms-xlarge-btn}}</div>{{/closeBtn}}
+        </div>
+        <div class="sub-container">
+            <div class="flex padding-bottom mobile-column">
+                <div class="left-col">
+                    {{> molecules-student-assignment}}
+                </div>
+                <aside class="right-col background">
+                    {{#scoreBox}}{{/scoreBox}}
+                    {{> molecules-student-assignment-actions }}
+                    {{> molecules-student-rubric }}
+                </aside>
+            </div>
+        </div>
+    </div>
+    {{/oldpattern}}
+
+  </section>
