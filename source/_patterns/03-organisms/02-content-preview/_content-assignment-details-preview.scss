@@ -117,17 +117,30 @@
                                 }
                             }
                         }
-                        
-        
-                    
-                    }
-
+                    } /*rubric-breakdown*/
+                } /*right-col*/
+                @media (max-width: 887px) {
+                    width: 700px;
                 }
-            }
-        }
 
-    }
-    
+                @media (max-width: 399px) {
+                    .grid-container {
+                        max-width: 336px;
+                        display: grid;
+                        grid-template-columns: repeat(4, 72px); //#of columns, size of each column
+                        grid-column-gap: 16px; //gutter
+                        grid-template-rows: auto;
+                      }
+                    .grid-item {
+                    width: 72px;
+                    }
+                }/*media query 399*/
+                
+            } /*content-pane*/
+        } /*sub-container*/
+
+    } /*container student-view*/  
+
 }
 
 
