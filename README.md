@@ -2,6 +2,10 @@
 [![current elements version](https://img.shields.io/badge/elements--sdk-unstable--2.0--GLP-orange.svg)](https://github.com/Pearson-Higher-Ed/elements-sdk.git#unstable-2.0-GLP)
 [![Build Status](https://travis-ci.com/pearson-ux/pearson-pattern-lab.svg?token=yRiZW31ciCX2AwmRD34E&branch=master)](https://travis-ci.com/pearson-ux/pearson-pattern-lab)
 
+# DEPRECATED
+As of 04/01/19, This REPO will no longer be maintained.  New pearson projects should be built with our new gravity lab:
+https://github.com/pearson-ux/gravity
+
 # Pattern Lab Node - Gulp Edition
 
 The Gulp wrapper around [Pattern Lab Node Core](https://github.com/pattern-lab/patternlab-node), the default PatternEngine, and supporting frontend assets.
